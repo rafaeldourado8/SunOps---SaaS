@@ -5,7 +5,7 @@ pydantic-settings
 python-dotenv               
 
 # --- Database (PostgreSQL Assíncrono) ---
-SQLAlchemy[asyncio]         
+SQLAlchemy[asyncio]>=1.4 
 alembic                     
 asyncpg                     
 psycopg2-binary             
@@ -19,3 +19,4 @@ httpx
 
 # --- Utilitários ---
 email-validator            
+
