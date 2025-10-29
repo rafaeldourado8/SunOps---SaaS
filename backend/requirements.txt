@@ -5,9 +5,10 @@ pydantic-settings
 python-dotenv               
 
 # --- Database (PostgreSQL Assíncrono) ---
-SQLAlchemy[asyncio]>=1.4 
+SQLAlchemy[asyncio]         
 alembic                     
-asyncpg                     
+asyncpg   
+                  
 psycopg2-binary             
 
 # --- Autenticação e Segurança ---
@@ -18,5 +19,7 @@ passlib[bcrypt]
 httpx                       
 
 # --- Utilitários ---
-email-validator            
+email-validator
 
+# --- Adicionado para Form Data (Login) ---
+python-multipart
