@@ -1,0 +1,21 @@
+# --- Core Framework ---
+fastapi                     
+uvicorn[standard]           
+pydantic-settings           
+python-dotenv               
+
+# --- Database (PostgreSQL Assíncrono) ---
+SQLAlchemy[asyncio]         
+alembic                     
+asyncpg                     
+psycopg2-binary             
+
+# --- Autenticação e Segurança ---
+python-jose[cryptography]  
+passlib[bcrypt]             
+
+# --- Integrações de API ---
+httpx                       
+
+# --- Utilitários ---
+email-validator            

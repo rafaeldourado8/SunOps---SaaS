@@ -1,0 +1,23 @@
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+.env/
+
+# Arquivos de Bytecode e Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cache de testes
+.pytest_cache/
+.coverage
+
+# Arquivos de IDEs
+.idea/
+.vscode/
+
+# Logs e Bancos de Dados locais
+*.log
+*.sqlite3
+*.db

@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  
+  # Serviço do Banco de Dados PostgreSQL
+  postgres-db:
+    image: postgres:15-alpine  # Usando uma imagem leve do Postgres
+    container_name: sunops_db
+    environment:
+      # Estas variáveis são puxadas do seu arquivo .env
+      POSTGRES_USER: ${DATABASE_USERNAME}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD} 
+      POSTGRES_DB: ${DATABASE_NAME}
+    ports:
+      - "5432:5432" # Expõe a porta do Postgres para o seu computador (opcional)
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      # Garante que a API só vai iniciar depois que o DB estiver pronto
+      test: ["CMD-SHELL", "pg_isready -U ${DATABASE_USERNAME} -d ${DATABASE_NAME}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+      
+  # Serviço da API FastAPI (SunOps)
+  sunops-api:
+    container_name: sunops_api
+    build: 
+      context: ./backend # Aponta para a pasta onde está seu Dockerfile
+    command: sleep infinity
+    volumes:
+      - ./backend:/app # Monta seu código local dentro do container para hot-reload
+    ports:
+      - "8000:8000" # Expõe a porta 8000 da API
+    environment:
+      # Passa as variáveis do .env para dentro do container da API
+      DATABASE_USERNAME: ${DATABASE_USERNAME}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+      DATABASE_NAME: ${DATABASE_NAME}
+      DATABASE_HOST: postgres-db # O host do DB é o nome do serviço 'postgres-db'
+      
+      # Adicione aqui suas chaves de API para integrações
+      # BELLENUS_API_KEY: ${BELLENUS_API_KEY}
+      # SANTANDER_API_KEY: ${SANTANDER_API_KEY}
+      
+    depends_on:
+      postgres-db:
+        condition: service_healthy # Só inicia a API quando o DB estiver saudável
+
+volumes:
+  postgres_data:
+    name: sunops-postgres-data
