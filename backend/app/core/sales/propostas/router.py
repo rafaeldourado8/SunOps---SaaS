@@ -1,3 +1,4 @@
+# Em app/core/sales/propostas/router.py
 from typing import List
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -9,6 +10,7 @@ from . import services, schema, models
 
 router = APIRouter(tags=['Propostas'], prefix='/propostas')
 
+# ... (Endpoint create_proposta e get_propostas_lista permanecem iguais) ...
 @router.post(
     '/', 
     response_model=schema.ShowProposta, 
@@ -36,11 +38,9 @@ async def get_propostas_lista(
     - Vendedor: Vê apenas as suas propostas.
     '''
     
-    # AQUI ESTÁ A LÓGICA DE PERMISSÃO (RBAC)
     if current_user.role == UserRole.GESTOR:
         return await services.get_all_propostas(db)
     else:
-        # Vendedores e outros veem apenas os seus
         return await services.get_propostas_por_vendedor(db, current_user.id)
 
 
@@ -50,13 +50,13 @@ async def get_proposta_detalhe(
     db: AsyncSession = Depends(get_db),
     current_user: User = Depends(get_current_user)
 ):
-    '''Busca uma proposta específica pelo ID'''
+    '''Busca uma proposta específica pelo ID (com todos os seus itens)'''
     proposta = await services.get_proposta_by_id(db, proposta_id)
     
     if not proposta:
         raise HTTPException(status_code=404, detail="Proposta não encontrada")
     
-    # PERMISSÃO: Vendedor só pode ver a sua própria proposta
+    # PERMISSÃO
     if (
         current_user.role == UserRole.VENDEDOR and 
         proposta.vendedor_id != current_user.id
@@ -64,3 +64,62 @@ async def get_proposta_detalhe(
         raise HTTPException(status_code=403, detail="Acesso negado")
         
     return proposta
+
+# --- NOVOS ENDPOINTS ADICIONADOS ---
+
+@router.put(
+    '/{proposta_id}/dimensionamento', 
+    response_model=schema.ShowProposta,
+    summary="Salva a Etapa 1 (Dimensionamento) e gera os custos iniciais"
+)
+async def salvar_dimensionamento(
+    proposta_id: int,
+    data: schema.PropostaUpdateDimensionamento,
+    db: AsyncSession = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    '''
+    Salva os dados da Etapa 1 (kit, premissas) e gera a lista 
+    de custos (Etapa 2) com valores padrão.
+    '''
+    proposta = await services.get_proposta_by_id(db, proposta_id)
+    if not proposta:
+        raise HTTPException(status_code=404, detail="Proposta não encontrada")
+    
+    # PERMISSÃO
+    if (
+        current_user.role == UserRole.VENDEDOR and 
+        proposta.vendedor_id != current_user.id
+    ):
+        raise HTTPException(status_code=403, detail="Acesso negado")
+        
+    return await services.save_dimensionamento_e_gerar_custos(db, proposta, data)
+
+
+@router.put(
+    '/{proposta_id}/custos', 
+    response_model=schema.ShowProposta,
+    summary="Salva a Etapa 2 (Custos e Preço de Venda)"
+)
+async def salvar_custos(
+    proposta_id: int,
+    data: schema.PropostaUpdateItens,
+    db: AsyncSession = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    '''
+    Recebe a lista de itens de custo editada (Etapa 2) 
+    e atualiza a proposta.
+    '''
+    proposta = await services.get_proposta_by_id(db, proposta_id)
+    if not proposta:
+        raise HTTPException(status_code=404, detail="Proposta não encontrada")
+    
+    # PERMISSÃO
+    if (
+        current_user.role == UserRole.VENDEDOR and 
+        proposta.vendedor_id != current_user.id
+    ):
+        raise HTTPException(status_code=403, detail="Acesso negado")
+        
+    return await services.update_proposta_itens(db, proposta, data)
