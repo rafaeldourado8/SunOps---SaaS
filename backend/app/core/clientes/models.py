@@ -1,5 +1,8 @@
 import enum
-from sqlalchemy import Column, Integer, String, Enum as SAEnum
+# --- IMPORTS ATUALIZADOS ---
+from sqlalchemy import Column, Integer, String, Enum as SAEnum, DateTime
+from sqlalchemy.sql import func # Para func.now()
+# ---------------------------
 from sqlalchemy.orm import relationship
 from app.db import Base
 
@@ -25,6 +28,15 @@ class Cliente(Base):
     email = Column(String(255), nullable=True)
     telefone = Column(String(20), nullable=True)
     endereco = Column(String(255), nullable=True) # "São Paulo, SP"
+
+    # --- CORREÇÃO ADICIONADA AQUI ---
+    # Esta coluna registrará quando o cliente foi criado
+    data_criacao = Column(
+        DateTime(timezone=True), 
+        server_default=func.now(), # Define o padrão no BD
+        nullable=False
+    )
+    # --- FIM DA CORREÇÃO ---
 
     # 3. Relações (back-populates)
     #    Isso linka de volta aos módulos 'Proposta' e 'Projeto' que criámos antes.

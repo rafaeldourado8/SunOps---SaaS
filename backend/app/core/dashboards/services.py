@@ -45,14 +45,14 @@ async def _get_gestor_kpis_e_funil(db: AsyncSession):
     mes_atual = datetime.utcnow().month
     ano_atual = datetime.utcnow().year
 
-    # Query complexa que agrupa por status
+    # Query complexa que agrupa por status (CORRIGIDO)
     query = (
         select(
-            models.Proposta.status,
-            func.count(models.Proposta.id).label("contagem"),
-            func.sum(models.Proposta.valor_total).label("valor_total")
+            Proposta.status,
+            func.count(Proposta.id).label("contagem"),
+            func.sum(Proposta.valor_total).label("valor_total")
         )
-        .group_by(models.Proposta.status)
+        .group_by(Proposta.status)
     )
     result = await db.execute(query)
     

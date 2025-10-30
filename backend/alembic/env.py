@@ -17,11 +17,14 @@ from app.db import Base               # Importa seu Base metadata (db.py)
 # --- IMPORTAR TODOS OS SEUS MODELOS AQUI ---
 from app.core.users.models import User
 from app.core.clientes.models import Cliente
-from app.core.sales.propostas.models import Proposta
+from app.core.sales.propostas.models import Proposta, PropostaItem
 from app.core.sales.projetos.models import Projeto
 from app.core.financeiro.models import ConfiguracaoFinanceira, Transacao
+# --- NOVAS LINHAS A ADICIONAR ---
+from app.core.equipamentos.models import (
+    Distribuidor, CategoriaEquipamento, Equipamento, CatalogoItem, Kit
+)
 # --- Fim dos Imports de Modelos ---
-
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

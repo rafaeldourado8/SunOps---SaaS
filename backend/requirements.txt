@@ -14,6 +14,7 @@ psycopg2-binary
 # --- Autenticação e Segurança ---
 python-jose[cryptography]  
 passlib[bcrypt]             
+argon2-cffi
 
 # --- Integrações de API ---
 httpx                       
