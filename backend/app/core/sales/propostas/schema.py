@@ -1,4 +1,4 @@
-# Em app/core/sales/propostas/schema.py
+
 from pydantic import BaseModel, ConfigDict
 from decimal import Decimal
 from typing import List, Optional, Any
@@ -60,10 +60,16 @@ class PropostaUpdateStatus(BaseModel):
 class PropostaUpdateDimensionamento(BaseModel):
     premissas: dict[str, Any]
     potencia_kwp: float
-    kit_id: Optional[int] = None
-    # Adicione aqui outros campos se a Etapa 1 os enviar
-    # ex: kit_custo: Optional[Decimal] = None
-
+    
+    # --- CAMPOS ALTERADOS ---
+    nome_kit: Optional[str] = None         # Em vez de kit_id
+    nome_distribuidor: Optional[str] = None # Novo campo
+    # --- FIM DA ALTERAÇÃO ---
+    
+    custo_kit: Optional[Decimal] = None # Campo "Custo" da image_f4ffbe.png
+    sistema: Optional[str] = None # Campo "Sistema"
+    topologia: Optional[str] = None # Campo "Topologia"
+    
 # 2. Schema para salvar os dados da Etapa 2 (Custos)
 class PropostaUpdateItens(BaseModel):
     itens: List[PropostaItemCreate] # Uma lista completa dos itens da tabela

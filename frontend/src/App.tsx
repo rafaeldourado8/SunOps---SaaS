@@ -11,8 +11,9 @@ import Propostas from './pages/Propostas';
 import Projetos from './pages/Projetos';
 import Usuarios from './pages/Usuarios';
 import Financeiro from './pages/Financeiro';
-// --- 1. Importar o novo componente ---
+// --- 1. Importar os novos componentes ---
 import PropostaDimensionamento from './pages/PropostaDimensionamento'; 
+import PropostaPreview from './pages/PropostaPreview'; // <-- LINHA ADICIONADA
 
 function App() {
   return (
@@ -40,12 +41,16 @@ function App() {
               path="propostas/:propostaId/dimensionamento" 
               element={<PropostaDimensionamento />} 
             />
-            {/* (No futuro, você adicionará mais rotas aqui, ex: /app/propostas/:propostaId/kit) */}
+            {/* --- 3. ADICIONAR A NOVA ROTA DE PREVIEW --- */}
+            <Route 
+              path="propostas/:propostaId/preview" 
+              element={<PropostaPreview />} 
+            />
 
             <Route path="projetos" element={<Projetos />} />
             <Route path="usuarios" element={
               <ProtectedRoute requiredRole="gestor">
-                <Usuarios />/
+                <Usuarios />
               </ProtectedRoute>
             } />
             <Route path="financeiro" element={

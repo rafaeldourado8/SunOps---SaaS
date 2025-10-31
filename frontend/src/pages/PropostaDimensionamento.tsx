@@ -1,22 +1,18 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import api from '../services/api';
+import api from '@/services/api';
 import toast from 'react-hot-toast';
-import { ArrowLeft, Save, Loader2 } from 'lucide-react';
+import { ArrowLeft, Save, Loader2, Zap, LayoutGrid, Calendar } from 'lucide-react';
 
-// Você precisará definir as interfaces baseadas nos seus schemas
-// (Ex: de app/core/sales/propostas/schema.py)
+// Importa os dados estáticos
+import catalogoModulos from '@/data/catalogo_modulos.json';
+import catalogoInversores from '@/data/catalogo_inversores.json';
 
-interface ShowProposta {
+// --- Interfaces ---
+
+interface ShowCliente {
   id: number;
-  nome: string | null;
-  potencia_kwp: number | null;
-  valor_total: number;
-  premissas: Record<string, any> | null;
-  cliente: {
-    nome_razao_social: string;
-  };
-  itens: PropostaItem[];
+  nome_razao_social: string;
 }
 
 interface PropostaItem {
@@ -26,13 +22,33 @@ interface PropostaItem {
   quantidade: number;
   custo_unitario: number;
   valor_venda: number;
+  impostos: number;
+  margem: number;
 }
 
-// Interface para o formulário da Etapa 1
+interface ShowProposta {
+  id: number;
+  nome: string | null;
+  potencia_kwp: number | null;
+  valor_total: number;
+  premissas: Record<string, any> | null;
+  cliente: ShowCliente;
+  itens: PropostaItem[];
+}
+
 interface DimensionamentoData {
   premissas: Record<string, any>;
   potencia_kwp: number;
-  kit_id: number | null;
+  nome_kit: string;
+  nome_distribuidor: string;
+  custo_kit: number;
+  sistema: string;
+  topologia: string;
+  modulo_id: string | null;
+  modulo_potencia: number;
+  modulo_qtd: number;
+  inversor_id: string | null;
+  inversor_qtd: number;
 }
 
 export default function PropostaDimensionamento() {
@@ -41,16 +57,27 @@ export default function PropostaDimensionamento() {
 
   const [proposta, setProposta] = useState<ShowProposta | null>(null);
   const [loading, setLoading] = useState(true);
-  const [saving, setSaving] = useState(false);
+  const [savingEtapa1, setSavingEtapa1] = useState(false);
+  const [savingEtapa2, setSavingEtapa2] = useState(false);
 
-  // Estados para os formulários
-  // (Você deve preenchê-los com os dados da 'proposta' quando ela carregar)
   const [formData, setFormData] = useState<DimensionamentoData>({
     premissas: { sistema: 'On grid', topologia: 'Tradicional' },
     potencia_kwp: 0,
-    kit_id: null,
+    nome_kit: '',
+    nome_distribuidor: '',
+    custo_kit: 0,
+    sistema: 'On grid',
+    topologia: 'Tradicional',
+    modulo_id: null,
+    modulo_potencia: 0,
+    modulo_qtd: 1,
+    inversor_id: null,
+    inversor_qtd: 1,
   });
 
+  const [itensEditaveis, setItensEditaveis] = useState<PropostaItem[]>([]);
+
+  // Carrega proposta
   useEffect(() => {
     const fetchProposta = async () => {
       if (!propostaId) return;
@@ -58,12 +85,19 @@ export default function PropostaDimensionamento() {
         const response = await api.get(`/propostas/${propostaId}`);
         setProposta(response.data);
         
-        // Preenche o formulário com dados existentes
-        setFormData({
-          premissas: response.data.premissas || { sistema: 'On grid', topologia: 'Tradicional' },
+        const premissas = response.data.premissas || {};
+        
+        setFormData((prevFormData) => ({
+          ...prevFormData,
+          premissas: premissas,
           potencia_kwp: response.data.potencia_kwp || 0,
-          kit_id: null, // Você precisará de lógica para extrair o kit_id dos itens
-        });
+          sistema: premissas.sistema || 'On grid',
+          topologia: premissas.topologia || 'Tradicional',
+          nome_kit: premissas.nome_kit || '',
+          nome_distribuidor: premissas.nome_distribuidor || '',
+        }));
+        
+        setItensEditaveis(response.data.itens);
         
       } catch (error) {
         toast.error('Erro ao carregar proposta.');
@@ -72,23 +106,90 @@ export default function PropostaDimensionamento() {
         setLoading(false);
       }
     };
+
     fetchProposta();
   }, [propostaId, navigate]);
 
+  // Calcula Potência
+  useEffect(() => {
+    const potenciaW = formData.modulo_potencia * formData.modulo_qtd;
+    setFormData(f => ({ ...f, potencia_kwp: potenciaW / 1000 }));
+  }, [formData.modulo_potencia, formData.modulo_qtd]);
+  
+  // Handlers
+  const handleModuloChange = (moduloId: string) => {
+    const modulo = catalogoModulos.find((m: any) => m.id === moduloId);
+    if (modulo) {
+      setFormData({
+        ...formData,
+        modulo_id: moduloId,
+        modulo_potencia: modulo.potencia,
+      });
+    }
+  };
+
+  const handleFormChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
   const handleSaveDimensionamento = async () => {
-    setSaving(true);
+    setSavingEtapa1(true);
     try {
-      // Endpoint da Etapa 1 (PUT /propostas/{id}/dimensionamento)
       const response = await api.put(
         `/propostas/${propostaId}/dimensionamento`,
         formData
       );
-      setProposta(response.data); // Atualiza a proposta com os itens de custo gerados
+      setProposta(response.data); 
+      setItensEditaveis(response.data.itens);
       toast.success('Etapa 1 salva! Custos gerados.');
-    } catch (error) {
-      toast.error('Erro ao salvar dimensionamento.');
+    } catch (error: any) {
+      toast.error(error.response?.data?.detail || 'Erro ao salvar dimensionamento.');
     } finally {
-      setSaving(false);
+      setSavingEtapa1(false);
+    }
+  };
+
+  const handleItemChange = (index: number, campo: keyof PropostaItem, valor: string | number) => {
+    const novosItens = [...itensEditaveis];
+    novosItens[index] = {
+      ...novosItens[index],
+      [campo]: typeof valor === 'string' ? parseFloat(valor) || 0 : valor,
+    };
+    setItensEditaveis(novosItens);
+  };
+  
+  const valorTotalCalculado = itensEditaveis.reduce((acc, item) => 
+    acc + (Number(item.valor_venda) * Number(item.quantidade)), 0
+  );
+  
+  const handleSaveCustosEProsseguir = async () => {
+    setSavingEtapa2(true);
+    try {
+      const payload = {
+        itens: itensEditaveis.map(item => ({
+          categoria: item.categoria,
+          descricao: item.descricao,
+          quantidade: Number(item.quantidade),
+          custo_unitario: Number(item.custo_unitario),
+          valor_venda: Number(item.valor_venda),
+          impostos: Number(item.impostos) || 0,
+          margem: Number(item.margem) || 0,
+        })),
+        valor_total: valorTotalCalculado,
+      };
+
+      await api.put(`/propostas/${propostaId}/custos`, payload);
+      toast.success('Custos salvos! Prosseguindo...');
+      navigate(`/app/propostas/${propostaId}/preview`);
+
+    } catch (error: any) {
+      toast.error(error.response?.data?.detail || 'Erro ao salvar custos.');
+    } finally {
+      setSavingEtapa2(false);
     }
   };
 
@@ -103,6 +204,9 @@ export default function PropostaDimensionamento() {
   if (!proposta) {
     return <div>Proposta não encontrada.</div>;
   }
+  
+  const areaUtil = (formData.modulo_qtd * 2.5).toFixed(1);
+  const geracaoMensal = (formData.potencia_kwp * 130).toFixed(0);
 
   return (
     <div className="space-y-6">
@@ -116,67 +220,191 @@ export default function PropostaDimensionamento() {
         </button>
         <div>
           <h1 className="text-2xl font-bold text-gray-900">
-            {proposta.nome || `Dimensionamento - ${proposta.cliente.nome_razao_social}`}
+            {proposta.nome || `Proposta - ${proposta.cliente.nome_razao_social}`}
           </h1>
-          <p className="text-gray-600">Proposta ID: {proposta.id}</p>
+          <p className="text-gray-600">Cliente: {proposta.cliente.nome_razao_social}</p>
         </div>
       </div>
 
-      {/* Conteúdo da Página (baseado na sua UI) */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
         
-        {/* Etapa 1: Dimensionamento */}
-        <div className="lg:col-span-1 bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-          <h2 className="text-lg font-semibold mb-4">Etapa 1: Kit e Premissas</h2>
-          {/* Adicione os campos do formulário (Kit, Potência, Premissas) aqui */}
-          <div className="space-y-4">
-             <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Potência (kWp)</label>
-                <input
-                  type="number"
-                  value={formData.potencia_kwp}
-                  onChange={(e) => setFormData({...formData, potencia_kwp: parseFloat(e.target.value) || 0})}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg"
-                />
-              </div>
-            {/* ... outros campos ... */}
-            <button
-              onClick={handleSaveDimensionamento}
-              disabled={saving}
-              className="w-full flex items-center justify-center gap-2 px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 disabled:opacity-50"
-            >
-              {saving ? <Loader2 className="w-5 h-5 animate-spin" /> : <Save className="w-5 h-5" />}
-              Salvar Etapa 1 e Gerar Custos
-            </button>
+        {/* Etapa 1 */}
+        <div className="lg:col-span-1 bg-white p-6 rounded-xl shadow-sm border border-gray-100 space-y-4 sticky top-6">
+          <h2 className="text-lg font-semibold">Etapa 1: Kit e Premissas</h2>
+          
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Nome do Kit (Opcional)</label>
+            <input
+              type="text"
+              name="nome_kit"
+              value={formData.nome_kit}
+              onChange={handleFormChange}
+              placeholder="Ex: KIT SOLAR 2.80KWP"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+            />
           </div>
+          
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Nome do distribuidor</label>
+            <input
+              type="text"
+              name="nome_distribuidor"
+              value={formData.nome_distribuidor}
+              onChange={handleFormChange}
+              placeholder="Ex: BELENUS"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+            />
+          </div>
+          
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Custo do Kit (R$)</label>
+            <input
+              type="number"
+              name="custo_kit"
+              value={formData.custo_kit}
+              onChange={(e) => setFormData({...formData, custo_kit: parseFloat(e.target.value) || 0})}
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+            />
+          </div>
+          
+          {/* Módulo */}
+          <div className="flex items-end gap-2">
+            <div className="flex-1">
+              <label className="block text-sm font-medium text-gray-700 mb-1">Módulo</label>
+              <select
+                value={formData.modulo_id || ''}
+                onChange={(e) => handleModuloChange(e.target.value)}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+              >
+                <option value="">Selecione o módulo</option>
+                {catalogoModulos.map((modulo: any) => (
+                  <option key={modulo.id} value={modulo.id}>
+                    {modulo.modelo} - {modulo.potencia}W
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div className="w-20">
+              <label className="block text-sm font-medium text-gray-700 mb-1">Qtd</label>
+              <input
+                type="number"
+                value={formData.modulo_qtd}
+                onChange={(e) => setFormData({...formData, modulo_qtd: parseInt(e.target.value) || 1})}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+                min="1"
+              />
+            </div>
+          </div>
+          
+          {/* Inversor */}
+          <div className="flex items-end gap-2">
+            <div className="flex-1">
+              <label className="block text-sm font-medium text-gray-700 mb-1">Inversor</label>
+              <select
+                value={formData.inversor_id || ''}
+                onChange={(e) => setFormData({...formData, inversor_id: e.target.value})}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+              >
+                <option value="">Selecione o inversor</option>
+                {catalogoInversores.map((inversor: any) => (
+                  <option key={inversor.id} value={inversor.id}>
+                    {inversor.modelo} - {inversor.potencia/1000}kW
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div className="w-20">
+              <label className="block text-sm font-medium text-gray-700 mb-1">Qtd</label>
+              <input
+                type="number"
+                value={formData.inversor_qtd}
+                onChange={(e) => setFormData({...formData, inversor_qtd: parseInt(e.target.value) || 1})}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+                min="1"
+              />
+            </div>
+          </div>
+
+          <div className="bg-orange-50 p-3 rounded-lg text-center">
+            <span className="text-sm text-gray-600">Potência Total</span>
+            <p className="text-xl font-bold text-orange-600">{formData.potencia_kwp.toFixed(2)} kWp</p>
+          </div>
+
+          <button
+            onClick={handleSaveDimensionamento}
+            disabled={savingEtapa1}
+            className="w-full flex items-center justify-center gap-2 px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 disabled:opacity-50"
+          >
+            {savingEtapa1 ? <Loader2 className="w-5 h-5 animate-spin" /> : <Save className="w-5 h-5" />}
+            {itensEditaveis.length > 0 ? 'Recalcular Custos' : 'Gerar Custos'}
+          </button>
         </div>
 
-        {/* Etapa 2: Custos */}
+        {/* Etapa 2 */}
         <div className="lg:col-span-2 bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-          <h2 className="text-lg font-semibold mb-4">Etapa 2: Custos e Preço de Venda</h2>
-          {/* Tabela de custos (proposta.itens) aparecerá aqui */}
+          <div className="flex items-center justify-between mb-4">
+             <h2 className="text-lg font-semibold">Etapa 2: Custos e Preço de Venda</h2>
+             <div className="flex flex-wrap gap-4 text-sm">
+                <div className="flex items-center gap-1 text-gray-600">
+                  <Zap className="w-4 h-4 text-orange-500" />
+                  Potência: <span className="font-semibold text-gray-900">{formData.potencia_kwp.toFixed(2)} kWp</span>
+                </div>
+                <div className="flex items-center gap-1 text-gray-600">
+                  <LayoutGrid className="w-4 h-4 text-orange-500" />
+                  Área útil: <span className="font-semibold text-gray-900">{areaUtil} m²</span>
+                </div>
+                 <div className="flex items-center gap-1 text-gray-600">
+                  <Calendar className="w-4 h-4 text-orange-500" />
+                  Geração: <span className="font-semibold text-gray-900">{geracaoMensal} kWh/mês</span>
+                </div>
+             </div>
+          </div>
+          
+          <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg mb-4">
+            <span className="font-semibold text-gray-900">Preço de Venda</span>
+            <span className="text-xl font-bold text-gray-900">
+              R$ {valorTotalCalculado.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+            </span>
+          </div>
+
           <div className="overflow-x-auto">
             <table className="w-full">
               <thead>
                 <tr className="border-b">
-                  <th className="text-left py-2 text-sm font-medium text-gray-600">Descrição</th>
-                  <th className="text-left py-2 text-sm font-medium text-gray-600">Valor (Venda)</th>
+                  <th className="text-left py-2 px-2 text-sm font-medium text-gray-600">Categoria</th>
+                  <th className="text-left py-2 px-2 text-sm font-medium text-gray-600">Item</th>
+                  <th className="text-left py-2 px-2 text-sm font-medium text-gray-600 w-20">Qtd</th>
+                  <th className="text-left py-2 px-2 text-sm font-medium text-gray-600 w-32">Valores (R$)</th>
                 </tr>
               </thead>
               <tbody>
-                {proposta.itens.length === 0 ? (
+                {itensEditaveis.length === 0 ? (
                   <tr>
-                    <td colSpan={2} className="text-center py-4 text-gray-500">
+                    <td colSpan={4} className="text-center py-8 text-gray-500">
                       Salve a Etapa 1 para gerar os custos.
                     </td>
                   </tr>
                 ) : (
-                  proposta.itens.map((item) => (
-                    <tr key={item.id} className="border-b border-gray-100">
-                      <td className="py-2 text-sm text-gray-900">{item.descricao}</td>
-                      <td className="py-2 text-sm text-gray-900">
-                        {/* Adicione um <input> aqui para tornar editável */}
-                        R$ {item.valor_venda.toLocaleString('pt-BR')}
+                  itensEditaveis.map((item, index) => (
+                    <tr key={item.id || index} className="border-b border-gray-100 hover:bg-gray-50">
+                      <td className="py-1 px-2 text-sm">{item.categoria}</td>
+                      <td className="py-1 px-2 text-sm">{item.descricao}</td>
+                      <td className="py-1 px-2">
+                        <input
+                          type="number"
+                          value={item.quantidade}
+                          onChange={(e) => handleItemChange(index, 'quantidade', e.target.value)}
+                          className="w-full px-2 py-1 border border-gray-200 rounded-md"
+                        />
+                      </td>
+                      <td className="py-1 px-2">
+                         <input
+                          type="number"
+                          step="0.01"
+                          value={item.valor_venda}
+                          onChange={(e) => handleItemChange(index, 'valor_venda', e.target.value)}
+                          className="w-full px-2 py-1 border border-gray-200 rounded-md"
+                        />
                       </td>
                     </tr>
                   ))
@@ -184,8 +412,20 @@ export default function PropostaDimensionamento() {
               </tbody>
             </table>
           </div>
+          
+          {itensEditaveis.length > 0 && (
+            <div className="mt-6 flex justify-end">
+              <button
+                onClick={handleSaveCustosEProsseguir}
+                disabled={savingEtapa2}
+                className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 disabled:opacity-50"
+              >
+                {savingEtapa2 ? <Loader2 className="w-5 h-5 animate-spin" /> : 'Salvar e Prosseguir'}
+              </button>
+            </div>
+          )}
+          
         </div>
-
       </div>
     </div>
   );

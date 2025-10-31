@@ -17,3 +17,8 @@ ALGORITHM = os.getenv('ALGORITHM', 'HS256')
 
 # Lê o tempo de expiração do ambiente, ou usa 30 minutos como padrão
 ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES', 30))
+
+# --- Configurações do Redis (Adicionadas) ---
+REDIS_HOST = os.getenv('REDIS_HOST', 'localhost')
+REDIS_PORT = int(os.getenv('REDIS_PORT', 6379))
+REDIS_DB = int(os.getenv('REDIS_DB', 0))

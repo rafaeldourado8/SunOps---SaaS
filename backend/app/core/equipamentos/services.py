@@ -1,165 +1,134 @@
+import json
+import redis.asyncio as aioredis
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
-from sqlalchemy.orm import joinedload, selectinload
-from typing import List, Optional, Sequence
-
+from sqlalchemy.orm import selectinload, joinedload
+from typing import List, Optional
 from . import models, schema
 
-# --- Distribuidor Services ---
-async def create_distribuidor(db: AsyncSession, distribuidor: schema.DistribuidorCreate) -> models.Distribuidor:
-    db_distribuidor = models.Distribuidor(**distribuidor.model_dump())
-    db.add(db_distribuidor)
-    await db.commit()
-    await db.refresh(db_distribuidor)
-    return db_distribuidor
+# --- Definições do Cache ---
+CATALOGO_CACHE_KEY = "catalogo_itens:all"
+CATALOGO_CACHE_TTL_SECONDS = 3600  # Cache por 1 hora
 
-async def get_distribuidor_by_id(db: AsyncSession, distribuidor_id: int) -> Optional[models.Distribuidor]:
-    return await db.get(models.Distribuidor, distribuidor_id)
+# --- Equipamentos (Itens ANEEL) ---
 
-async def get_distribuidor_by_nome(db: AsyncSession, nome: str) -> Optional[models.Distribuidor]:
-    result = await db.execute(select(models.Distribuidor).where(models.Distribuidor.nome == nome))
-    return result.scalars().first()
-
-async def get_all_distribuidores(db: AsyncSession) -> Sequence[models.Distribuidor]:
-    result = await db.execute(select(models.Distribuidor).order_by(models.Distribuidor.nome))
-    return result.scalars().all()
-
-# --- CategoriaEquipamento Services ---
-async def create_categoria(db: AsyncSession, categoria: schema.CategoriaEquipamentoCreate) -> models.CategoriaEquipamento:
-    db_categoria = models.CategoriaEquipamento(**categoria.model_dump())
-    db.add(db_categoria)
-    await db.commit()
-    await db.refresh(db_categoria)
-    return db_categoria
-
-async def get_categoria_by_id(db: AsyncSession, categoria_id: int) -> Optional[models.CategoriaEquipamento]:
-    # Exemplo carregando subcategorias (pode ser útil)
-    # query = select(models.CategoriaEquipamento).options(selectinload(models.CategoriaEquipamento.subcategorias)).where(models.CategoriaEquipamento.id == categoria_id)
-    # result = await db.execute(query)
-    # return result.scalars().first()
-     return await db.get(models.CategoriaEquipamento, categoria_id)
-
-
-async def get_all_categorias(db: AsyncSession) -> Sequence[models.CategoriaEquipamento]:
-    # Poderia carregar hierarquia aqui se necessário
-    result = await db.execute(select(models.CategoriaEquipamento).order_by(models.CategoriaEquipamento.nome))
-    return result.scalars().all()
-
-# --- Equipamento Services ---
-async def create_equipamento(db: AsyncSession, equipamento: schema.EquipamentoCreate) -> models.Equipamento:
-    db_equipamento = models.Equipamento(**equipamento.model_dump())
-    db.add(db_equipamento)
-    await db.commit()
-    await db.refresh(db_equipamento)
-    return db_equipamento
-
-async def get_equipamento_by_id(db: AsyncSession, equipamento_id: int) -> Optional[models.Equipamento]:
-    # Carrega a categoria junto
-    query = select(models.Equipamento).options(joinedload(models.Equipamento.categoria)).where(models.Equipamento.id == equipamento_id)
-    result = await db.execute(query)
-    return result.scalars().first()
-
-async def get_all_equipamentos(db: AsyncSession, categoria_id: Optional[int] = None) -> Sequence[models.Equipamento]:
-    query = select(models.Equipamento).options(joinedload(models.Equipamento.categoria)).order_by(models.Equipamento.nome_modelo)
+async def get_equipamentos(db: AsyncSession, categoria_id: Optional[int] = None) -> List[models.Equipamento]:
+    """
+    Busca equipamentos técnicos (Módulos, Inversores).
+    Filtra por categoria_id se fornecido.
+    """
+    query = (
+        select(models.Equipamento)
+        .options(joinedload(models.Equipamento.categoria))
+        .order_by(models.Equipamento.fabricante, models.Equipamento.nome_modelo)
+    )
+    
     if categoria_id:
         query = query.where(models.Equipamento.categoria_id == categoria_id)
+        
     result = await db.execute(query)
     return result.scalars().all()
 
-# --- CatalogoItem Services ---
-async def create_catalogo_item(db: AsyncSession, item: schema.CatalogoItemCreate) -> models.CatalogoItem:
-    db_item = models.CatalogoItem(**item.model_dump())
-    db.add(db_item)
-    await db.commit()
-    await db.refresh(db_item)
-    # Recarrega com relacionamentos para retornar dados completos
-    return await get_catalogo_item_by_id(db, db_item.id)
+# --- Categorias ---
 
-
-async def get_catalogo_item_by_id(db: AsyncSession, item_id: int) -> Optional[models.CatalogoItem]:
-    query = select(models.CatalogoItem).options(
-        joinedload(models.CatalogoItem.equipamento),
-        joinedload(models.CatalogoItem.distribuidor)
-    ).where(models.CatalogoItem.id == item_id)
+async def get_all_categorias(db: AsyncSession) -> List[models.CategoriaEquipamento]:
+    query = select(models.CategoriaEquipamento).order_by(models.CategoriaEquipamento.nome)
     result = await db.execute(query)
-    return result.scalars().first()
+    return result.scalars().all()
+
+# --- Distribuidores (MANTIDO) ---
+
+async def get_all_distribuidores(db: AsyncSession) -> List[models.Distribuidor]:
+    query = select(models.Distribuidor).order_by(models.Distribuidor.nome)
+    result = await db.execute(query)
+    return result.scalars().all()
+
+
+# --- Cache Helper (Novo) ---
+
+async def _clear_catalogo_cache(redis_client: aioredis.Redis):
+    """
+    Helper para invalidar o cache da lista do catálogo.
+    Chame isso ao Criar, Atualizar ou Deletar um CatalogoItem.
+    """
+    try:
+        print(f"Cache CLEAR: Deletando a chave {CATALOGO_CACHE_KEY}")
+        await redis_client.delete(CATALOGO_CACHE_KEY)
+    except Exception as e:
+        # Logar o erro, mas não travar a operação principal
+        print(f"Erro ao limpar cache do Redis: {e}")
+
+
+# --- Itens de Catálogo (SKUs com preço - MODIFICADO COM CACHE) ---
 
 async def get_all_catalogo_itens(
-    db: AsyncSession,
-    equipamento_id: Optional[int] = None,
-    distribuidor_id: Optional[int] = None
-) -> Sequence[models.CatalogoItem]:
-    query = select(models.CatalogoItem).options(
-        joinedload(models.CatalogoItem.equipamento), #.joinedload(models.Equipamento.categoria), # Exemplo de load aninhado
-        joinedload(models.CatalogoItem.distribuidor)
-    ).order_by(models.CatalogoItem.id) # Ou ordenar por equipamento.nome_modelo
+    db: AsyncSession, 
+    redis_client: aioredis.Redis
+) -> List[dict]:
+    """
+    Busca todos os itens do catálogo, implementando o padrão Cache-Aside.
+    Retorna uma lista de dicts (pronta para JSON) ao invés de modelos ORM.
+    """
+    
+    # 1. Tentar ler do Cache (Redis)
+    try:
+        cached_data = await redis_client.get(CATALOGO_CACHE_KEY)
+        if cached_data:
+            print("Cache HIT: Retornando dados do Redis.")
+            # Dados estão armazenados como string JSON, então desserializamos
+            return json.loads(cached_data)
+    except Exception as e:
+        # Se o Redis falhar, logamos o erro e seguimos para o DB
+        print(f"Erro ao ler cache do Redis (seguindo para o DB): {e}")
 
-    if equipamento_id:
-        query = query.where(models.CatalogoItem.equipamento_id == equipamento_id)
-    if distribuidor_id:
-        query = query.where(models.CatalogoItem.distribuidor_id == distribuidor_id)
+    # 2. Cache MISS: Buscar do Banco de Dados (PostgreSQL)
+    print("Cache MISS: Buscando dados do PostgreSQL.")
+    query = (
+        select(models.CatalogoItem)
+        .options(
+            joinedload(models.CatalogoItem.equipamento).joinedload(models.Equipamento.categoria),
+            joinedload(models.CatalogoItem.distribuidor)
+        )
+        .order_by(models.CatalogoItem.id.desc())
+    )
+    result = await db.execute(query)
+    itens_orm = result.scalars().all()
 
+    # 3. Serializar os dados para armazenar no cache (Pydantic v2)
+    # Convertemos os modelos ORM para dicts usando o schema
+    serializable_data = [
+        schema.ShowCatalogoItem.model_validate(item).model_dump()
+        for item in itens_orm
+    ]
+    
+    # 4. Salvar no Cache (Redis) com TTL
+    try:
+        # Serializamos a *lista inteira* de dicts para uma string JSON
+        json_data = json.dumps(serializable_data, default=str) # default=str para Decimals
+        await redis_client.setex(
+            CATALOGO_CACHE_KEY,
+            CATALOGO_CACHE_TTL_SECONDS,
+            json_data
+        )
+        print("Cache SET: Dados do catálogo salvos no Redis.")
+    except Exception as e:
+        # Se salvar no cache falhar, apenas logamos
+        print(f"Erro ao salvar cache no Redis: {e}")
+
+    # 5. Retornar os dados serializados (lista de dicts)
+    return serializable_data
+
+
+# --- Kits (MANTIDO) ---
+
+async def get_all_kits(db: AsyncSession) -> List[models.Kit]:
+    query = (
+        select(models.Kit)
+        .options(
+            joinedload(models.Kit.distribuidor),
+            selectinload(models.Kit.itens).joinedload(models.CatalogoItem.equipamento),
+        )
+        .order_by(models.Kit.nome_kit)
+    )
     result = await db.execute(query)
     return result.scalars().all()
-
-
-# --- Kit Services ---
-# Estes são mais complexos devido à relação Many-to-Many
-
-async def create_kit(db: AsyncSession, kit_data: schema.KitCreate) -> models.Kit:
-    # 1. Cria o Kit base sem os itens
-    kit_dict = kit_data.model_dump(exclude={'itens'})
-    db_kit = models.Kit(**kit_dict)
-    db.add(db_kit)
-    await db.flush() # Gera o ID do kit antes de adicionar itens
-
-    # 2. Adiciona os itens associados (requer buscar os objetos CatalogoItem)
-    if kit_data.itens:
-        for item_assoc in kit_data.itens:
-            catalogo_item = await db.get(models.CatalogoItem, item_assoc.catalogo_item_id)
-            if catalogo_item:
-                 # A associação Many-to-Many é feita através da lista 'itens' no modelo Kit
-                 # Precisamos adicionar o objeto CatalogoItem à lista
-                 db_kit.itens.append(catalogo_item)
-                 # A tabela de associação precisa da quantidade, como fazer isso?
-                 # SQLAlchemy lida com isso se a tabela de associação for definida corretamente
-                 # com uma coluna 'quantidade'. Precisamos garantir que 'kit_items_association' a tenha.
-                 # E como atribuir a quantidade específica?
-                 # Uma forma comum é usar uma "Association Proxy" ou gerenciar a tabela de associação diretamente.
-                 # Por simplicidade aqui, vamos assumir que a relação 'itens' é suficiente,
-                 # mas a quantidade pode precisar de um manejo especial (talvez após o commit).
-
-    await db.commit()
-    await db.refresh(db_kit)
-    # Recarrega com os itens para retornar completo
-    return await get_kit_by_id(db, db_kit.id)
-
-
-async def get_kit_by_id(db: AsyncSession, kit_id: int) -> Optional[models.Kit]:
-    query = select(models.Kit).options(
-        joinedload(models.Kit.distribuidor),
-        selectinload(models.Kit.itens) # Use selectinload para ManyToMany
-            .joinedload(models.CatalogoItem.equipamento) # Carrega equipamento dentro do item
-    ).where(models.Kit.id == kit_id)
-    result = await db.execute(query)
-    kit = result.scalars().first()
-
-    # Precisamos carregar a quantidade da tabela de associação separadamente ou ajustar o modelo/query
-    # Vamos deixar isso para um refinamento posterior por enquanto.
-    return kit
-
-
-async def get_all_kits(db: AsyncSession, distribuidor_id: Optional[int] = None) -> Sequence[models.Kit]:
-    query = select(models.Kit).options(
-        joinedload(models.Kit.distribuidor),
-        selectinload(models.Kit.itens).joinedload(models.CatalogoItem.equipamento) # Carrega itens e seus equipamentos
-    ).order_by(models.Kit.nome_kit)
-
-    if distribuidor_id:
-        query = query.where(models.Kit.distribuidor_id == distribuidor_id)
-
-    result = await db.execute(query)
-    # Novamente, a quantidade da tabela de associação pode precisar ser carregada separadamente.
-    return result.scalars().all()
-
-# Adicione funções para update e delete conforme necessário...

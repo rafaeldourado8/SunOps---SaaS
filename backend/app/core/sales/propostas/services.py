@@ -8,7 +8,8 @@ from decimal import Decimal # Adicionar Decimal
 from . import models, schema
 from app.core.users.models import User
 # Importar o modelo do Kit para buscar o custo
-from app.core.equipamentos.models import Kit 
+# (Kit não é mais necessário aqui, a menos que outros serviços o usem)
+# from app.core.equipamentos.models import Kit 
 
 async def create_proposta(
     db: AsyncSession, 
@@ -93,24 +94,40 @@ async def save_dimensionamento_e_gerar_custos(
     '''
     
     # 1. Atualiza os dados da proposta (Etapa 1)
-    proposta.premissas = data.premissas
+    # --- ALTERAÇÃO AQUI ---
+    proposta.premissas = data.premissas or {}
+    # Salva os novos campos de texto no JSON de premissas
+    proposta.premissas.update({
+        "sistema": data.sistema,
+        "topologia": data.topologia,
+        "nome_kit": data.nome_kit,
+        "nome_distribuidor": data.nome_distribuidor
+    })
+    # --- FIM DA ALTERAÇÃO ---
+    
     proposta.potencia_kwp = data.potencia_kwp
 
     # 2. Limpa itens de custo antigos (se houver)
-    # (Ou podemos adicionar uma lógica para preservar edições manuais)
     proposta.itens = [] 
     
-    # 3. Adiciona o Kit selecionado (se houver)
-    if data.kit_id:
-        kit = await db.get(Kit, data.kit_id)
-        if kit:
-            proposta.itens.append(models.PropostaItem(
-                categoria="Kit",
-                descricao=f"{kit.nome_kit} (Cód: {kit.codigo_kit})",
-                quantidade=1,
-                custo_unitario=kit.custo_total_kit,
-                valor_venda=kit.custo_total_kit # Inicialmente, valor de venda = custo
-            ))
+    total_venda_calculado = Decimal(0)
+
+    # 3. Adiciona o Kit (MANUALMENTE)
+    # --- LÓGICA ATUALIZADA AQUI ---
+    if data.custo_kit is not None and data.custo_kit > 0:
+        custo_a_usar = data.custo_kit
+        # Usa o nome do kit digitado ou um padrão
+        descricao_kit = data.nome_kit or "Kit Solar"
+        
+        proposta.itens.append(models.PropostaItem(
+            categoria="Kit",
+            descricao=descricao_kit,
+            quantidade=1,
+            custo_unitario=custo_a_usar, # Custo para você
+            valor_venda=custo_a_usar # Valor de venda (inicial)
+        ))
+        total_venda_calculado += custo_a_usar
+    # --- FIM DA LÓGICA ATUALIZADA ---
 
     # 4. Adiciona os placeholders de custo (baseado na sua imagem)
     placeholders = [
@@ -128,8 +145,6 @@ async def save_dimensionamento_e_gerar_custos(
         ("Outros", "INDICAÇÃO", 300.00)
     ]
     
-    total_venda_calculado = Decimal(0)
-
     for cat, desc, valor in placeholders:
         item = models.PropostaItem(
             categoria=cat,
@@ -142,7 +157,6 @@ async def save_dimensionamento_e_gerar_custos(
         total_venda_calculado += item.valor_venda
 
     # 5. Atualiza o valor_total da proposta
-    # (Idealmente, o valor_total seria a soma de todos os itens)
     proposta.valor_total = total_venda_calculado # Atualiza o total
     
     await db.commit()

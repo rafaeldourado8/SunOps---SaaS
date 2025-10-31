@@ -1,0 +1,9427 @@
+[
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "PRO 33.0-TL-OUTD-SX-400 - Trifasico 380V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "PVI-10.0-TL-OUTD-FS - Trifasico 380V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "PVI-12.5-TL-OUTD-FS - Trifasico 380V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "PVS-100-TL SX2 FULL",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "PVS-120-TL-POWER MODULE-480V",
+    "potencia_w": 120
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "PVS-175-TL",
+    "potencia_w": 175
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "PVS-50-TL-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "PVS-50-TL-SX/SX2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "PVS-60-TL-S",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "PVS-60-TL-SX/SX2",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "TRIO-20.0-TL-OUTD-S2X-400 - Trifasico 380V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "TRIO-27.6-TL-OUTD-S2X-400 - Trifasico 380V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "TRIO-5.8-TL-OUTD-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "TRIO-50-TL-OUTDS-POWER MODULE - 1MPPT - 380V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "TRIO-60-TL-OUTDS-POWER MODULE - 1MPPT - 480V",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "TRIO-7.5-TL-OUTD-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "TRIO-TM-50.0-400 3MPPT 380V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "UNO-2.0-TL-OUTD-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "UNO-3.0-TL-OUTD-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "UNO-3.6-TL-OUTD-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "UNO-4.2-TL-OUTD-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "UNO-DM-1.2-TL-PLUS-SB COM WI-FI",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "UNO-DM-2.0-TL-PLUS-SB COM WI-FI",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "UNO-DM-3.3-TL-PLUS-SB COM WI-FI",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "UNO-DM-4.0-TL-PLUS-SB COM WI-FI",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "UNO-DM-4.6-TL-PLUS-SB COM WI-FI",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "UNO-DM-5.0-TL-PLUS-SB COM WI-FI",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ABB",
+    "nome_modelo": "UNO-DM-6.0-TL-PLUS-SB COM WI-FI",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "BNT003KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "BNT004KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "BNT005KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "BNT006KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "BNT008KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "BNT010KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "BNT012KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "BNT013KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "BNT015KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "BNT017KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "BNT020KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "BNT025KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "HNS10000TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "HNS1000TL-1",
+    "potencia_w": 1000
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "HNS1500TL-1",
+    "potencia_w": 1500
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "HNS2000TL-1",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "HNS2500TL-1",
+    "potencia_w": 2500
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "HNS3000TL",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "HNS3000TL-1",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "HNS3600TL",
+    "potencia_w": 3600
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "HNS4000TL",
+    "potencia_w": 4000
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "HNS5000TL",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "HNS6000TL",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "HNS7000TL",
+    "potencia_w": 7000
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "HNS8000TL",
+    "potencia_w": 8000
+  },
+  {
+    "fabricante": "AFORE",
+    "nome_modelo": "HNS9000TL",
+    "potencia_w": 9000
+  },
+  {
+    "fabricante": "AUXSOL",
+    "nome_modelo": "ASG-6SL-ZH",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AUXSOL",
+    "nome_modelo": "ASN-10SL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AUXSOL",
+    "nome_modelo": "ASN-15TL-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AUXSOL",
+    "nome_modelo": "ASN-15TL-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AUXSOL",
+    "nome_modelo": "ASN-20TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AUXSOL",
+    "nome_modelo": "ASN-20TL-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AUXSOL",
+    "nome_modelo": "ASN-25TL-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AUXSOL",
+    "nome_modelo": "ASN-3.3SL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AUXSOL",
+    "nome_modelo": "ASN-30TL-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AUXSOL",
+    "nome_modelo": "ASN-30TL-LV-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AUXSOL",
+    "nome_modelo": "ASN-5SL-PLUS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AUXSOL",
+    "nome_modelo": "ASN-6SL-PLUS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "AUXSOL",
+    "nome_modelo": "ASN-7.5SL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "B&B",
+    "nome_modelo": "SF1600TL",
+    "potencia_w": 1600
+  },
+  {
+    "fabricante": "B&B",
+    "nome_modelo": "SF3KTN",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "B&B",
+    "nome_modelo": "SF5KTN",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-10K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-10K-G01",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-10K-V2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-110K-G03",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-12K-G03",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-15-K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-15K-G03",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-18K-G03",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-20-K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-20K-220-G02",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-20K-G01",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-25K-G01",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-30K-220-G01",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-3K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-3K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-3K-V2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-40K-220-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-4K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-50K-220-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-56K-G01",
+    "potencia_w": 56
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-5K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-5K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-5K-V2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-6K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-6K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-6K-V2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-70K-G01",
+    "potencia_w": 70
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-75K-G01",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-75K-G03",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-80K-G01",
+    "potencia_w": 80
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-8K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-8K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR BS-8K-V2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR SUN-30K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR SUN-33K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR SUN-35K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR SUN-3K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR SUN-40K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR SUN-50K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR SUN-5K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR SUN-60K-G",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR SUN-70K-G",
+    "potencia_w": 70
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR SUN-75K-G",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "BEDIN",
+    "nome_modelo": "SOLAR SUN-80K-G",
+    "potencia_w": 80
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "60K-4G",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-100K-G",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-10K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-12K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-15K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-15K-G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-20K-G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-25K-G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-30K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-30K-G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-33K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-35K-G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-3K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-40K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-40K-G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-45K-G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-4K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-50K-G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-5K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-75K-G",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "BEL-8K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "INVSBE-MO-220V-3KW",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "INVSBE-MO-220V-4KW",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "S5-GC25K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "S5-GC30K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BELENERGY",
+    "nome_modelo": "S5-GR3P17K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "K-1P3K-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "K-1P6K-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "K-1P8K-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "K-1P9K-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "K-3P100K-9M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "K-3P125K-12",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "K-3P12K-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "K-3P15K-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "K-3P20K-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "K-3P250K-12M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "K-3P25K-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "K-3P30K-3M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "K-3P40K-3M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "K-3P50K-4M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "K-3P60K-4M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "K-3P75K-9M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-1P10K-3M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-1P3K-1M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-1P5K-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-1P5K-2M-H",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-1P8K-3M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-3P100K-10M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-3P10K-2-H",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-3P125K-1M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-3P12K-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-3P15K-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-3P20K-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-3P250K-14M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-3P25K-3M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-3P30K-3M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-3P40K-4M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-3P50K-5M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-3P60K-6M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-3P75K-9M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "S-3P8K-2M-H",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "SL-3P15K-3M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "BYD",
+    "nome_modelo": "SL-3P20K-3M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CANADIAN SOLAR CSI 1.5K-TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CANADIAN SOLAR CSI 3K-TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CANADIAN SOLAR CSI 5K-MTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-100K-T4001A-E",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-100K-T400GL02-ZA",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-110K-T400GL02-E",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-120K-T4001A-E",
+    "potencia_w": 120
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-125KTL-GI-E",
+    "potencia_w": 125
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-15K-T220GL03-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-15K-T4001A-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-15K-T400GL01-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-15KTL-GI-LFL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-20K-T220GL03-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-20K-T4001A-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-20K-T400GL01-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-20KTL-GI-FL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-20KTL-GI-LFL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-250K-T800GL03-E",
+    "potencia_w": 250
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-25K-T220GL03-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-25K-T4001A-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-25K-T400GL02-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-25K-T400GL03-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-25KTL-GI-FL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-25KTL-GI-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-25KTL-GS-FL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-30K-T220GL03-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-30K-T400GL02-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-30K-T400GL03-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-30KTL-GI-FL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-30KTL-GI-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-30KTL-GI-LFL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-30KTL-GS-FL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-36KTL-GS-FL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-3K-S22002-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-3KTL1P-GI-FL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-40K-T4001A-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-40K-T400GL02-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-40K-T400GL03-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-40KTL-GI-FL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-40KTL-GS-FL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-4KTL1P-GI-FL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-50K-T4001A-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-50K-T400GL03-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-50KTL-GI",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-5K-S22002-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-5K-S22002-ED",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-5K-S22003-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-5KTL1P-GI-FL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-60K-T4001A-E",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-60K-T400GL03-E",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-60KTL-GI",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-75K-T2201A-E",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-75K-T40001-E",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-75K-T400GL02-E",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-7K-S22002-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-7K-S22002-ED",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-7K-S22003-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-7KTL1P-GI-FL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-8KTL1P-GI-FL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-9K-S22002-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-9K-S22002-ED",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-9K-S22003-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CANADIAN",
+    "nome_modelo": "SOLAR CSI-9KTL1P-GI-FL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA10KTL-PSM/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA10KTL-SM/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA110KTL-DO/EU",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA15KTL-T/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA16KTL-T1/AS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA18KTL-T/SA",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA18KTL-T1/AS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA20KTL-T/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA25KTL-T/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA3.6KTL-S/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA30KTL-T/SA",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA30KTL-T1/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA36KTL-T/SA",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA3KTL-PS1/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA3KTL-S/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA4KTL-SM/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA50KTL-T/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA5KTL-PSM1/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA5KTL-SM/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA60KTL-T/EU",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA6KTL-PSM1/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA6KTL-SM/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA7.5KTL-PSM/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA7KTL-PSM/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA7KTL-SM/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA8KTL-PSM/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCA8KTL-SM/EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER CPS SCH250KTL-DO/EU",
+    "potencia_w": 250
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER SCA125K-T-EU",
+    "potencia_w": 125
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER SCA15K-T-SA",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER SCA20K-T-SA",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER SCA25K-T-SA",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER SCA30K-T-EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER SCA37.5K-T-EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER SCA75K-T-EU",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER SCA75K-T-SA",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "CHINT",
+    "nome_modelo": "POWER SCH333K-T-EU",
+    "potencia_w": 333
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "100K-5G PRO TRIF.380V",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "250K – EHV-5G TRIF.800V",
+    "potencia_w": 250
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "50K-LV-5G TRIF.220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "50K-LV-5G-PRO TRIF. 220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "60K-LV -5G TRIF.220V",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "75K-5G PRO TRIF.380V",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "75K-LV-5G-PRO TRIF. 220V",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S5-GC15K-LV TRIF.220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S5-GC20K-LV (220V)",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S5-GC25K TRIF.380V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S5-GC25K-LV TRIF.220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S5-GC30K TRIF.380V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S5-GC30K-LV TRIF.220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S5-GC37.5K-LV TRIF.220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S5-GC50K TRIF.380V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S5-GC60K TRIF.380V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S5-GR1P10K MONOF.220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S5-GR3P15K TRIF.380V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S5-GR3P20K TRIF.380V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S6-GR1P3K-M MONOF.220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S6-GR1P4K-S MONOF.220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S6-GR1P5K MONOF.220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S6-GR1P5K-S MONOF.220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S6-GR1P6K MONOF.220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S6-GR1P6K-S MONOF.220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S6-GR1P7K2 MONOF.220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "CORDEIRO-SOLIS",
+    "nome_modelo": "S6-GR1P8K2 MONOF.220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-1.5K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-10.5K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-100K-G03",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-10K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-10K-G @220",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-10K-G @380",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-10K-G02-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-10K-G02P1-EU-AM2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-10K-G03",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-10K-G03-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-10K-G05",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-10K-SG04LP3-EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-110K-G03",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-12K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-12K-G02-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-12K-G03",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-12K-G05",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-12K-G06P3-EU-AM2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-12K-SG01HP3-LV-AM2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-12K-SG01LP3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-12K-SG04LP3-EU/AU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-130K-G01P3-EU-AM8",
+    "potencia_w": 130
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-15K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-15K-G02-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-15K-G03",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-15K-G05",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-15K-G05-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-15K-G06P3-EU-AM2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-15K-G06P3-EU-AM2-P1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-18K-G03",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-18K-G04",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-1K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-20K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-20K-G02",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-20K-G02-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-20K-G04",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-20K-G04-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-20K-G05",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-20K-SG01HP3-EU-AM2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-25K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-25K-G02",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-25K-G02-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-25K-G04",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-25K-G04-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-25K-G05",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-2K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-3.6K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-3.6K-SG01/03LP1-EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-30K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-30K-G02",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-30K-G02-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-30K-G03",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-30K-G04",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-30K-G04-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-30K-SG01HP3-BM4-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-30K-SG01HP3-EU-BM3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-33K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-33K-G02",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-33K-G02-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-33K-G03",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-33K-G04",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-35K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-35K-G02",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-35K-G02-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-35K-G04",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-35K-SG01HP3-EU-BM3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-3K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-3K-G04P1-EU-AM1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-3K-SG04LP1-EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-40K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-40K-G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-40K-G02",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-40K-G02-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-40K-G03",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-40K-G04",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-45K-G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-4K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-4K-G04P1-EU-AM1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-4K-G05",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-4K-G05P1-EU-AM2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-50K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-50K-G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-50K-G02",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-50K-G02-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-50K-G03",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-50K-G04",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-50K-G04P3-EU-AM4-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-50K-SG01HP3-EU-BM4",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-5K-G @220",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-5K-G @380",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-5K-G04",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-5K-G05",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-5K-G05P1-EU-AM2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-5K-SG01/03LP1-EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-6.6K-G05P1-EU-AM2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-60K-G",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-60K-G03",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-6K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-6K-G02-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-6K-G05",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-6K-G05P1-EU-AM2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-7.5K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-7.5K-G02P1-EU-AM2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-7.5K-G05",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-7.5K-G05P1-EU-AM2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-7.5K-SG01LP1-US",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-70K-G",
+    "potencia_w": 70
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-75K-G",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-75K-G01P3-EU-AM8-LV",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-75K-G03",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-75K-G05",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-7K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-7K-G05",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-7K-SG04LP3-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-80K-G",
+    "potencia_w": 80
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-8K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-8K-G02-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-8K-G02P1-EU-AM2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-8K-G03",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-8K-G05",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-8K-SG01LP1-EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-8K-SG01LP3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "DEYE",
+    "nome_modelo": "SUN-9K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EES10K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EES3.6K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EES3K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EES4.6K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EES4K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EES5K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EES6K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EES6KPro-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EES7K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EES8K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EES9K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EET10K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EET15K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EET20K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EET25K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EET30K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EET3K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EET4K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EET50K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EET5K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EET60K-M1",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EET6K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY EET75K-M1",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY LV-EET11K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY LV-EET15K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EACH",
+    "nome_modelo": "ENERGY LV-EET18K-M1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ECOSOLYS",
+    "nome_modelo": "ECOS 2000 BRASIL",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "ECOSOLYS",
+    "nome_modelo": "ECOS 2000 PLUS BRASIL",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "ECOSOLYS",
+    "nome_modelo": "ECOS1000PLUS",
+    "potencia_w": 1000
+  },
+  {
+    "fabricante": "ECOSOLYS",
+    "nome_modelo": "ECOS2000PLUS",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "ECOSOLYS",
+    "nome_modelo": "ECOS3000PLUS",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "ECOSOLYS",
+    "nome_modelo": "ES GT-05K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ECOSOLYS",
+    "nome_modelo": "ES GT-10K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ECOSOLYS",
+    "nome_modelo": "ES GT-10K-220",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ECOSOLYS",
+    "nome_modelo": "ES GT-12K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ECOSOLYS",
+    "nome_modelo": "ES GT-12K-220",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ECOSOLYS",
+    "nome_modelo": "ES GT-15K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ECOSOLYS",
+    "nome_modelo": "ES GT-16K-220",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ECOSOLYS",
+    "nome_modelo": "ES GT-30K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ECOSOLYS",
+    "nome_modelo": "ES GT-60K",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "100K-G03",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "10K-SLG1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "10K-SNH",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "110K-TLG1",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "15K-LVG1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "20K-G4A-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "25K-TLG1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "30K-G4A-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "45K-G4A-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "4K-SNH",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "50K-G4A",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "5K-G5E2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "5K-SNH",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "7.5K-SLG1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "75K-G4A",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "75K-LVG1",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "8K-G2E2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "8K-SLG1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-15K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-15K-G03",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-20K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-20K-G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-25K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-30K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-30K-G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-30K-G02-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-33K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-35K-G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-35K-G03",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-3K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-45K-G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-50K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-5K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-60K-G",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-75K-G",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "ELGIN",
+    "nome_modelo": "SUN-8K-G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELSYS",
+    "nome_modelo": "SOLAR ESM-3000",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "ELSYS",
+    "nome_modelo": "SOLAR ESM-3000 L",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "ELSYS",
+    "nome_modelo": "SOLAR ESM-5000",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "ELSYS",
+    "nome_modelo": "SOLAR ESM-6500",
+    "potencia_w": 6500
+  },
+  {
+    "fabricante": "ELSYS",
+    "nome_modelo": "SOLAR ESM-8000",
+    "potencia_w": 8000
+  },
+  {
+    "fabricante": "ELSYS",
+    "nome_modelo": "SOLAR EST-11000",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELSYS",
+    "nome_modelo": "SOLAR EST-15K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELSYS",
+    "nome_modelo": "SOLAR EST-15KL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELSYS",
+    "nome_modelo": "SOLAR EST-15KLV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELSYS",
+    "nome_modelo": "SOLAR EST-20K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELSYS",
+    "nome_modelo": "SOLAR EST-20KL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELSYS",
+    "nome_modelo": "SOLAR EST-20KLV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELSYS",
+    "nome_modelo": "SOLAR EST-25K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELSYS",
+    "nome_modelo": "SOLAR EST-25KL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "ELSYS",
+    "nome_modelo": "SOLAR EST-30KL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EMPALUX",
+    "nome_modelo": "NAC10K-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EMPALUX",
+    "nome_modelo": "NAC15K-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EMPALUX",
+    "nome_modelo": "NAC1K5-SS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EMPALUX",
+    "nome_modelo": "NAC20K-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EMPALUX",
+    "nome_modelo": "NAC25K-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EMPALUX",
+    "nome_modelo": "NAC30K-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EMPALUX",
+    "nome_modelo": "NAC3K-SS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EMPALUX",
+    "nome_modelo": "NAC50K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EMPALUX",
+    "nome_modelo": "NAC5K-DS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "EMPALUX",
+    "nome_modelo": "NAC60K",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "EMPALUX",
+    "nome_modelo": "NAC70K",
+    "potencia_w": 70
+  },
+  {
+    "fabricante": "EMPALUX",
+    "nome_modelo": "NAC80K",
+    "potencia_w": 80
+  },
+  {
+    "fabricante": "EMPALUX",
+    "nome_modelo": "NAC8K-DS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FIMER",
+    "nome_modelo": "PVS-100-TL SX2",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "AC1-5.7-US",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "F3000",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "F4600",
+    "potencia_w": 4600
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "F5000",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "F5000-G2",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "F6000",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "G10000",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "G10500",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "G7000",
+    "potencia_w": 7000
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "G7500",
+    "potencia_w": 7500
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "G8000",
+    "potencia_w": 8000
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "G9000",
+    "potencia_w": 9000
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "H3-12.0-E",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "H3-PRO-20.0",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "S3000",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "S3000-G2",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "T12-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "T15",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "T15-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "T20",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "T20-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "T25",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "T25-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "V50",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "V60",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "VL15",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "VL20",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "VL25",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "VL30",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FOXESS",
+    "nome_modelo": "VL37.5",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "ECO 25.0-3-S FULL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "ECO 25.0-3-S LIGHT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "ECO 27.0-3-S FULL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "ECO 27.0-3-S LIGHT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "PRIMO 3.0-1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "PRIMO 3.5-1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "PRIMO 3.6-1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "PRIMO 4.0-1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "PRIMO 4.6-1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "PRIMO 5.0-1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "PRIMO 6.0-1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "PRIMO 8.2-1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "SYMO 10.0 - Trifasico 3 Brazil 208-240V",
+    "potencia_w": 208
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "SYMO 12.0 - Trifasico 3 Brazil 208-240V",
+    "potencia_w": 208
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "SYMO 12.5-M 380 V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "SYMO 15.0 - Trifasico 3 Brazil 208-240V",
+    "potencia_w": 208
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "SYMO 15.03-M 380 V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "SYMO 17.5-3-M 380 V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "SYMO 20.0-3 M 380V",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "TAURO ECO 100-3-D",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "FRONIUS",
+    "nome_modelo": "TAURO ECO 50-3-D",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP100-10",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP110-10",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP12-3-10",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP12-L-10",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP120-10",
+    "potencia_w": 120
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP136-H-10",
+    "potencia_w": 136
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP15-3-10",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP15-L-10",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP20-3-10",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP20-L-10",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP25-10",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP3.6-1-10",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP3.6-1-30",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP30-L-10",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP35-L-10",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP36-10",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP4.2-1-30",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP5.0-1-10",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP5.0-1-30",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP50-10",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP6.0-1-30",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP60-10",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP7.0-1-10",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP73-L-10",
+    "potencia_w": 73
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP75-10",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP80-10",
+    "potencia_w": 80
+  },
+  {
+    "fabricante": "GENERAL",
+    "nome_modelo": "ELECTRIC GEP9.0-1-10",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW1000-NS",
+    "potencia_w": 1000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW1000-XS",
+    "potencia_w": 1000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW100K-HT",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW10K-MS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW10K-MS-30",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW10KN-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW110K-HT",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW120K-HT",
+    "potencia_w": 120
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW12K-SDT-20",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW12KLV-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW12KLV-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW12KN-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW12KT-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW136K-HTH",
+    "potencia_w": 136
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW1500-NS",
+    "potencia_w": 1500
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW1500-XS",
+    "potencia_w": 1500
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW15K-SDT-20",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW15K-SDT-30",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW15KLV-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW15KLV-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW15KN-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW15KT-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW17K-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW17KT-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW2000-NS",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW2000-XS",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW20K-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW20K-SDT-20",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW20K-SDT-30",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW20KLV-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW20KN-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW20KT-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW23KLV-SDT-BR30",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW2500-NS",
+    "potencia_w": 2500
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW2500-XS",
+    "potencia_w": 2500
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW250K-HT",
+    "potencia_w": 250
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW250KN-HT",
+    "potencia_w": 250
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW25K-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW25K-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW25KT-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW3000-NS",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW3000-XS",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW3000D-NS",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW30K-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW30KLS-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW30KLV-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW3300-XS-30",
+    "potencia_w": 3300
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW3300-XS-B30",
+    "potencia_w": 3300
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW3500L-ES-BR20",
+    "potencia_w": 3500
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW35KLS-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW35KLV-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW3600D-NS",
+    "potencia_w": 3600
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW36K-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW37K5-SDT-BR30",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW3KB-XS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW4000-DT",
+    "potencia_w": 4000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW4200D-NS",
+    "potencia_w": 4200
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW5000-DNS-30",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW5000-DT",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW5000-MS",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW5000BD-NS",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW5000D-NS",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW50K-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW50KBF-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW50KLV-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW50KN-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW50KS-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW5KBD-NS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW6000-DNS-30",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW6000-DT",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW6000-ES-BR20",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW6000-MS",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW6000BD-NS",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW6000D-NS",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW60K-MT",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW60KBF-MT",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW60KN-MT",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW6KBD-NS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW7.5K-MS-G40",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW700-XS",
+    "potencia_w": 700
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW7000-MS",
+    "potencia_w": 7000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW7000-MS-C30",
+    "potencia_w": 7000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW70KHV-MT",
+    "potencia_w": 70
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW73KLV-HT",
+    "potencia_w": 73
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW75K-GT-LV-G10",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW75K-HT",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW75K-MT",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW75KBF-MT",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW8000-DT",
+    "potencia_w": 8000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW8000-MS-C30",
+    "potencia_w": 8000
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW80K-MT",
+    "potencia_w": 80
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW80KBF-MT",
+    "potencia_w": 80
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW80KHV-MT",
+    "potencia_w": 80
+  },
+  {
+    "fabricante": "GOODWE",
+    "nome_modelo": "GW8500-MS",
+    "potencia_w": 8500
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "10000TL3-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "10500MTLP-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "11000TL3-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "12000TL3-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "13000TL3-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "15000TL3-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "15000TL3-SL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "17000TL3-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "20000TL3-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "20000TL3-SL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "22000TL3-SL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "25000TL3-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "2500MTL-S",
+    "potencia_w": 2500
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "30000TL3-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "3000MTL-S",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "33000TL3-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "3600MTL-S",
+    "potencia_w": 3600
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "40000TL3-NS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "40000TL3-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "4200MTL-S",
+    "potencia_w": 4200
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "50000TL3-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "5000MTL-S",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "5500MTL-S",
+    "potencia_w": 5500
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "7000MTL-S",
+    "potencia_w": 7000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "7000TL3-S",
+    "potencia_w": 7000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "8000MTL-S",
+    "potencia_w": 8000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "8000MTLP-S",
+    "potencia_w": 8000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "8000TL3-S",
+    "potencia_w": 8000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "9000MTLP-S",
+    "potencia_w": 9000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "9000TL3-S",
+    "potencia_w": 9000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAC 15KTL3-XL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAC 20KTL3-XL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAC 25KTL3-XL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAC 30KTL3-XL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAC 36KTL3-XL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAC 36KTL3-XL2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAC 50KTL3-X LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAC 60KTL3-X LV",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAX 100KTL3-X LV",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAX 110KTL3-X LV",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAX 120KTL3-X LV",
+    "potencia_w": 120
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAX 125KTL3-X LV",
+    "potencia_w": 125
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAX 185KTL3-X HV",
+    "potencia_w": 185
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAX 250KTL3-X HV",
+    "potencia_w": 250
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAX 50KTL3 LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAX 50KTL3-XL 2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAX 60KTL3 LV",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAX 60KTL3-XL 2",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAX 70KTL3 LV",
+    "potencia_w": 70
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAX 70KTL3-XL 2",
+    "potencia_w": 70
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAX 75KTL3 LV",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAX 75KTL3-XL 2",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MAX 80KTL3 LV",
+    "potencia_w": 80
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIC 1000TL-X",
+    "potencia_w": 1000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIC 1500TL-X",
+    "potencia_w": 1500
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIC 2000TL-X",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIC 2500TL-X",
+    "potencia_w": 2500
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIC 3000TL-X",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIC 3000TL-X2",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIC 3300TL-X",
+    "potencia_w": 3300
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIC 750TL-X",
+    "potencia_w": 750
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 10KTL3-XL1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 15KTL3-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 15KTL3-XL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 15KTL3-XL2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 17KTL3-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 20KTL3-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 20KTL3-X2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 20KTL3-XL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 20KTL3-XL2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 22KTL3-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 25KTL3-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 25KTL3-X2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 25KTL3-XL2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 30KTL3-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 33KTL3-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 36KTL3-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 36KTL3-X2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 40KTL3-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 40KTL3-X2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MID 50KTL3-X2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIN 10000 TL-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIN 10000TL-X2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIN 3000TL-X",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIN 3000TL-XH",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIN 4200TL-X",
+    "potencia_w": 4200
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIN 4600TL-X",
+    "potencia_w": 4600
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIN 5000TL-X",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIN 5000TL-X2",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIN 5000TL-XH",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIN 6000TL-X",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIN 6000TL-X2",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIN 7000TL-X(E)",
+    "potencia_w": 7000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIN 7500TL-X2",
+    "potencia_w": 7500
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIN 8000TL-X(E)",
+    "potencia_w": 8000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIN 8000TL-X2",
+    "potencia_w": 8000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MIN 9000 TL-X",
+    "potencia_w": 9000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MOD 10KTL3-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MOD 11KTL3-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MOD 12KTL3-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MOD 13KTL3-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MOD 15KTL3-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MOD 15KTL3-X2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MOD 5000TL3-X",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "GROWATT",
+    "nome_modelo": "MOD 7000TL3-X",
+    "potencia_w": 7000
+  },
+  {
+    "fabricante": "HELIA",
+    "nome_modelo": "1.5 KW-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HELIA",
+    "nome_modelo": "1.6 KTL-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HELIA",
+    "nome_modelo": "11 KTL-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HELIA",
+    "nome_modelo": "12 KW-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HELIA",
+    "nome_modelo": "20 KTL-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HELIA",
+    "nome_modelo": "20 KW-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HELIA",
+    "nome_modelo": "3 KW-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HELIA",
+    "nome_modelo": "3.3 KTL-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HELIA",
+    "nome_modelo": "30 KTL-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HELIA",
+    "nome_modelo": "5 KTL-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HELIA",
+    "nome_modelo": "5 KW-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HELIA",
+    "nome_modelo": "50 KTL-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HELIA",
+    "nome_modelo": "7.5 KTL-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HELIA",
+    "nome_modelo": "70 KTL-X",
+    "potencia_w": 70
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 100KTL",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 10KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 10KTL-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 12KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 12KTL-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 15KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 15KTL-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 17KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 17KTL-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 20KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 24KTL-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 25KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 30KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 30KTL-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 33KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 35KTL-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 36KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 40KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 40KTL-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 43KTL-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 50KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 5KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 60KTL",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 60KTL-L",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 6KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 75KTL",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HOPESUN 8KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HSHV 330K",
+    "potencia_w": 330
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HSNV20K-G01-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HSNV25K-G01-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HSNV30K-G01-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HSNV45K-L-G01",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HSNV60K-G01",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HSNV75K-G01",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HSSP10K-G01",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HSSP3K-G01",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HSSP4K-G01",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HSSP5K-G01",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HSSP6K-G01",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOPEWIND",
+    "nome_modelo": "HSSP8K-G01",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOYMILES",
+    "nome_modelo": "HYS-5.0LV-EUG1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HOYMILES",
+    "nome_modelo": "HYS-6.0LV-EUG1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SMART ENERGY CONTR SUN2000-4.6KTL-L1 HIGH CURRENT",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SMART ENERGY CONTR SUN2000-2KTL-L1 HIGH CURRENT VS",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SMART ENERGY CONTR SUN2000-3.68KTL-L1 HIGH CURRENT",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SMART ENERGY CONTR SUN2000-3KTL-L1 HIGH CURRENT VS",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SMART ENERGY CONTR SUN2000-4KTL-L1 HIGH CURRENT VS",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SMART ENERGY CONTR SUN2000-5KTL-L1 HIGH CURRENT VS",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SMART ENERGY CONTR SUN2000-6KTL-L1 HIGH CURRENT VS",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-100KTL-H1",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-100KTL-M1",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-100KTL-M2",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-10K-LC0",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-10KTL-M1",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-12K-MB0",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-12KTL-M2",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-12KTL-M5",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-150K-MG0",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-15KTL-M2",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-15KTL-M5",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-17KTL-M2",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-17KTL-M5",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-185KTL-INH0",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-20KTL-M2",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-20KTL-M3",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-20KTL-M5",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-215KTL-H0",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-215KTL-H3",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-250KTL-H1",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-25KTL-M5",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-2KTL-L1",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-30KTL-M3",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-330KTL-H1",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-33KTL-A",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-36KTL-M3",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-3KTL-L1",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-40KTL-M3",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-4KTL-L1",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-4KTL-M1",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-50KTL-M3",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-5KTL-M1",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-60KTL-M0",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-6KTL-L1",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-6KTL-M1",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-7.5K-LC0",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-75KTL-M1",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-8K-LC0",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN2000-8KTL-M1",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HUAWEI",
+    "nome_modelo": "SUN5000-150K-MG0",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPK-1000",
+    "potencia_w": 1000
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPK-1500",
+    "potencia_w": 1500
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPK-2000",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPK-2500",
+    "potencia_w": 2500
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPK-3000",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPS-10500T",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPS-3000",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPS-3680",
+    "potencia_w": 3680
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPS-4000",
+    "potencia_w": 4000
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPS-5000",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPS-6000",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPS-6500",
+    "potencia_w": 6500
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPS-7000",
+    "potencia_w": 7000
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPS-7000T",
+    "potencia_w": 7000
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPS-8000",
+    "potencia_w": 8000
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPS-9000",
+    "potencia_w": 9000
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-10000",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-11K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-15K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-15KL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-17K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-20K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-20KL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-25K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-30K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-30KL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-33K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-36K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-4000",
+    "potencia_w": 4000
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-40K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-5000",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-50K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-6000",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "HYPONTECH",
+    "nome_modelo": "HPT-8000",
+    "potencia_w": 8000
+  },
+  {
+    "fabricante": "INGETEAM",
+    "nome_modelo": "SUN 1PLAY 3K TL-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INGETEAM",
+    "nome_modelo": "SUN 1PLAY 5K TL-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INGETEAM",
+    "nome_modelo": "SUN 3PLAY 11K TL-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 10000 MAX",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 10000 PRO G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 10500 PRO",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 12000 MAX G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 12033X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 12046X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 125000 HMAX",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 13000 MAX",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 15000 MAX",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 15000 MAX 220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 15000 MAX 220V G2",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 15000 MAX G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 1600 LITE",
+    "potencia_w": 1600
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 2000 LITE",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 2000 LITE G2",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 20000 MAX",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 20000 MAX 220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 20000 MAX 220V G2",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 22000 MAX 220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 2500 PRO",
+    "potencia_w": 2500
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 25000 MAX",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 3000 LITE",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 3000 LITE G2",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 30000 MAX",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 3212X",
+    "potencia_w": 3212
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 3215X",
+    "potencia_w": 3215
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 33000 MAX",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 33000 MAX G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 3600 PRO",
+    "potencia_w": 3600
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 40000 MAX",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 40000 MAX G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 4600 PRO",
+    "potencia_w": 4600
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 50000 MAX",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 6000 PRO",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 60000 MAX",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 75000 MAX G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 8000 PRO",
+    "potencia_w": 8000
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 8000 PRO G2",
+    "potencia_w": 8000
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 80000 MAX",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INTELBRAS",
+    "nome_modelo": "EGT 9000 PRO",
+    "potencia_w": 9000
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG10KTR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG12KTR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG15KTR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG17KTR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG20KTR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG25KTR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG30KTR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG33KTR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG35KTR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG40KTR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG40KTR-HV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG4KTR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG4KTR-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG50KTR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG50KTR-HV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG5KTR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG5KTR-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG60KTR",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG6KTR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG70KTR",
+    "potencia_w": 70
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "BG8KTR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "MG1K5TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "MG1KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "MG2KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "MG3KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "MG3KTL-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "MG4K6TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "MG4K6TL-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "MG4KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "MG4KTL-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "MG5KTL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "MG5KTL-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "INVT",
+    "nome_modelo": "MG6KTL-2M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI10000-B X2P",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI100K-B",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI10K-B X2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI125K-B",
+    "potencia_w": 125
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI12K-B",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI12K-B X2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI15K-B",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI15K-B X2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI15K-BLV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI17K-B",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI17K-B X2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI20K-B",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI20K-B X2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI20K-BLV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI250K-B-H",
+    "potencia_w": 250
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI25K-B",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI25K-B X2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI25K-BLV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI3000-B2",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI30K-B",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI30K-B X2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI30K-BLV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI33K-B",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI33K-B X2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI36K-B",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI36K-B X2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI40K-B",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI5000-B2",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI50K-B",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI6000-B2",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI60K-B",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI7000-B X2",
+    "potencia_w": 7000
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI75K-B",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI8000-B X2",
+    "potencia_w": 8000
+  },
+  {
+    "fabricante": "KEHUA",
+    "nome_modelo": "TECH SPI9000-B X2",
+    "potencia_w": 9000
+  },
+  {
+    "fabricante": "KOMECO",
+    "nome_modelo": "10KW 220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "KOMECO",
+    "nome_modelo": "3KW 220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "KOMECO",
+    "nome_modelo": "5KW 220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "KOMECO",
+    "nome_modelo": "6KW 220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "KOMECO",
+    "nome_modelo": "8KW 220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "KOMECO",
+    "nome_modelo": "KOFV IN 12KW - AR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KOMECO",
+    "nome_modelo": "KOFV IN 12KW 220V - AR",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "KOMECO",
+    "nome_modelo": "KOFV IN 15KW - AR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KOMECO",
+    "nome_modelo": "KOFV IN 20KW - AR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KOMECO",
+    "nome_modelo": "KOFV IN 30KW - AR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KOMECO",
+    "nome_modelo": "KOFV IN 32kW 220V - AR",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "KOMECO",
+    "nome_modelo": "KOFV IN 50KW - AR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KOMECO",
+    "nome_modelo": "KOFV IN 60KW - AR",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "KOPP",
+    "nome_modelo": "KUARA 10.5-3-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KOPP",
+    "nome_modelo": "KUARA 15.0-2-T",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KOPP",
+    "nome_modelo": "KUARA 20.0-2-T",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KOPP",
+    "nome_modelo": "KUARA 25.0-2-T",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KOPP",
+    "nome_modelo": "KUARA 3.0-1-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KOPP",
+    "nome_modelo": "KUARA 5.0-2-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KOPP",
+    "nome_modelo": "KUARA 8.03-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "BLUE-G 3000S",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "BLUE-G 5000D",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "BLUE-G 6000D",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "KSG-10K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "KSG-12K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "KSG-15K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "KSG-17K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "KSG-20K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "KSG-250UH",
+    "potencia_w": 250
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "KSG-3.2K-DM",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "KSG-3.6K-DM",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "KSG-30K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "KSG-4.6K-DM",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "KSG-4K-DM",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "KSG-50K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "KSG-5K-DM",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "KSTAR",
+    "nome_modelo": "KSG-60K",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "LEDVANCE",
+    "nome_modelo": "LS-10.5K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LEDVANCE",
+    "nome_modelo": "LS-10K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LEDVANCE",
+    "nome_modelo": "LS-5K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LEDVANCE",
+    "nome_modelo": "LS-6K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LEDVANCE",
+    "nome_modelo": "LS-7K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LEDVANCE",
+    "nome_modelo": "LS-8K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LEDVANCE",
+    "nome_modelo": "LS-9K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LEDVANCE",
+    "nome_modelo": "LT-15K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LEDVANCE",
+    "nome_modelo": "LT-17K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LEDVANCE",
+    "nome_modelo": "LT-20K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LEDVANCE",
+    "nome_modelo": "LT-25K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LEDVANCE",
+    "nome_modelo": "LT-50K F5",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LEDVANCE",
+    "nome_modelo": "LT-60K F5",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-10K-D",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-10KT2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-1K6-S1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-2K2-S1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-3K-S1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-3K-SS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-3K3-S1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-3K6-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-4K-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-4K6-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-5K-D",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-5K-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-5K-D2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-6K-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-6K-D2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-6K-DS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-7K5T2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT1-8K-D",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-100K-1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-10K-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-125K-1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-12K-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-15K-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-17K-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-20K-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-22K-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-25K-D",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-25K-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-30K-D",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-37K5Q1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-4K-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-50KQ1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-5K-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-60KQ1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-6K-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-75K-1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "GT3-8K-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "LIVOLTEK",
+    "nome_modelo": "HYPER-5000",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "NANSEN",
+    "nome_modelo": "ASN-10SL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NANSEN",
+    "nome_modelo": "ASN-10TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NANSEN",
+    "nome_modelo": "ASN-12TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NANSEN",
+    "nome_modelo": "ASN-15TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NANSEN",
+    "nome_modelo": "ASN-17TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NANSEN",
+    "nome_modelo": "ASN-20TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NANSEN",
+    "nome_modelo": "ASN-25TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NANSEN",
+    "nome_modelo": "ASN-3.6SL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NANSEN",
+    "nome_modelo": "ASN-3SL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NANSEN",
+    "nome_modelo": "ASN-4.6SL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NANSEN",
+    "nome_modelo": "ASN-4SL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NANSEN",
+    "nome_modelo": "ASN-5SL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NANSEN",
+    "nome_modelo": "ASN-6SL-PLUS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NANSEN",
+    "nome_modelo": "ASN-7.5SL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NANSEN",
+    "nome_modelo": "ASN-7SL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NANSEN",
+    "nome_modelo": "ASN-8SL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NEXEN",
+    "nome_modelo": "NXN3K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NEXEN",
+    "nome_modelo": "NXN5K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NEXEN",
+    "nome_modelo": "NXN6K5",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "NEXEN",
+    "nome_modelo": "NXN8K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "OMNIK",
+    "nome_modelo": "OMNIKSOL-1.0K-TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "OMNIK",
+    "nome_modelo": "OMNIKSOL-1.5K-TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "OMNIK",
+    "nome_modelo": "OMNIKSOL-13K-TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "OMNIK",
+    "nome_modelo": "OMNIKSOL-17K-TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "OMNIK",
+    "nome_modelo": "OMNIKSOL-2.0K-TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "OMNIK",
+    "nome_modelo": "OMNIKSOL-20K-TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "OMNIK",
+    "nome_modelo": "OMNIKSOL-3.68K-TL3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "OMNIK",
+    "nome_modelo": "OMNIKSOL-3K-TL2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "OMNIK",
+    "nome_modelo": "OMNIKSOL-4K-TL2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "OMNIK",
+    "nome_modelo": "OMNIKSOL-50K-TL3-H",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "OMNIK",
+    "nome_modelo": "OMNIKSOL-5K-TL2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB125K-HT",
+    "potencia_w": 125
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB12K-ET",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB12KF-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB12KN-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB13KT-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB14K-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB1500-NS",
+    "potencia_w": 1500
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB1500-XS",
+    "potencia_w": 1500
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB15K-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB15KF-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB1800N-XS",
+    "potencia_w": 1800
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB18K-ET",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB20K-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB20K-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB20KN-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB21KF-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB21KT-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB250K-HT",
+    "potencia_w": 250
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB25K-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB27K-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB2900D-NS",
+    "potencia_w": 2900
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB3000-NS",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB3000N-XS",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB30K-SDT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB3100D-WS",
+    "potencia_w": 3100
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB35K-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB35KS-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB36K-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB5000D-NS",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB5000D-WS",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB5000T-DS",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB50K-MT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB6000-MS",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB6000D-NS",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB6000D-WS",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB60K-MT",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB60KS-MT",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB73K-HT",
+    "potencia_w": 73
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB7500-MS",
+    "potencia_w": 7500
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB75K-MT",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB7700-MS",
+    "potencia_w": 7700
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB780-XS",
+    "potencia_w": 780
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB8500-MS",
+    "potencia_w": 8500
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB85K-MT",
+    "potencia_w": 85
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB8800D-WS",
+    "potencia_w": 8800
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB9000F-DT",
+    "potencia_w": 9000
+  },
+  {
+    "fabricante": "PHB",
+    "nome_modelo": "PHB9300-MS",
+    "potencia_w": 9300
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "20K-2T @220",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "25K-2T",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "25K-2T @220",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "33K-2T",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "33K-2T @220",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "50K-3T",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "50K-3T @220",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "REFUONE 1.6K-1T",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "REFUONE 3.3K-1T",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "REFUONE 3K-2T",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "REFUONE 5K-2T",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "REFUONE 7K-2T",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "REFUSOL 100K @220",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "REFUSOL 100K @380",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "REFUSOL 100K @460",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "REFUSOL 20K @220",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "REFUSOL 20K @380",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "REFUSOL 40K @220",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "REFUSOL 40K @380",
+    "potencia_w": 380
+  },
+  {
+    "fabricante": "REFUSOL",
+    "nome_modelo": "REFUSOL 46K-MV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC10K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC12K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC15K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC20K-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC20K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC25K-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC30K-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC33K-DT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC4K-DS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC50K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC5K-DS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC60K",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC6K-DS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC70K",
+    "potencia_w": 70
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC75K",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC7K-DS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC80K",
+    "potencia_w": 80
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "NAC8K-DS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R1-10K5-DS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R1-1K1-SS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R1-1K6-SS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R1-2K2-SS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R1-2K7-SS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R1-3K3-SS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R1-3K7-SS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R1-8K-DS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R1-9K-DS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R3-10K-G5",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R3-120K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R3-150K-HV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R3-15K-G5",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R3-17K-G5",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R3-20K-G5",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R3-25K-G5",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R3-30K-G5",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENAC",
+    "nome_modelo": "R3-40K-G5",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-10K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-110K-NG",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-125K-NG",
+    "potencia_w": 125
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-15K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-15K-HC",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-20K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-20K-HC",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-20K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-20K-LV-NG-HC",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-30K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-30K-220V-2G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-30K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-30K-NG",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-30K-NG-HC",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-37.5K-HC",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-3K PLUS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-3K-HC",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-40K-NG",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-40K-NG-HC",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-4K-HC",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-4K-PLUS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-50K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-5K-HC",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-5K-PLUS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-60K",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-7.7K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-75K-NG",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RENO-8K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "RGT-M 6K 220V",
+    "potencia_w": 220
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "SF 3KTN",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "ST 12000 TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "RENOVIGI",
+    "nome_modelo": "ST 20000 TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "C6-100K-T9-40",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "C6-50K-T6-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "C6-50K-T6-LV-40",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "C6-60K-T9-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "C6-60K-T9-LV-40",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "C6-75K-T12-LV-40",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "C6-75K-T6",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "C6-75K-T6-40",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-1.5K-S1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-10K-T2-15",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-12K-T2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-12K-T2-15",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-15K-T2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-17K-T2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-1K-S1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-2K-S1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-3.6K-S2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-3K-S1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-3K-S1-15",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-3K-S2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-4K-S2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-4K-S2-15",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-5K-S2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-5K-S2-15",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-6K-S2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-6K-S2-15",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-7.5K-S2-15",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-7K-S2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-7K-S2-15",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-8K-S2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R5-8K-S2-15",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-10K-S3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-10K-S3-18",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-10K-T2-32-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-10K-T2-32-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-12K-T2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-15K-T2-32",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-15K-T2-32-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-17K-T2-32",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-20K-T2-32",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-20K-T3-32-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-25K-T2-32",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-25K-T4-32-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-30K-T3-32",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-30K-T4-32-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-36K-T3-32",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-36K-T4-32",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-40K-T4-32",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-50K-T4-32",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-5K-S3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-5K-T2-32-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-6K-S3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-6K-T2-32-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-7K-S3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-8K-S3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-8K-T2-32-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "R6-9K-S3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNTRIO PLUS 10K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNTRIO PLUS 12K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNTRIO PLUS 15K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNTRIO PLUS 17K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNTRIO PLUS 20K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNTRIO PLUS 25K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNTRIO PLUS 25K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNTRIO PLUS 33K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNTRIO PLUS 40K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNTRIO PLUS 4K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNTRIO PLUS 50K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNTRIO PLUS 5K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNTRIO PLUS 60K",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNTRIO PLUS 6K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNTRIO PLUS 8K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNUNO PLUS 1.5K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNUNO PLUS 1K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNUNO PLUS 2.5K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNUNO PLUS 2K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNUNO PLUS 3.6K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNUNO PLUS 3K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNUNO PLUS 3K-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNUNO PLUS 4K-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNUNO PLUS 5K-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SAJ",
+    "nome_modelo": "SUNUNO PLUS 6K-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SENERGY",
+    "nome_modelo": "SE 10KTL-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SENERGY",
+    "nome_modelo": "SE 3KTL-S1/G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SENERGY",
+    "nome_modelo": "SE 5KTL-D1/G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SENERGY",
+    "nome_modelo": "SE 8KTL-D1",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SERRANA",
+    "nome_modelo": "TOURIGA 3000 26 Z",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "SERRANA",
+    "nome_modelo": "TOURIGA 5000 26 Z",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY BOY 1.5",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY BOY 2.0",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY BOY 2.5",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY BOY 3.0",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY BOY 3.6",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY BOY 4.0",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY BOY 5.0",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY BOY 6.0",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY HIGHPOWER PEAK1 SHP75-10",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY HIGHPOWER PEAK3 100-20",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY HIGHPOWER PEAK3 150-20",
+    "potencia_w": 150
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY TRIPOWER 15000TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY TRIPOWER 20000TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY TRIPOWER 25000TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY TRIPOWER 60",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY TRIPOWER CORE1 STP50-40",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY TRIPOWER CORE2 STP 110-60",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY TRIPOWER X 15",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY TRIPOWER X 20",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY TRIPOWER X 25",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SMA",
+    "nome_modelo": "SUNNY TRIPOWER X STP 12",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "1.6KTL2-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "10.5KTLM-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "10000TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "100KTL",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "100KTLX-G4",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "10KTLM-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "11000TL-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "1100TL",
+    "potencia_w": 1100
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "1100TL-G3",
+    "potencia_w": 1100
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "110KTLX-G4",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "11KTL-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "125KTL-HV",
+    "potencia_w": 125
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "125KTLX-G4",
+    "potencia_w": 125
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "12KTL-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "12KTLX-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "13500TL-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "15000TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "15000TL-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "15KTLX-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "15KTLX-G3-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "1600TL",
+    "potencia_w": 1600
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "1600TL-G3",
+    "potencia_w": 1600
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "16500TL-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "17000TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "18000TL-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "20000TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "20000TL-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "20KTLX-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "20KTLX-G3-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "2200TL",
+    "potencia_w": 2200
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "2200TL-G3",
+    "potencia_w": 2200
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "25000TL-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "250KTL-HV",
+    "potencia_w": 250
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "250KTL-HV-PRO",
+    "potencia_w": 250
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "255KTL-HV",
+    "potencia_w": 255
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "25KTLX-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "25KTLX-G3-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "2700TL",
+    "potencia_w": 2700
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "2700TL-G3",
+    "potencia_w": 2700
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "27500TL-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "3.3KTL-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "3.3KTL2-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "3.6KTLM-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "30000TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "30000TL-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "3000TL",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "30KTLX-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "30KTLX-G3-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "33000TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "33000TL-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "33000TL-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "3300TL-G3",
+    "potencia_w": 3300
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "33KTLX-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "3KTLM-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "3KTLM-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "4.4KTL-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "4.6KTLM-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "40KTLX-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "40KTLX-G4-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "4KTLM-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "4KTLM-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "5.5KTL-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "50000TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "50KTLX-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "50KTLX-G4-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "5KTLM-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "5KTLM-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "6.6KTL-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "60000TL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "60KTLX-G3",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "60KTLX-G4-LV",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "6KTLM-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "6KTLM-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "7.5KTLM-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "7.5KTLM-G3-BR",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "7.7KTLM-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "70000TL-HV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "75KTL",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "75KTLX-G3",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "75KTLX-G4-LV",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "7KTLM-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "8.8KTL-X",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "80KTL",
+    "potencia_w": 80
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "8KTLM-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "9KTLM-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOFAR",
+    "nome_modelo": "TAURO ECO 100-3-D",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "SOLAX",
+    "nome_modelo": "X1-BOOST-5K-G4",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLAX",
+    "nome_modelo": "X1-BOOST-6K-G4",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLAX",
+    "nome_modelo": "X1-MINI-3.0K-G4",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLAX",
+    "nome_modelo": "X1-SMT-10K-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLAX",
+    "nome_modelo": "X1-SMT-8K-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLAX",
+    "nome_modelo": "X1-SPT-3K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLAX",
+    "nome_modelo": "X1-SPT-7K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLAX",
+    "nome_modelo": "X3-ULT-30K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "100K-5G",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "100K-5G-PRO",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "100K-HV-5G",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "110K-5G",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "110K-5G-PRO",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "110K-BHV-5G",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "125K-EHV-5G",
+    "potencia_w": 125
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "125K-HV-5G",
+    "potencia_w": 125
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "15K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "15K-LV-5G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "1P10K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "1P2.5K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "1P3.6K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "1P3K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "1P4.6K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "1P4K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "1P5K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "1P6K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "1P7.7K-5G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "1P7K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "1P7K-5G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "1P8K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "1P8K-5G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "1P9K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "20K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "20K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "215K-EHV-5G-PLUS",
+    "potencia_w": 215
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "250K-EHV-5G",
+    "potencia_w": 250
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "250K-EHV-5G-PLUS",
+    "potencia_w": 250
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "255K-EHV-5G",
+    "potencia_w": 255
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "255K-EHV-5G-PLUS",
+    "potencia_w": 255
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "25K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "25K-5G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "25K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "30K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "30K-5G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "30K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "33K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "33K-5G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "36K-HV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "3P10K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "3P10K-4G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "3P12K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "3P15K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "3P17K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "3P20K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "3P5K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "3P5K-4G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "3P6K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "3P6K-4G-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "3P8K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "3P9K-4G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "40K-5G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "40K-HV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "50K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "50K-HV-5G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "50K-LV-5G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "50K-LV-5G-PRO",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "60K-4G",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "60K-LV-5G",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "60K-LV-5G-PRO",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "70K-HV-4G",
+    "potencia_w": 70
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "75K-5G",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "75K-5G-PRO",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "75K-LV-5G-PRO",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "80K-5G",
+    "potencia_w": 80
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "80K-HV-5G",
+    "potencia_w": 80
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "90K-5G",
+    "potencia_w": 90
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "90K-HV-5G",
+    "potencia_w": 90
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "F INVERSOR T.ON 15KW 3F220V S5GC15KLV AFCI SOL",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "MINI-1000-4G",
+    "potencia_w": 1000
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "MINI-1000-4G-LV",
+    "potencia_w": 1000
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "MINI-1500-4G",
+    "potencia_w": 1500
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "MINI-2000-4G",
+    "potencia_w": 2000
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "MINI-2500-4G",
+    "potencia_w": 2500
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "MINI-3000-4G",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "MINI-3600-4G",
+    "potencia_w": 3600
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "MINI-700-4G",
+    "potencia_w": 700
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "RHI-3.6K-48ES-5G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "RHI-3P10K-HVES-5G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "RHI-3P8K-HVES-5G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "RHI-5K-48ES-5G",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-EO1P5K-48-P",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC100K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC110K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC15K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC20K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC23K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC25K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC25K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC30K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC30K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC33K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC36K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC36K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC37.5K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC37.5K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC40K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC40K-HV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC50K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC50K-HV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GC60K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR1P10K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR1P7K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR1P8K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR1P9K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR3P10K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR3P10K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR3P12K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR3P13K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR3P15K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR3P17K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR3P20K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR3P25K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR3P5K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR3P5K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR3P6K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR3P6K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR3P8K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S5-GR3P9K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-EH1P5K-L-EU",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-EH1P8K-L-PLUS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-EH3P30K-H",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-EH3P50K-H",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-EO1P5K-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GC100K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GC110K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GC125K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GC3P125K07-NV-ND",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GC3P125K12-NV-ND",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GC3P150K07-NV-ND",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GC3P150K12-NV-ND",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GC50K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GC60K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GC75K-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P0.7K-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P1.5K-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P10K03-NV-ND",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P1K-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P2.5K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P2.5K-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P2.5K-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P2K-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P3.6K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P3.6K-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P3.6K-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P3K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P3K-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P3K-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P4.6K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P4.6K-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P4K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P4K-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P5K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P5K-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P6K",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P6K-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P7.5K2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P7K02-NV-YD-HC",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P7K03-NV-ND",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P7K2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P8K02-NV-YD-HC",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P8K03-NV-ND",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P8K2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLIS",
+    "nome_modelo": "S6-GR1P9K03-NV-ND",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW 100K-LT",
+    "potencia_w": 100
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW 110K-LT",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW 75K-LT",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW10000-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW12K-LT-G2 PRO",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW15K-LT-G2 Pro",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW15K-LT-G2.5",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW15K-UT-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW17K-LT-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW17K-LT-G2 PRO",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW20K-LT-G2 Pro",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW20K-LT-G2.5",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW20K-UT-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW25K-LT-G2 Pro",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW25K-LT-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW25K-UT-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW27K-LT-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW3000-S",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW3000-S-G2",
+    "potencia_w": 3000
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW30K-LT-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW30K-UT-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW33K-LT-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW3680-S",
+    "potencia_w": 3680
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW36K-LT-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW36K-UT-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW37.5K-UT-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW4000-S",
+    "potencia_w": 4000
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW4000-S-G2",
+    "potencia_w": 4000
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW40K-LT-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW45K-LT-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW5000-S",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW5000-S-G2",
+    "potencia_w": 5000
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW50K-LT-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW50K-LT-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW50K-UT-G3",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW6000-S",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW6000-S-G2",
+    "potencia_w": 6000
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW60K-LT-G3",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW7300-S",
+    "potencia_w": 7300
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW7500-S",
+    "potencia_w": 7500
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW75K-UT-G3",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW8000-S",
+    "potencia_w": 8000
+  },
+  {
+    "fabricante": "SOLPLANET",
+    "nome_modelo": "ASW9100-S",
+    "potencia_w": 9100
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG10K-TL-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG10RS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG10RS-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG110CX",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG110CX-P2",
+    "potencia_w": 110
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG125HV",
+    "potencia_w": 125
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG12KTL-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG12RT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG15CX-P2-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG15KTL-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG15RT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG15RT-P2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG17RT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG2.0RS-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG20CX-P2-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG20KTL-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG20RT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG20RT-P2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG250HX",
+    "potencia_w": 250
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG250HX-20",
+    "potencia_w": 250
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG25CX-P2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG25CX-P2-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG25CX-SA",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG2K-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG2K5-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG3.0RS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG3.0RS-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG3.0RS-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG30CX",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG30CX-P2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG333HX",
+    "potencia_w": 333
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG33CX",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG350HX",
+    "potencia_w": 350
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG36CX-P2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG36KTL-M",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG3K-D",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG3K-S",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG4.0RS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG4.0RS-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG40CX",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG40CX-P2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG4K-D",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG5.0RS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG5.0RS-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG50CX",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG50CX-P2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG5K-D",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG6.0RS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG6.0RS-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG60KTL",
+    "potencia_w": 60
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG6K-D",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG7.0RT",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG7.5RS-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG75CX",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG75CX-LV",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG75CX-P2",
+    "potencia_w": 75
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG8.0RS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG8.0RS-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG8K3-D",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG9.0RS",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "SUNGROW",
+    "nome_modelo": "SG9.0RS-L",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "WDC",
+    "nome_modelo": "10KTL-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "WDC",
+    "nome_modelo": "3KTL-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "WDC",
+    "nome_modelo": "5KTL-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "WDC",
+    "nome_modelo": "6KTL-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "WDC",
+    "nome_modelo": "8KTL-G2",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "WDC",
+    "nome_modelo": "TIT3-15k-V",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "WDC",
+    "nome_modelo": "TIT3-18k-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "WDC",
+    "nome_modelo": "TIT3-25k-V",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "WDC",
+    "nome_modelo": "TIT3-36k-LV",
+    "potencia_w": null
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200 M085",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200 M100",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200F M030",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200F M036",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200F M046",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200F M050",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200F M060",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200G M030 W0",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200G M030 W1",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200G M050 W0",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200G M050 W1",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200G M060 W0",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200G M060 W1",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200G M070 W0",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200G M070 W1",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200G M075 W1",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200G M080 W0",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200G M080 W1",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200G M090 W0",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200G M090 W1",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200G M105 W0",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW200G M105 W1",
+    "potencia_w": 200
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW300 M030 W00",
+    "potencia_w": 300
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW300 M050 W00",
+    "potencia_w": 300
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW300 M060 W00",
+    "potencia_w": 300
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW300 M080 W00",
+    "potencia_w": 300
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW300 M100 W00",
+    "potencia_w": 300
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW300H M020 L1",
+    "potencia_w": 300
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW300H M030 L1",
+    "potencia_w": 300
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW300H M030 W00",
+    "potencia_w": 300
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW300H M040 L1",
+    "potencia_w": 300
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW300H M050 L1",
+    "potencia_w": 300
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW300H M060 L1",
+    "potencia_w": 300
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW300H M075 W00",
+    "potencia_w": 300
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400 ST075",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G K015 W00",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G K020 W00",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G K025 W00",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G K030 W00",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G K037 W00",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G T012 W0",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G T012 W1",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G T015 W0",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G T015 W1",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G T020 W0",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G T020 W1",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G T025 W0",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G T025 W1",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G T050 W00",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G T060 W00",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G T075 W0",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G T075 W01",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW400G T100 W0",
+    "potencia_w": 400
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW420G K025 W00",
+    "potencia_w": 420
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW420G K075 W00",
+    "potencia_w": 420
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500G H250 W0",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500G ST075 W0",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500G T100 W0",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H SK020",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST012 M2",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST013",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST015",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST015 M2",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST017",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST017 M2",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST018",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST020",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST020 M2",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST022",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST030",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST030 M3",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST036",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST036 M3",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST040",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST040 M3",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST050",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST060",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST060 HV",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST100 HV",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST100 M1",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST200 H0",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H ST200 HV",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H T012 W00",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H T015 W00",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H T017 W00",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H T020 W00",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW500H T025 W00",
+    "potencia_w": 500
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW600 T010-44",
+    "potencia_w": 600
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW600 T011-22",
+    "potencia_w": 600
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW600 T020-44",
+    "potencia_w": 600
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW610 T018 W0",
+    "potencia_w": 610
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW610 T075 W0",
+    "potencia_w": 610
+  },
+  {
+    "fabricante": "WEG",
+    "nome_modelo": "SIW750-1.0-600",
+    "potencia_w": 750
+  }
+]

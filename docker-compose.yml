@@ -12,7 +12,7 @@ services:
       POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
       POSTGRES_DB: ${DATABASE_NAME}
     ports:
-      - "5432:5432"  # Mapeia porta do container para a porta do host
+      - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
@@ -21,6 +21,21 @@ services:
       timeout: 5s
       retries: 5
       start_period: 5s
+    networks:
+      - sunops_network # Adicionado à rede
+
+  # =====================================================
+  # CACHE: Serviço do Redis
+  # =====================================================
+  sunops-redis:
+    image: redis:7-alpine
+    container_name: sunops_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - sunops_network
 
   # =====================================================
   # ⚙️ Serviço da API Backend (FastAPI)
@@ -28,32 +43,40 @@ services:
   sunops-api:
     container_name: sunops_api
     build:
-      context: ./backend  # Pasta do backend
-    command: sh -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000"
+      context: ./backend
+    command: bash -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
     ports:
-      - "8000:8000"  # Porta da API no host
-    # Descomente a linha abaixo se quiser hot-reload no backend (modo dev)
-    # volumes:
-    #   - ./backend:/app
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
     environment:
       DATABASE_USERNAME: ${DATABASE_USERNAME}
       DATABASE_PASSWORD: ${DATABASE_PASSWORD}
       DATABASE_NAME: ${DATABASE_NAME}
-      DATABASE_HOST: postgres-db
+      DATABASE_HOST: postgres-db # Host do DB
 
       # Variáveis de autenticação
       SECRET_KEY: ${SECRET_KEY}
       ALGORITHM: ${ALGORITHM}
       ACCESS_TOKEN_EXPIRE_MINUTES: ${ACCESS_TOKEN_EXPIRE_MINUTES}
 
-      # Variáveis do primeiro admin (setup inicial)
+      # Variáveis do primeiro admin
       FIRST_ADMIN_EMAIL: ${FIRST_ADMIN_EMAIL}
       FIRST_ADMIN_PASSWORD: ${FIRST_ADMIN_PASSWORD}
       FIRST_ADMIN_NAME: ${FIRST_ADMIN_NAME}
 
+      # --- Variáveis do Redis (Adicionadas) ---
+      REDIS_HOST: sunops-redis # Nome do serviço Redis
+      REDIS_PORT: 6379
+      REDIS_DB: 0
+
     depends_on:
       postgres-db:
         condition: service_healthy
+      sunops-redis: # Adicionada dependência do Redis
+        condition: service_started
+    networks:
+      - sunops_network # Adicionado à rede
 
   # =====================================================
   # 💻 Serviço do Frontend React/Vite (SunOps)
@@ -61,21 +84,29 @@ services:
   sunops-frontend:
     container_name: sunops_frontend
     build:
-      context: ./frontend  # Pasta do frontend
+      context: ./frontend
       dockerfile: Dockerfile
     volumes:
       - ./frontend:/app
-      - /app/node_modules  # Volume anônimo para node_modules
+      - /app/node_modules
     ports:
-      - "5173:5173"  # Porta do Vite no host
+      - "5173:5173"
     environment:
-      - VITE_API_BASE_URL=http://localhost:8000
+      - VITE_API_BASE_URL=http://localhost:8000 # Esta linha está CORRETA.
     depends_on:
       - sunops-api
+    networks:
+      - sunops_network # Adicionado à rede
 
 # =====================================================
-# 📦 Volumes Persistentes
+# 📦 Redes e Volumes Persistentes
 # =====================================================
+networks:
+  sunops_network:
+    driver: bridge
+
 volumes:
   postgres_data:
     name: sunops-postgres-data
+  redis_data: # Adicionado volume do Redis
+    name: sunops-redis-data

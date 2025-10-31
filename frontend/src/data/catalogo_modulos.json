@@ -1,0 +1,5843 @@
+[
+
+    {
+      "fabricante": "FIRST SOLAR",
+      "nome_modelo": "FS-4105-2",
+      "potencia_w": 105
+    },
+    {
+      "fabricante": "FIRST SOLAR",
+      "nome_modelo": "FS-4107-2",
+      "potencia_w": 108
+    },
+    {
+      "fabricante": "FIRST SOLAR",
+      "nome_modelo": "FS-4110-2",
+      "potencia_w": 110
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE340M6-72",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE345M6-72",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE350M6-72",
+      "potencia_w": 350
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE355M6-72",
+      "potencia_w": 355
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE360M6-72",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE365M6-72",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE370M6-72",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE375M6-72",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE380M6-72",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE395HM6-72",
+      "potencia_w": 395
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE400HM6-72",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE410HM6L-72",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE430HM6L-72",
+      "potencia_w": 430
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE440HM6L-72",
+      "potencia_w": 440
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE450HM6L-72",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE460HM6L-60",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE505HM6L-66",
+      "potencia_w": 505
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE550HM6L-72",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE550HM6L-72 BLACK FRAME",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "AE SOLAR",
+      "nome_modelo": "AE650ME-132BD",
+      "potencia_w": 650
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6M-1500V-340",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6M-1500V-345",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6M-1500V-350",
+      "potencia_w": 350
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6M-1500V-355",
+      "potencia_w": 355
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6M-1500V-360",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6M-1500V-365",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6M-1500V-370",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6M-1500V-375",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6M-1500V-380",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6M-HC-400",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6M-HCB-400",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6M144-HC-450",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6M144-HCB-445",
+      "potencia_w": 445
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6P-1000V-300",
+      "potencia_w": 300
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6P-1000V-305",
+      "potencia_w": 305
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6P-1000V-310",
+      "potencia_w": 310
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6P-1000V-315",
+      "potencia_w": 315
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6P-1000V-320",
+      "potencia_w": 320
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6P-1000V-325",
+      "potencia_w": 325
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6P-1000V-330",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6P-1000V-335",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-6P-1000V-340",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-7M132-HC-505",
+      "potencia_w": 505
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-7M144-HC-545",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-7M144-HC-550",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-7M144-HC-555",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-7M144-HC-560",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-7M144-HC-565",
+      "potencia_w": 565
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-7M144-HC-570",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-7M144-HC-575",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-7M144-HC-585",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-8M120-HC-605",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-8M132-BHC-695",
+      "potencia_w": 695
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-8M132-BHC-700",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-8M132-BHC-705",
+      "potencia_w": 705
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-8M132-BHC-710",
+      "potencia_w": 710
+    },
+    {
+      "fabricante": "AMERISOLAR",
+      "nome_modelo": "AS-8M132-BHC-715",
+      "potencia_w": 715
+    },
+    {
+      "fabricante": "AMSO SOLAR",
+      "nome_modelo": "AS550S8",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTRO N5 CHSM72N(DG)/F-BH 570",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTRO N5 CHSM72N(DG)/F-BH 575",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTRO N5 CHSM72N(DG)/F-BH 580",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTRO N5 CHSM72N(DG)/F-BH 585",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTRO N5 CHSM72N(DG)/F-BH 590",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTRO N5 CHSM72N(DG)/F-BH 595",
+      "potencia_w": 595
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTRO N5 CHSM72N(DG)/F-HC 570",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTRO N5 CHSM72N(DG)/F-HC 575",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTRO N5 CHSM78N(DG)/F-BH BIFACIAL 605",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTRO N5 CHSM78N(DG)/F-BH BIFACIAL 610",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTRO N5 CHSM78N(DG)/F-BH BIFACIAL 615",
+      "potencia_w": 615
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTRO N5 CHSM78N(DG)/F-BH BIFACIAL 620",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTRO N5 CHSM78N(DG)/F-BH BIFACIAL 625",
+      "potencia_w": 625
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTRO N5 CHSM78N(DG)/F-BH BIFACIAL 630",
+      "potencia_w": 630
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTRO N7 CHSM66RN(DG)/F-BH BIFACIAL 600",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTRO N7 CHSM66RN(DG)/F-BH BIFACIAL 610",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROHALO CHSM6612M/HV 350",
+      "potencia_w": 350
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROHALO CHSM6612M/HV 355",
+      "potencia_w": 355
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROHALO CHSM6612M/HV 360",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROHALO CHSM6612M/HV 365",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROHALO CHSM6612M/HV 370",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROSEMI CHSM66M-HC 665",
+      "potencia_w": 665
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROSEMI CHSM72M-HC 355",
+      "potencia_w": 355
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROSEMI CHSM72M-HC 360",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROSEMI CHSM72M-HC 365",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROSEMI CHSM72M-HC 370",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROSEMI CHSM72M-HC 375",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROSEMI CHSM72M-HC 380",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROSEMI CHSM72M-HC 410",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROSEMI CHSM72M-HC 415",
+      "potencia_w": 415
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROSEMI CHSM72M-HC 450",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROSEMI CHSM72M-HC 455",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROSEMI CHSM72M-HC 540",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROSEMI CHSM72M-HC 545",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROSEMI CHSM72M-HC 550",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROSEMI CHSM72M-HC 555",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROTWINS CHSM66M(DG)/F-BH BIFACIAL 655",
+      "potencia_w": 655
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "ASTROTWINS CHSM72M(DG)/F-BH BIFACIAL 545",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "STAVE II CHSM6612P/HV 330",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "STAVE II CHSM6612P/HV 335",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "STAVE II CHSM6612P/HV 340",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "ASTRONERGY",
+      "nome_modelo": "STAVE II CHSM6612P/HV 345",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "AUSTA",
+      "nome_modelo": "AU440-36V-MH",
+      "potencia_w": 440
+    },
+    {
+      "fabricante": "AUSTA",
+      "nome_modelo": "AU545-36V-MH",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "AUSTA",
+      "nome_modelo": "AU550-36V-MH",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "BALFAR",
+      "nome_modelo": "BS144M-550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "BALFAR",
+      "nome_modelo": "BS72M-380W",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "BALFAR",
+      "nome_modelo": "BS72M-400W",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "BALFAR",
+      "nome_modelo": "BS72M-545W",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "BALFAR",
+      "nome_modelo": "BS72P-330W",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "BALFAR",
+      "nome_modelo": "BS72P-335W",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "BALFAR",
+      "nome_modelo": "BS72P-370W",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "BIFACIAL HJT 700",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "BS585M-144",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "BS620M-132-30",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "MONO 144 450",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "MONO 144 455",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "MONO 144 540",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "MONO 144 545",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "MONO 144 550",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "MONO 144 BS560M",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "MONO 72 340",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "MONO 72 350",
+      "potencia_w": 350
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "MONO 72 360",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "MONO 72 370",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "MONO 72 375",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "MONO 72 380",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "MONO 72 390",
+      "potencia_w": 390
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "POLI 72 320",
+      "potencia_w": 320
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "POLI 72 325",
+      "potencia_w": 325
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "POLI 72 330",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "POLI 72 335",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "BEDIN SOLAR",
+      "nome_modelo": "POLI 72 340",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "BELENERGY",
+      "nome_modelo": "MFVHO-MO-120-460W",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "BELENERGY",
+      "nome_modelo": "MFVHO-MO-144-550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "BELENERGY",
+      "nome_modelo": "MFVHO-MO-156-600W",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "BELENERGY",
+      "nome_modelo": "MFVHO-PO-156-460W",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "BELENERGY",
+      "nome_modelo": "MFVLE-MO-132-665W",
+      "potencia_w": 665
+    },
+    {
+      "fabricante": "BELENERGY",
+      "nome_modelo": "MFVOS-MO-120-460W",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "BELENERGY",
+      "nome_modelo": "MFVOS-MO-144-410W",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "BELENERGY",
+      "nome_modelo": "MFVOS-MO-144-450W",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "BELENERGY",
+      "nome_modelo": "MFVOS-MO-144-545W",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "BELENERGY",
+      "nome_modelo": "MFVOS-PO-72-340W",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "BELENERGY",
+      "nome_modelo": "MFVRE-MO-144-550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "BELENERGY",
+      "nome_modelo": "MFVTA-MO-144-550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "BELENERGY",
+      "nome_modelo": "MFVZN-MO-120-460W",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "BELENERGY",
+      "nome_modelo": "MFVZN-MO-144-545W",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "BEYONDSUN",
+      "nome_modelo": "DUDRIVE TSHM535-144HV",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "BOLD ENERGY",
+      "nome_modelo": "550-144MH",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "HRP72S-570",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "HRP72S-575",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "M6K-36-SÉRIE-5BB-340",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "M6K-36-SÉRIE-5BB-345",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "M6K-36-SÉRIE-5BB-350",
+      "potencia_w": 350
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "M6K-36-SÉRIE-5BB-355",
+      "potencia_w": 355
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "M6K-36-SÉRIE-5BB-360",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "M6K-36-SÉRIE-5BB-365",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "M6K-36-SÉRIE-5BB-370",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "M6K-36-SÉRIE-5BB-375",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "M6K-36-SÉRIE-5BB-380",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "M6K-36-SÉRIE-5BB-385",
+      "potencia_w": 385
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "M7K-36-SÉRIE-5BB-390",
+      "potencia_w": 390
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "M7K-36-SÉRIE-5BB-400",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MBK-36-SÉRIE-5P-390",
+      "potencia_w": 390
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MGK-36-440",
+      "potencia_w": 440
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MGK-36-445",
+      "potencia_w": 445
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MGK-36-450",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MGK-36-455",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MGTK-36-BIFACIAL-450",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MIK-36-450",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MIK-36-455",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MIK-36-SÉRIE-5BB-400",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MLK-36-520 NACIONAL",
+      "potencia_w": 520
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MLK-36-530",
+      "potencia_w": 530
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MLK-36-530 NACIONAL",
+      "potencia_w": 530
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MLK-36-535",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MLK-36-535 NACIONAL",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MLK-36-540",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MLK-36-540 NACIONAL",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MLK-36-545",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MLK-36-545 NACIONAL",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MLK-36-550 NACIONAL",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "MLTK-36-BIFACIAL-530",
+      "potencia_w": 530
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "P6C-36-SÉRIE-5BB-330W",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "P6C-36-SÉRIE-5BB-335W",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "P6K-36-SÉRIE-5BB-310",
+      "potencia_w": 310
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "P6K-36-SÉRIE-5BB-315",
+      "potencia_w": 315
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "P6K-36-SÉRIE-5BB-320",
+      "potencia_w": 320
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "P6K-36-SÉRIE-5BB-325",
+      "potencia_w": 325
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "P6K-36-SÉRIE-5BB-330",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "P6K-36-SÉRIE-5BB-335",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "P6K-36-SÉRIE-5BB-340",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "PHK-36-SÉRIE-4BB-335",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "PHX72D-580",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "PIK-36-SÉRIE-5BB-340",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "TUI66T-600",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "TUI66T-605",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "BYD",
+      "nome_modelo": "TUI66T-610",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3Y-485MS",
+      "potencia_w": 485
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "BIFACIAL HIKU6 CS6W-540MB-AG",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "BIHIKU6 CS6W-535MB-AG",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "BIHIKU7 CS7N-650MB-AG",
+      "potencia_w": 650
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "BIHIKU7 CS7N-655MB-AG",
+      "potencia_w": 655
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "BIHIKU7 CS7N-660MB-AG",
+      "potencia_w": 660
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "BIKU CS3U-360PB-AG",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "CS6K-270P",
+      "potencia_w": 270
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "CS6K-275P",
+      "potencia_w": 275
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "CS6K-280M",
+      "potencia_w": 280
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIDM CS1U-420MS",
+      "potencia_w": 420
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-390P",
+      "potencia_w": 390
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-395P",
+      "potencia_w": 395
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-400P",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-405P",
+      "potencia_w": 405
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-410P",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-415P",
+      "potencia_w": 415
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-420P",
+      "potencia_w": 420
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-425MS",
+      "potencia_w": 425
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-425P",
+      "potencia_w": 425
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-430MS",
+      "potencia_w": 430
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-430P",
+      "potencia_w": 430
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-435MS",
+      "potencia_w": 435
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-435P",
+      "potencia_w": 435
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-440MS",
+      "potencia_w": 440
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-445MS",
+      "potencia_w": 445
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-450MS (35MM)",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-450MS (40MM)",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-455MS (35MM)",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3W-455MS (40MM)",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU CS3Y-490MS",
+      "potencia_w": 490
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU6 CS6W-535M",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU6 CS6W-540MS",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU6 CS6W-545M",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU6 CS6W-550MS",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU6 CS6W-555MS",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU6 CS6W-585T",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU6 CS6W-590T",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU7 CS7L-590MS",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU7 CS7L-605MS",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU7 CS7N-660MS",
+      "potencia_w": 660
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU7 CS7N-665MS",
+      "potencia_w": 665
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "HIKU7 CS7N-670MS",
+      "potencia_w": 670
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KU5 CS3S-430MS",
+      "potencia_w": 430
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KU5 CS3S-435MS",
+      "potencia_w": 435
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KU5 CS3S-440MS",
+      "potencia_w": 440
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-325P",
+      "potencia_w": 325
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-325P (1500V)",
+      "potencia_w": 325
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-330P",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-330P (1500V)",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-335P",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-335P (1500V)",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-340P",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-340P (1500V)",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-340P HALF CELL (1500V)",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-345P",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-345P (1500V)",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-350P",
+      "potencia_w": 350
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-350P (1500V)",
+      "potencia_w": 350
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-355P",
+      "potencia_w": 355
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-355P (1500V)",
+      "potencia_w": 355
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-360MS",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-360MS (1500V)",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-360P",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-360P (1500V)",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-365MS",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-365MS (1500V)",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-365P (1500V)",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-370MS",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-370MS (1500V)",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-370P (1500V)",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-375MS",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-375MS (1500V)",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-380MS (1500V)",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-385MS (1500V)",
+      "potencia_w": 385
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-390MS (1500V)",
+      "potencia_w": 390
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUMAX CS3U-395MS (1500V)",
+      "potencia_w": 395
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUPOWER CS3K-275P",
+      "potencia_w": 275
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUPOWER CS3K-280P",
+      "potencia_w": 280
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUPOWER CS3K-285P",
+      "potencia_w": 285
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUPOWER CS3K-290P",
+      "potencia_w": 290
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUPOWER CS3K-295P",
+      "potencia_w": 295
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUPOWER CS3K-300P",
+      "potencia_w": 300
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUPOWER CS3K-305P",
+      "potencia_w": 305
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "KUPOWER CS3K-310P",
+      "potencia_w": 310
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "MAXPOWER CS3U-350P (1500V)",
+      "potencia_w": 350
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "MAXPOWER CS6K-285M",
+      "potencia_w": 285
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "MAXPOWER CS6U-325M",
+      "potencia_w": 325
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "MAXPOWER CS6U-325P",
+      "potencia_w": 325
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "MAXPOWER CS6U-325P (1500V)",
+      "potencia_w": 325
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "MAXPOWER CS6U-330M",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "MAXPOWER CS6U-330P",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "MAXPOWER CS6U-330P (1500V)",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "MAXPOWER CS6U-335M",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "MAXPOWER CS6U-335P",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "MAXPOWER CS6U-335P (1500V)",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "MAXPOWER CS6U-340M",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "MAXPOWER CS6U-345P",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "SUPERPOWER CS6K-290MS",
+      "potencia_w": 290
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "SUPERPOWER CS6K-295MS",
+      "potencia_w": 295
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "SUPERPOWER CS6K-300MS",
+      "potencia_w": 300
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "SUPERPOWER CS6K-305MS",
+      "potencia_w": 305
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "TOPBIHIKU6 CS6.2-66TB-610",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "TOPBIHIKU6 CS6.2-66TB-615",
+      "potencia_w": 615
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "TOPBIHIKU6 CS6.2-66TB-620",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "TOPBIHIKU6 CS6W-560TB-AG",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "TOPBIHIKU6 CS6W-565TB-AG",
+      "potencia_w": 565
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "TOPBIHIKU6 CS6W-570TB-AG",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "TOPBIHIKU6 CS6W-575TB-AG",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "TOPBIHIKU6 CS6W-580TB-AG",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "TOPBIHIKU7 CS7N-690TB-AG",
+      "potencia_w": 690
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "TOPBIHIKU7 CS7N-695TB-AG",
+      "potencia_w": 695
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "TOPBIHIKU7 CS7N-700TB-AG",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "CANADIAN SOLAR",
+      "nome_modelo": "TOPBIHIKU7 CS7N-705TB-AG",
+      "potencia_w": 705
+    },
+    {
+      "fabricante": "CONSORT SOLAR",
+      "nome_modelo": "CST-M10/72H 555W",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHJ66Y18/DG-700W",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM60X10-460W",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72-345W",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72-350W",
+      "potencia_w": 350
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72-355W",
+      "potencia_w": 355
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72-360W",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72-365W",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72L9-440W",
+      "potencia_w": 440
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72L9-445W",
+      "potencia_w": 445
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72L9/BF-450W",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72X10-530W",
+      "potencia_w": 530
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72X10-540W",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72X10-545W",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72X10-550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72X10-555W",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72X10/BF/FS-555W",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72X10/FS-550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72X10/FS-555W",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHM72X10/FS/BF-550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN66Z16/DG-610W",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN66Z16/DG-620W",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN72K16/DG-595W",
+      "potencia_w": 595
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN72R18/BF-610W",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN72R18/FS-605W",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN72R18/FS-610W",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN72R18/FS-615W",
+      "potencia_w": 615
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN72R18/FS-620W",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN72R18/FS-625W",
+      "potencia_w": 625
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN72R18/FS-630W",
+      "potencia_w": 630
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN72X16-575W",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN72X16/DG-570W",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN72X16/DG-575W",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN72X16/DG-585W",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN72X16/FS-575W",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN72X16/FS-580W",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHN72X16/FS-585W",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHP72-315W",
+      "potencia_w": 315
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHP72-320W",
+      "potencia_w": 320
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHP72-325W",
+      "potencia_w": 325
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHP72-330W",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHP72-335W",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHP72X-335W-5BB",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHP72X-340W-5BB",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHP72X-345W-5BB",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHTM60X10-460W",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHTM60X10/FS-460W",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "DHTM72X10/BF-545W",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "FSM60X10-460W",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "HCM72X9-400W",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "HCM72X9-405W",
+      "potencia_w": 405
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "HCM72X9-410W",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "HCM78X9-440W",
+      "potencia_w": 440
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "HCP72X9-345W",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "HCP72X9-350W",
+      "potencia_w": 350
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "HCP72X9-355W",
+      "potencia_w": 355
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "HCP72X9-360W",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "HCP72X9-365W",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "HCP72X9-370W",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "HCP72X9-375W",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "HCP78X9-400W",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "DAH",
+      "nome_modelo": "HCP78X9-405W",
+      "potencia_w": 405
+    },
+    {
+      "fabricante": "DAS SOLAR",
+      "nome_modelo": "DAS-DH132NE-BF 605W",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "DAS SOLAR",
+      "nome_modelo": "DAS-DH132NE-BF 610W",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "DAS SOLAR",
+      "nome_modelo": "DAS-DH144NA 570W",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "DAS SOLAR",
+      "nome_modelo": "DAS-DH144NA-BF 575W",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "DAS SOLAR",
+      "nome_modelo": "DAS-DH144PA 550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "DAS SOLAR",
+      "nome_modelo": "DAS-DH156NA-BF 610W",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "DMEGC SOLAR",
+      "nome_modelo": "DM580M10T-B72HSW/HBW",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "DMEGC SOLAR",
+      "nome_modelo": "DM585M10T-B72HSW/HBW",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "DMEGC SOLAR",
+      "nome_modelo": "DM590M10T-B72HSW",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "DMEGC SOLAR",
+      "nome_modelo": "DM595M10-B78HSW",
+      "potencia_w": 595
+    },
+    {
+      "fabricante": "DMEGC SOLAR",
+      "nome_modelo": "DM600M10RT-B72HST/HBT",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "DMEGC SOLAR",
+      "nome_modelo": "DM600M10RT-B72HSW",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "DMEGC SOLAR",
+      "nome_modelo": "DM605M10RT-B72HST/HBT",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "DMEGC SOLAR",
+      "nome_modelo": "DM610M10RT-B72HST/HBT",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "DMEGC SOLAR",
+      "nome_modelo": "DM610M10RT-B72HSW",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "EGING",
+      "nome_modelo": "EG-NT66-HRC/BF-DG-B-605",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "EGING",
+      "nome_modelo": "EG-NT66-HRCV-620",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "EGING",
+      "nome_modelo": "EG-NT66-HU/BF-DG-700",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELG545-M72HLP",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELG550-M72HCH",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELG550-M72HOD",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELG555-M72HAE",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELG560-M72HSN",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELG570-M72HCH",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELG580-M16NSO",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELG585-M72HCH",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELG590-M78HLP",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELGIN-275W",
+      "potencia_w": 275
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELGIN-330W",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELGIN-340W",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELGIN-370W",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELGIN-380W",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELGIN-400W",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELGIN-410W",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "ELGIN",
+      "nome_modelo": "ELGIN-450W",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "EMPALUX",
+      "nome_modelo": "MF 00350",
+      "potencia_w": 350
+    },
+    {
+      "fabricante": "EMPALUX",
+      "nome_modelo": "MF 00450",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "EMPALUX",
+      "nome_modelo": "MF 00465",
+      "potencia_w": 465
+    },
+    {
+      "fabricante": "EMPALUX",
+      "nome_modelo": "MF 00575",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "EMPALUX",
+      "nome_modelo": "MF 00605",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "EMPALUX",
+      "nome_modelo": "MF 00690",
+      "potencia_w": 690
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "72HC-545M",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "90M-440M",
+      "potencia_w": 440
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "EAGLE PRO-66HD-700M",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "ERA-RA72HC-590M",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "ESPHSC-450W",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "ESPHSC-540W",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "ESPHSC-54HC-410M",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "ESPHSC-550M",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "ESPHSC-550M BIFACIAL",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "ESPHSC-555M",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "ESPSC-390M",
+      "potencia_w": 390
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "PRO-72HC-560M",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "PRO-72HC-565M",
+      "potencia_w": 565
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "PRO-72HC-570",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "PRO-72HC-570M",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "PRO-72HC-575M",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "PRO-72HC-580",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "PRO-72HC-580M",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "PRO-72HC-585",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "PRO-72HC-600M",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "RC-66HC-600M",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "RC-66HC-610M",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "RC-66HC-620M",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "RC-66HD(CF)-620M",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "ERA SOLAR",
+      "nome_modelo": "RC-66HD-610M",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "M10/72H 545",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "M10/72H 550",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "M3/72H 420",
+      "potencia_w": 420
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "NT10/72GDF 570",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "NT10/72GDF 580",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "NT12R/66GDF 610",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/60 255W",
+      "potencia_w": 255
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/60 260W",
+      "potencia_w": 260
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/60 265W",
+      "potencia_w": 265
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/60 270W",
+      "potencia_w": 270
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/72 310W",
+      "potencia_w": 310
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/72 315W",
+      "potencia_w": 315
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/72 320W",
+      "potencia_w": 320
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/72 325W",
+      "potencia_w": 325
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/72 330W",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/72H 335W",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/72H 340",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/72H 345",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/72H 350",
+      "potencia_w": 350
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/72H 355",
+      "potencia_w": 355
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/72H 360",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/72H 365",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/72H 370",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "GCL",
+      "nome_modelo": "P6/72H 375",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "GOKIN SOLAR",
+      "nome_modelo": "GK-1-72HT-570M",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "GOKIN SOLAR",
+      "nome_modelo": "GK-1-72HT-585M",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "GOKIN SOLAR",
+      "nome_modelo": "GK-1-72HTBD-585M",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "GOKIN SOLAR",
+      "nome_modelo": "GK-2-66HJBD-700M",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "GOKIN SOLAR",
+      "nome_modelo": "GK-4-66HTBD-610M",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "GREENSUN SOLAR",
+      "nome_modelo": "GS-M12/100H 550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "GREENSUN SOLAR",
+      "nome_modelo": "GS-M12/110H 570W",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "HANERSUN",
+      "nome_modelo": "CP18-72H555W",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "HANERSUN",
+      "nome_modelo": "CP18-72HT 550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "HANERSUN",
+      "nome_modelo": "HN18-72H 555W",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "HANERSUN",
+      "nome_modelo": "HN18-72H 570W",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "HANERSUN",
+      "nome_modelo": "HN18-72H 575W",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "HANERSUN",
+      "nome_modelo": "HN18-72H 585W",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "HANERSUN",
+      "nome_modelo": "HN18N-72H 570W",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "HANERSUN",
+      "nome_modelo": "HN19RN-72H 600W",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "HANERSUN",
+      "nome_modelo": "HN19RN-72H 605W",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "HANERSUN",
+      "nome_modelo": "HN19RN-72H 610W",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "HANERSUN",
+      "nome_modelo": "HN19RN-72H 615W",
+      "potencia_w": 615
+    },
+    {
+      "fabricante": "HANERSUN",
+      "nome_modelo": "HN19RN-72H 620W",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "HANERSUN",
+      "nome_modelo": "HN21H-66HT 700W",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "HANERSUN",
+      "nome_modelo": "HN21RN-66HT 610W",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "HELIA",
+      "nome_modelo": "MONO 385W",
+      "potencia_w": 385
+    },
+    {
+      "fabricante": "HELIA",
+      "nome_modelo": "MONO HC 430W",
+      "potencia_w": 430
+    },
+    {
+      "fabricante": "HELIA",
+      "nome_modelo": "MONO HC 505W",
+      "potencia_w": 505
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMB132T10R-570CB",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMB132T12R-610HL",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMB144T10-585HL",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF132T10R-570HL",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF132T10R-575HL",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF132T12R-595HL",
+      "potencia_w": 595
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF132T12R-600HL",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF132T12R-605HL",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF132T12R-610HL",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144M-350A",
+      "potencia_w": 350
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144M-355A",
+      "potencia_w": 355
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144M-360A",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144M-365A",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144M-370A",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144M-375A",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144M-410H",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144M-465HL",
+      "potencia_w": 465
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144M10-550H",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144M10-555H",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144M10-560HL",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144M10-580HL",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144T10-570HL",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144T10-575HL",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144T10-585HL",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144T10R-580HL",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF144T10R-590HL",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72M 355H",
+      "potencia_w": 355
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72M 360H",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72M 365H",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72M 370H",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72M 375H",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72M 380H",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72P-300A",
+      "potencia_w": 300
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72P-305A",
+      "potencia_w": 305
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72P-310A",
+      "potencia_w": 310
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72P-315A",
+      "potencia_w": 315
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72P-320A",
+      "potencia_w": 320
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72P-325A",
+      "potencia_w": 325
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72P-335A",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72P-340A",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72P-345A",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72P-350A",
+      "potencia_w": 350
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72P-355A",
+      "potencia_w": 355
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HMF72P-360A",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "HELIUS",
+      "nome_modelo": "HYPERION HMB132H12-700HL",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "HERSHEY-POWER",
+      "nome_modelo": "HS-72HB 450M",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HB-M16R/132H 600W",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M10/120H 460W",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M10/120H 465W",
+      "potencia_w": 465
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M10/120H 475W",
+      "potencia_w": 475
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M10/144H 540W",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M10/144H 545W",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M10/144H 550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M10/144H 555W",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M10/144H 560W",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M10/144H 565W",
+      "potencia_w": 565
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M10/144H 570W",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M10/144H 575W",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M10/156H 600W",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M10/156H 605W",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M12/110H 555W",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M12/120H 600W",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M12/132G 700W",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M12/132G HJT JGDN132 700W",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M12/132H 665W",
+      "potencia_w": 665
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M16/144H 590W",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "HONOR SOLAR",
+      "nome_modelo": "HY-M16/144H 600W",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "HT-SAAE",
+      "nome_modelo": "HT66-18X-505W",
+      "potencia_w": 505
+    },
+    {
+      "fabricante": "HT-SAAE",
+      "nome_modelo": "HT72-156P-345W",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "HT-SAAE",
+      "nome_modelo": "HT72-166M-450W",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "HUASUN",
+      "nome_modelo": "HS-210-B132 DS700",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "HUASUN",
+      "nome_modelo": "HS-210-B132 DS710",
+      "potencia_w": 710
+    },
+    {
+      "fabricante": "HUASUN",
+      "nome_modelo": "HS-210R-B132 DS610",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "HUASUN",
+      "nome_modelo": "HSN-210R-B132 DS610",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "HULTER",
+      "nome_modelo": "HTRS6-575NG-E3",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "HY SOLAR",
+      "nome_modelo": "HY-NT10/72GDF-585W",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "INIMEX",
+      "nome_modelo": "HS-182-B144-DS585",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSB-455 HC",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSB-535M HC",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSB-555 HC",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSC 330P",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSC 450BM HC",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSC 555 HC",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSC-415M HC",
+      "potencia_w": 415
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSE 535M HC",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSH 540BM HC",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSH-550 HC",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSJ 340P",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSJ-445M HC",
+      "potencia_w": 445
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSL-590M HC",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMST 335P HC",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMST 340P HC",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMST 380M",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMST-430 SG BLACK",
+      "potencia_w": 430
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMST-440M HC",
+      "potencia_w": 440
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMST-545B SG",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSZ 335P DG",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSZ 345P DG",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSZ-420M HC",
+      "potencia_w": 420
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSZ-425M HC",
+      "potencia_w": 425
+    },
+    {
+      "fabricante": "INTELBRAS",
+      "nome_modelo": "EMSZ-430M HC",
+      "potencia_w": 430
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM66D42-570/MB",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM66D45-600/LB",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM66D45-605/LB",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM66D45-610/LB",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM66D45-615/LB",
+      "potencia_w": 615
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM66D46-700/LB",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM66D46-705/LB",
+      "potencia_w": 705
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM66D46-720/LB",
+      "potencia_w": 720
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D20-455/MB",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D30-535/MB",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D30-540/MB",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D30-545/MB",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D30-545/MR",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D30-550/MB",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D30-555/GB",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D40-565/MB",
+      "potencia_w": 565
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D40-570/MB",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D40-575/MB BF",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D40-580/MB",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D40-585/MB",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D40-595/MB",
+      "potencia_w": 595
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D42-615/LB",
+      "potencia_w": 615
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D42-620/LB",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D42-625/LB",
+      "potencia_w": 625
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D42-630/LB",
+      "potencia_w": 630
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72D42-635/LB",
+      "potencia_w": 635
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S01-340/PR",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S01-345/PR",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S01-350/PR",
+      "potencia_w": 350
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S01-355/PR",
+      "potencia_w": 355
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S01-360/PR",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S01-370/PR",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S01-375/PR",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S03-360/PR",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S03-365/PR",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S03-370/PR",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S03-375/PR",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S03-375/PR (1500V)",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S03-380/PR",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S03-380/PR (1500V)",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S09-375/PR",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S09-380/PR",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S09-385/PR",
+      "potencia_w": 385
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S09-390/PR",
+      "potencia_w": 390
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S09-395/PR",
+      "potencia_w": 395
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S10-400/MR",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S10-410/MR",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S20-450/MR",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S20-455/MR",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S30-535/MR",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S30-540/MR",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S30-545/MR",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM72S30-550/MR",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM78D30-580/MB",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM78D30-585/MB",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM78D30-590/MB",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM78S10-425/MR",
+      "potencia_w": 425
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM78S10-430/MR",
+      "potencia_w": 430
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM78S10-435/MR",
+      "potencia_w": 435
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM78S10-440/MR",
+      "potencia_w": 440
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM78S10-445/MR",
+      "potencia_w": 445
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM78S10-450/MR",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAM78S10-455/MR",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAP6(K)-72-310/4BB",
+      "potencia_w": 310
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAP6(K)-72-315/4BB",
+      "potencia_w": 315
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAP6(K)-72-320/4BB",
+      "potencia_w": 320
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAP6(K)-72-325/4BB",
+      "potencia_w": 325
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAP6(K)-72-330/4BB",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAP72S01-310/SC (1500V)",
+      "potencia_w": 310
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAP72S01-315/SC (1500V)",
+      "potencia_w": 315
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAP72S01-320/SC (1500V)",
+      "potencia_w": 320
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAP72S01-325/SC (1500V)",
+      "potencia_w": 325
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAP72S01-330/SC (1500V)",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAP72S03-330/SC (1500V) HALF-CELL",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "JA SOLAR",
+      "nome_modelo": "JAP72S03-335/SC (1500V) HALF-CELL",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "JAYU",
+      "nome_modelo": "JY340P6-FG-5",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "JAYU",
+      "nome_modelo": "JY410M6-FS-9",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "JETION SOLAR",
+      "nome_modelo": "JT550SGH",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "JH SOLAR",
+      "nome_modelo": "JHM5/72H555",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "JH SOLAR",
+      "nome_modelo": "JHM5/72H560",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "JH SOLAR",
+      "nome_modelo": "JHN5/72GD570",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "JINERGY",
+      "nome_modelo": "JNBN144-590",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM335PP-72H-V",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM340PP-72H-V",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM390M-72H-V",
+      "potencia_w": 390
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM395M-72H-V",
+      "potencia_w": 395
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM400M-72H-V",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM405M-72H-V",
+      "potencia_w": 405
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM410M-72H-V",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM435M-6TL4-V",
+      "potencia_w": 435
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM435M-78H-V",
+      "potencia_w": 435
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM440M-60HL4-V",
+      "potencia_w": 440
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM440M-6TL4-V",
+      "potencia_w": 440
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM450M-60HL4-V",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM455M-60HL4-V",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM460M-60HL4-V",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM460M-7RL3-V",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM465M-7RL3-V",
+      "potencia_w": 465
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM465N-60HL4-V",
+      "potencia_w": 465
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM470M-7RL3-V",
+      "potencia_w": 470
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM470N-60HL4-V",
+      "potencia_w": 470
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM475N-60HL4-V",
+      "potencia_w": 475
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM480N-60HL4-V",
+      "potencia_w": 480
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM515M-7TL4-V",
+      "potencia_w": 515
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM520M-7TL4-V",
+      "potencia_w": 520
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM525M-72HL4-TV",
+      "potencia_w": 525
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM525M-7TL4-V",
+      "potencia_w": 525
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM530M-72HL4-TV",
+      "potencia_w": 530
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM530M-7TL4-V",
+      "potencia_w": 530
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM535M-7TL4-V",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM540M-72HL4-BDVP",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM540M-72HL4-V",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM545M-72HL4-V",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM550M-72HL4-BDVP",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM550M-72HL4-V",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM555M-72HL4-V",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM560M-72HL4-V",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM565N-72HL4-V",
+      "potencia_w": 565
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM570N-72HL4-BDV",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM570N-72HL4-V",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM575N-72HL4-BDV",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM575N-72HL4-V",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM580N-72HL4-V",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM585N-72HL4-V",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM590N-72HL4-BDV",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM595-72HL4-BDV",
+      "potencia_w": 595
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM605N-66HL4M-BDV",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM610N-66HL4M-BDV",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM615N-66HL4M-BDV",
+      "potencia_w": 615
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM620N-66HL4M-BDV",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "JINKO",
+      "nome_modelo": "JKM635N-66HL4M-V",
+      "potencia_w": 635
+    },
+    {
+      "fabricante": "KOMECO",
+      "nome_modelo": "MONO PERC HALF CELL 550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "KOMECO",
+      "nome_modelo": "MONO PERC HALF CELL 595W",
+      "potencia_w": 595
+    },
+    {
+      "fabricante": "KOPP",
+      "nome_modelo": "KALUANA-545W",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "KRIPT",
+      "nome_modelo": "KRPF-580N",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "KRIPT",
+      "nome_modelo": "KRPF300M4B",
+      "potencia_w": 300
+    },
+    {
+      "fabricante": "KRIPT",
+      "nome_modelo": "KRPF320M5B",
+      "potencia_w": 320
+    },
+    {
+      "fabricante": "KRIPT",
+      "nome_modelo": "KRPF320P5B",
+      "potencia_w": 320
+    },
+    {
+      "fabricante": "KRIPT",
+      "nome_modelo": "KRPF340P5B",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "KRIPT",
+      "nome_modelo": "KRPF3605B",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "KRIPT",
+      "nome_modelo": "KRPF370M5B",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "KRIPT",
+      "nome_modelo": "KRPF380M5B",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "KRIPT",
+      "nome_modelo": "KRPF440M9B",
+      "potencia_w": 440
+    },
+    {
+      "fabricante": "KRIPT",
+      "nome_modelo": "KRPF505M",
+      "potencia_w": 505
+    },
+    {
+      "fabricante": "KRIPT",
+      "nome_modelo": "KRPF550M",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP166-M-72-MB-450W",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP182*199-M-66-NH-585W",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP182*210-M-66-NB-600W",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP182*210-M-66-NB-610W",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP182*210-M-66-NH-610W",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP182*210-M-66-NH-620W",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP182-M-60-MH-460W",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP182-M-66-NH-570W",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP182-M-72-MH-540W",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP182-M-72-MH-545W",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP182-M-72-MH-550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP182-M-72-MH-555W",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP182-M-72-MH-560W",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP182-M-72-NB-585W",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP182-M-72-NH-595W",
+      "potencia_w": 595
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP182-M-78-MH-590W",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP182-M-78-MH-600W",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP210-M-55-MH-550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP210-M-66-MH-665W",
+      "potencia_w": 665
+    },
+    {
+      "fabricante": "LEAPTON SOLAR",
+      "nome_modelo": "LP210-M-66-MH-670W",
+      "potencia_w": 670
+    },
+    {
+      "fabricante": "LEDVANCE",
+      "nome_modelo": "M-550-P72LM-SF-F3",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "LEDVANCE",
+      "nome_modelo": "M-580-N72LB-SF-F7",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR4-72HBD-450M",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR4-72HPH-420M",
+      "potencia_w": 420
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR4-72HPH-425M",
+      "potencia_w": 425
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR4-72HPH-430M",
+      "potencia_w": 430
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR4-72HPH-435M",
+      "potencia_w": 435
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR4-72HPH-440M",
+      "potencia_w": 440
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR4-72HPH-445M",
+      "potencia_w": 445
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR4-72HPH-450M",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR4-72HPH-455M",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-66HBD-500M",
+      "potencia_w": 500
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-66HPH-500M",
+      "potencia_w": 500
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HBD-520M",
+      "potencia_w": 520
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HBD-525M",
+      "potencia_w": 525
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HBD-530M",
+      "potencia_w": 530
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HBD-535M",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HBD-540M",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HBD-545M",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HBD-550M",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HPH-545M",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HPH-550M",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HPH-555M",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HPH-560M",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HTD-570M",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HTD-575M",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HTD-580M",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HTD-585M",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HTH-570M",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HTH-580M",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR5-72HTH-585M",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR6-72HPH-365M",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR6-72HPH-370M",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR6-72HPH-375M",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR6-72HPH-380M",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR6-72HPH-385M",
+      "potencia_w": 385
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR6-72OPH-380M",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR6-72OPH-385M",
+      "potencia_w": 385
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR6-72OPH-390M",
+      "potencia_w": 390
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR6-72OPH-395M",
+      "potencia_w": 395
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR6-72OPH-400M",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR6-72OPH-405M",
+      "potencia_w": 405
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR7-72HGD-605M",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR7-72HTH-625M",
+      "potencia_w": 625
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR7-72HTH-630M",
+      "potencia_w": 630
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR7-72HVH-635M",
+      "potencia_w": 635
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR7-72HVH-640M",
+      "potencia_w": 640
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR7-72HVH-645M",
+      "potencia_w": 645
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR7-72HVH-650M",
+      "potencia_w": 650
+    },
+    {
+      "fabricante": "LONGI",
+      "nome_modelo": "LR7-72HVH-655M",
+      "potencia_w": 655
+    },
+    {
+      "fabricante": "LUXEN",
+      "nome_modelo": "LNSF-390M",
+      "potencia_w": 390
+    },
+    {
+      "fabricante": "LUXEN",
+      "nome_modelo": "LUXHYPER LNSU-410M",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "LUXEN",
+      "nome_modelo": "LUXPOWER LNCT-585N",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "LUXEN",
+      "nome_modelo": "LUXPOWER LNET-670M",
+      "potencia_w": 670
+    },
+    {
+      "fabricante": "LUXEN",
+      "nome_modelo": "LUXPOWER LNSU-450M",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "LUXEN",
+      "nome_modelo": "LUXPOWER LNVH-595M",
+      "potencia_w": 595
+    },
+    {
+      "fabricante": "LUXEN",
+      "nome_modelo": "LUXPOWER LNVT-505M",
+      "potencia_w": 505
+    },
+    {
+      "fabricante": "LUXEN",
+      "nome_modelo": "LUXPOWER LNVU-550M",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "LUXEN",
+      "nome_modelo": "LUXPOWER LNVU-555M",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "MINASOL",
+      "nome_modelo": "MS-440",
+      "potencia_w": 440
+    },
+    {
+      "fabricante": "MINASOL",
+      "nome_modelo": "MS-545",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "MINASOL",
+      "nome_modelo": "MS-555",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "MINASOL",
+      "nome_modelo": "MS-B-550",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "NEXEN",
+      "nome_modelo": "NXN-460-120M",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "NEXEN",
+      "nome_modelo": "NXN-545-144M",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "NEXEN",
+      "nome_modelo": "NXN-550-144M",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "NEXEN",
+      "nome_modelo": "NXN-555-144M",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "NEXEN",
+      "nome_modelo": "NXN-575-144MT",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "NEXEN",
+      "nome_modelo": "NXN-600-144MT",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA330-36-M",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA330-36-P",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA340-36-P",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA400-144-M",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA410-36-MH",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA450-36-MH",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA460-30V-MH",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA460-36-MH",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA540-36V-MH",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA545-36V-MH",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA550-36V-MH",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA555-36V-MH",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA560-36V-MH",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA565-36V-MH",
+      "potencia_w": 565
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA570-36V-MH",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA575-36V-MH",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA580-36V-MHD",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA585-36V-MH",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA585-36V-MHD",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA610-30V-MHD",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA610-33V-MHDRZ",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA620-33V-MHDRZ",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "OSDA",
+      "nome_modelo": "ODA665-33V-MH",
+      "potencia_w": 665
+    },
+    {
+      "fabricante": "PEIMAR",
+      "nome_modelo": "OR10H-590-MNDB",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "PERLIGHT",
+      "nome_modelo": "PLM-250P-60",
+      "potencia_w": 250
+    },
+    {
+      "fabricante": "PERLIGHT",
+      "nome_modelo": "PLM-255P-60",
+      "potencia_w": 255
+    },
+    {
+      "fabricante": "PERLIGHT",
+      "nome_modelo": "PLM-260P-60",
+      "potencia_w": 260
+    },
+    {
+      "fabricante": "PERLIGHT",
+      "nome_modelo": "PLM-265P-60",
+      "potencia_w": 265
+    },
+    {
+      "fabricante": "PERLIGHT",
+      "nome_modelo": "PLM-270P-60",
+      "potencia_w": 270
+    },
+    {
+      "fabricante": "PERLIGHT",
+      "nome_modelo": "PLM-275P-60",
+      "potencia_w": 275
+    },
+    {
+      "fabricante": "PERLIGHT",
+      "nome_modelo": "PLM-300P-72",
+      "potencia_w": 300
+    },
+    {
+      "fabricante": "PERLIGHT",
+      "nome_modelo": "PLM-305P-72",
+      "potencia_w": 305
+    },
+    {
+      "fabricante": "PERLIGHT",
+      "nome_modelo": "PLM-310P-72",
+      "potencia_w": 310
+    },
+    {
+      "fabricante": "PERLIGHT",
+      "nome_modelo": "PLM-315P-72",
+      "potencia_w": 315
+    },
+    {
+      "fabricante": "PERLIGHT",
+      "nome_modelo": "PLM-320P-72",
+      "potencia_w": 320
+    },
+    {
+      "fabricante": "PERLIGHT",
+      "nome_modelo": "PLM-325P-72",
+      "potencia_w": 325
+    },
+    {
+      "fabricante": "PERLIGHT",
+      "nome_modelo": "PLM-330P-72",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "PERLIGHT",
+      "nome_modelo": "PLM-335P-72",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "PERLIGHT",
+      "nome_modelo": "PLM-340P-72",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "PERLIGHT",
+      "nome_modelo": "PLM-345P-72",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "PHONO SOLAR",
+      "nome_modelo": "PS400M1H-24/TH",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "PHONO SOLAR",
+      "nome_modelo": "PS405M1H-24/TH",
+      "potencia_w": 405
+    },
+    {
+      "fabricante": "PHONO SOLAR",
+      "nome_modelo": "PS450M4H-24/TH",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "PHONO SOLAR",
+      "nome_modelo": "PS535M6H-24/TH",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "PHONO SOLAR",
+      "nome_modelo": "PS550M6H-24/TH",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "PULLING ENERGY",
+      "nome_modelo": "PU-560-SPM101",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "PULLING ENERGY",
+      "nome_modelo": "PU-570-SNM102",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "PULLING ENERGY",
+      "nome_modelo": "PU-580-WNM101",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "PULLING ENERGY",
+      "nome_modelo": "PU-585-SNM102",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "PULLING ENERGY",
+      "nome_modelo": "PU-585-WNM101",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "PULLING ENERGY",
+      "nome_modelo": "PU-590-SPM101",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "PULLING ENERGY",
+      "nome_modelo": "PU-595-SNM101",
+      "potencia_w": 595
+    },
+    {
+      "fabricante": "PULLING ENERGY",
+      "nome_modelo": "PU-600-DNM101",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "PULLING ENERGY",
+      "nome_modelo": "PU-610-SNG12R",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "PULLING ENERGY",
+      "nome_modelo": "PU-620-SNM102",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "PULLING ENERGY",
+      "nome_modelo": "PU-625-DNM101",
+      "potencia_w": 625
+    },
+    {
+      "fabricante": "PULLING ENERGY",
+      "nome_modelo": "PU-630-SNM102",
+      "potencia_w": 630
+    },
+    {
+      "fabricante": "Q CELLS",
+      "nome_modelo": "Q.PEAK DUO L-G6.3 425",
+      "potencia_w": 425
+    },
+    {
+      "fabricante": "Q CELLS",
+      "nome_modelo": "Q.PEAK DUO L-G6.3 430",
+      "potencia_w": 430
+    },
+    {
+      "fabricante": "Q CELLS",
+      "nome_modelo": "Q.PEAK DUO L-G7.3 385",
+      "potencia_w": 385
+    },
+    {
+      "fabricante": "Q CELLS",
+      "nome_modelo": "Q.PEAK DUO L-G7.3 390",
+      "potencia_w": 390
+    },
+    {
+      "fabricante": "Q CELLS",
+      "nome_modelo": "Q.PEAK DUO L-G7.3 395",
+      "potencia_w": 395
+    },
+    {
+      "fabricante": "Q CELLS",
+      "nome_modelo": "Q.PEAK DUO L-G7.3 400",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "Q CELLS",
+      "nome_modelo": "Q.PEAK DUO L-G7.3 405",
+      "potencia_w": 405
+    },
+    {
+      "fabricante": "Q CELLS",
+      "nome_modelo": "Q.PEAK DUO L-G8.3 425",
+      "potencia_w": 425
+    },
+    {
+      "fabricante": "Q CELLS",
+      "nome_modelo": "Q.PEAK DUO XL-G9.3 455",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "Q CELLS",
+      "nome_modelo": "Q.PEAK DUO XL-G9.3 460",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "Q CELLS",
+      "nome_modelo": "Q.PEAK L-G5 365",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "Q CELLS",
+      "nome_modelo": "Q.PEAK L-G5 370",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "Q CELLS",
+      "nome_modelo": "Q.PEAK L-G5 375",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "Q CELLS",
+      "nome_modelo": "Q.PEAK L-G5.O.G 365",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "Q CELLS",
+      "nome_modelo": "Q.POWER L-G5 330",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "QN-SOLAR",
+      "nome_modelo": "QNM182-HG555-72",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "QN-SOLAR",
+      "nome_modelo": "QNM182-HS535-72",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "QN-SOLAR",
+      "nome_modelo": "QNM182-HS540-72",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "QN-SOLAR",
+      "nome_modelo": "QNM182-HS545-72",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "QN-SOLAR",
+      "nome_modelo": "QNM182-HS550-72",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "QN-SOLAR",
+      "nome_modelo": "QNM182-HS555-72",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "QN-SOLAR",
+      "nome_modelo": "QNM182-HS560-72",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "QN-SOLAR",
+      "nome_modelo": "QNN182-HS570-72",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "QUALITY SOLAR",
+      "nome_modelo": "QS545-144HM8",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "RENEPV",
+      "nome_modelo": "ZY-570-M10NHB-144P",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "RENEPV",
+      "nome_modelo": "ZY-595-G12NH-120",
+      "potencia_w": 595
+    },
+    {
+      "fabricante": "RENEPV",
+      "nome_modelo": "ZY-625-G12RNHB-132",
+      "potencia_w": 625
+    },
+    {
+      "fabricante": "RENEPV",
+      "nome_modelo": "ZY-680-G12HNHB-132",
+      "potencia_w": 680
+    },
+    {
+      "fabricante": "RENEPV",
+      "nome_modelo": "ZY-700-G12HNHB-132",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "RENESOLA",
+      "nome_modelo": "RS11-340P-E2",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "RENESOLA",
+      "nome_modelo": "RS3-455MB-E3",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "RENESOLA",
+      "nome_modelo": "RS6-550M-E3",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "RENESOLA",
+      "nome_modelo": "RS6-555MG-E3",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "RENESOLA",
+      "nome_modelo": "RS6-560M-E3",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "RENESOLA",
+      "nome_modelo": "RS6-560NBG-E3",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "RENESOLA",
+      "nome_modelo": "RS6-565NBG-E3",
+      "potencia_w": 565
+    },
+    {
+      "fabricante": "RENESOLA",
+      "nome_modelo": "RS6-570NBG-E3",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "RENESOLA",
+      "nome_modelo": "RS6-570NG-E3",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "RENESOLA",
+      "nome_modelo": "RS6-575NBG-E3",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "RENESOLA",
+      "nome_modelo": "RS6-580NBG-E3",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "RENESOLA",
+      "nome_modelo": "RS6-580NG-E3",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "RENESOLA",
+      "nome_modelo": "RS6-585N-E3",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "RENESOLA",
+      "nome_modelo": "RS6-590I-E1",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "RENESOLA",
+      "nome_modelo": "RS6-600I-E1",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "RENESOLA",
+      "nome_modelo": "RS9-665MBG-E1",
+      "potencia_w": 665
+    },
+    {
+      "fabricante": "RENOVIGI",
+      "nome_modelo": "EMSC-585B NTYPE",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "RENOVIGI",
+      "nome_modelo": "RENO-335P",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "RENOVIGI",
+      "nome_modelo": "RENO-550-HM8",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "RENOVIGI",
+      "nome_modelo": "RENO-B 550",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "RENOVIGI",
+      "nome_modelo": "RENO-C 555",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "RENOVIGI",
+      "nome_modelo": "RENO-H 550",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "RESUN SOLAR",
+      "nome_modelo": "RS6I-410M",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "RESUN SOLAR",
+      "nome_modelo": "RS7I-455M-BD",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "RESUN SOLAR",
+      "nome_modelo": "RS8I-545M",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "RESUN SOLAR",
+      "nome_modelo": "RS8I-550M",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "RESUN SOLAR",
+      "nome_modelo": "RS8I-555M HC",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "RESUN SOLAR",
+      "nome_modelo": "RS8I-560M",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "RESUN SOLAR",
+      "nome_modelo": "RS8I-560M N-TYPE",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "RESUN SOLAR",
+      "nome_modelo": "RS8I-575M",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "RESUN SOLAR",
+      "nome_modelo": "RS8I-585M-F30",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM110-8-540BMDG",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM110-8-545BMDG",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM120-8-585BMDG",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM120-8-590BMDG",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM120-8-590M",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM120-8-595BMDG",
+      "potencia_w": 595
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM120-8-600BMDG",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM120-8-605M",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM132-8-650BMDG",
+      "potencia_w": 650
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM132-8-655BMDG",
+      "potencia_w": 655
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM132-8-660BMDG",
+      "potencia_w": 660
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM132-8-675BHDG",
+      "potencia_w": 675
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM132-8-680BHDG",
+      "potencia_w": 680
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM132-8-690BHDG",
+      "potencia_w": 690
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM132-8-695BHDG",
+      "potencia_w": 695
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM132-8-700BHDG",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM132-8-715BHDG",
+      "potencia_w": 715
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-6-330P",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-6-335P",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-6-340P",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-6-345P",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-6-370M",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-6-375M",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-6-380M",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-6-385M",
+      "potencia_w": 385
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-6-390M",
+      "potencia_w": 390
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-6-395M",
+      "potencia_w": 395
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-6-400M",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-6-405M",
+      "potencia_w": 405
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-6-410M",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-6-415M",
+      "potencia_w": 415
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-7-445M",
+      "potencia_w": 445
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-7-450M",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM144-9-550M",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM150-8-480M",
+      "potencia_w": 480
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM150-8-485M",
+      "potencia_w": 485
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM150-8-490M",
+      "potencia_w": 490
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM150-8-495M",
+      "potencia_w": 495
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM150-8-500M",
+      "potencia_w": 500
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM156-6-430M",
+      "potencia_w": 430
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM156-6-435M",
+      "potencia_w": 435
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM156-6-440M",
+      "potencia_w": 440
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM156-6-445M",
+      "potencia_w": 445
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM156-6-450M",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM156-6-455M",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM40-8-405M",
+      "potencia_w": 405
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM72-6-360M",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM72-6-365M",
+      "potencia_w": 365
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM72-6-370M",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM72-6-375M",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "RISEN",
+      "nome_modelo": "RSM72-6-380M",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "RONMA SOLAR",
+      "nome_modelo": "RM-570W-182M/144TB",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "RONMA SOLAR",
+      "nome_modelo": "RM-575W-182M/144TB",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "RONMA SOLAR",
+      "nome_modelo": "RM-585W-182M/144TB",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "RONMA SOLAR",
+      "nome_modelo": "RM-610W-182M/156TB",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "RONMA SOLAR",
+      "nome_modelo": "RM-610W-182R/132TB",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "RONMA SOLAR",
+      "nome_modelo": "RM-620W-182M/156TB",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "RUNDA",
+      "nome_modelo": "AURORA PRO S8-144NT 585W",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "RUNERGY",
+      "nome_modelo": "HY-WH144P8 550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "SCHUTTEN SOLAR",
+      "nome_modelo": "STM-465/144-S2",
+      "potencia_w": 465
+    },
+    {
+      "fabricante": "SCHUTTEN SOLAR",
+      "nome_modelo": "STM-550/144-S3",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "SENGI SOLAR",
+      "nome_modelo": "SV1S72-540",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "SENGI SOLAR",
+      "nome_modelo": "SV1S72-545",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "SENGI SOLAR",
+      "nome_modelo": "SV1S72-550 NAC - FINAME",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "SENGI SOLAR",
+      "nome_modelo": "SV1S72-555",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "SERAPHIM",
+      "nome_modelo": "SRP-315-6PA",
+      "potencia_w": 315
+    },
+    {
+      "fabricante": "SERAPHIM",
+      "nome_modelo": "SRP-320-6PA",
+      "potencia_w": 320
+    },
+    {
+      "fabricante": "SERAPHIM",
+      "nome_modelo": "SRP-325-6PA",
+      "potencia_w": 325
+    },
+    {
+      "fabricante": "SERAPHIM",
+      "nome_modelo": "SRP-330-6PA",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "SERAPHIM",
+      "nome_modelo": "SRP-540-BMA-HV",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "SERAPHIM",
+      "nome_modelo": "SRP-550-BMA-HV",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "SERAPHIM",
+      "nome_modelo": "SRP-620-BTC-BG",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "SHANHONG",
+      "nome_modelo": "SH18-72H-S 585W",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "SHINEFAR SOLAR",
+      "nome_modelo": "SF-M16/144 450W",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "SHINEFAR SOLAR",
+      "nome_modelo": "SF-M16/144 465W",
+      "potencia_w": 465
+    },
+    {
+      "fabricante": "SHINEFAR SOLAR",
+      "nome_modelo": "SF-M16/144BF 450W",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "SHINEFAR SOLAR",
+      "nome_modelo": "SF-M18/144 550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "SHINEFAR SOLAR",
+      "nome_modelo": "SF-M18/144 555W",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "SHINEFAR SOLAR",
+      "nome_modelo": "SF-M18/144 560W",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "SHINEFAR SOLAR",
+      "nome_modelo": "SF-M18/144 575W",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "SHINEFAR SOLAR",
+      "nome_modelo": "SF-M18/144 585W",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "SHINEFAR SOLAR",
+      "nome_modelo": "SF-M18N/132 585W",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "SHINEFAR SOLAR",
+      "nome_modelo": "SF-M21/132 650W",
+      "potencia_w": 650
+    },
+    {
+      "fabricante": "SHINEFAR SOLAR",
+      "nome_modelo": "SF-M3/144 415W",
+      "potencia_w": 415
+    },
+    {
+      "fabricante": "SHINEFAR SOLAR",
+      "nome_modelo": "SF-P6/72 340W",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "SHINEFAR SOLAR",
+      "nome_modelo": "SF-P6/72 355W",
+      "potencia_w": 355
+    },
+    {
+      "fabricante": "SICES",
+      "nome_modelo": "HCP72X9-375W",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "SICES",
+      "nome_modelo": "PS380M-24/TH",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "SICES",
+      "nome_modelo": "PS385M-24/TH",
+      "potencia_w": 385
+    },
+    {
+      "fabricante": "SICES",
+      "nome_modelo": "PS390M-24/TH",
+      "potencia_w": 390
+    },
+    {
+      "fabricante": "SINE ENERGY",
+      "nome_modelo": "SN 500W-132M",
+      "potencia_w": 500
+    },
+    {
+      "fabricante": "SINE ENERGY",
+      "nome_modelo": "SN 550W-144M",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "SINE ENERGY",
+      "nome_modelo": "SN 555W-144M",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "SINE ENERGY",
+      "nome_modelo": "SN 570W-144MT",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "SINE ENERGY",
+      "nome_modelo": "SN 575W-144MTB",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "SINE ENERGY",
+      "nome_modelo": "SN 585W-144MT",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "SINE ENERGY",
+      "nome_modelo": "SN 610W-144MTB",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "SINE ENERGY",
+      "nome_modelo": "SN 700W-132MHBS",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "SINE ENERGY",
+      "nome_modelo": "TOPCON SN 560W-144MT",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "SINOSOLA",
+      "nome_modelo": "SA430-144M",
+      "potencia_w": 430
+    },
+    {
+      "fabricante": "SINOSOLA",
+      "nome_modelo": "SAT450-144M",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "SINOSOLA",
+      "nome_modelo": "SAT530-144M",
+      "potencia_w": 530
+    },
+    {
+      "fabricante": "SINOSOLA",
+      "nome_modelo": "SAT535-144M",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "SINOSOLA",
+      "nome_modelo": "SAT540-144M",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "SINOSOLA",
+      "nome_modelo": "SAT545-144M",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "SINOSOLA",
+      "nome_modelo": "SAT550-144M",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "SIRIUS",
+      "nome_modelo": "BIFACIAL - 450W - 144 HALF CELL",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "SIRIUS",
+      "nome_modelo": "BIFACIAL HD144N-550W",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "SIRIUS",
+      "nome_modelo": "BIFACIAL HD144P-545W",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "SIRIUS",
+      "nome_modelo": "BIFACIAL SP-N16/144HG-570W",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "SIRIUS",
+      "nome_modelo": "FULL BLACK - 335W - 72 CELL",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "SIRIUS",
+      "nome_modelo": "FULL BLACK - 460W - G2",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "SIRIUS",
+      "nome_modelo": "GRAFENO - 415W - 144 HALF CELL",
+      "potencia_w": 415
+    },
+    {
+      "fabricante": "SIRIUS",
+      "nome_modelo": "GRAFENO-BIFACIAL - 535W - 144 HALF CELL",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "SKY SOLLARIS",
+      "nome_modelo": "LP182-M-78-MH-590W",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "SKY SOLLARIS",
+      "nome_modelo": "SKY182-78-MH-665W",
+      "potencia_w": 665
+    },
+    {
+      "fabricante": "SOLAR N PLUS",
+      "nome_modelo": "SIRIUS SP-N16/144HG BIFACIAL 570W",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "SOLAR N PLUS",
+      "nome_modelo": "SP-N16/144HG BIFACIAL 560W",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "SOLAR N PLUS",
+      "nome_modelo": "SP-N16/144HG BIFACIAL 580W",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "SOLAR N PLUS",
+      "nome_modelo": "SP-N16/156HG BIFACIAL 600W",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "SOLAR N PLUS",
+      "nome_modelo": "SP/BEL-N16B/132HG BIFACIAL 600W",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "SOLARGIGA ENERGY",
+      "nome_modelo": "JMPV-X1/72-550 (R)",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "SOLARGIGA ENERGY",
+      "nome_modelo": "JMPV-X1/72-560 (R)",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "SolarSpace",
+      "nome_modelo": "SS8-72HD-575N",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "SPOLARPV",
+      "nome_modelo": "SP450HM6-72L",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "SUNERGY",
+      "nome_modelo": "SUN 340-72P-35F",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "SUNERGY",
+      "nome_modelo": "SUN 445-78M HFD",
+      "potencia_w": 445
+    },
+    {
+      "fabricante": "SUNERGY",
+      "nome_modelo": "SUN 535-72M-H8",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "SUNERGY",
+      "nome_modelo": "SUN 550-72M-H8",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "SUNERGY",
+      "nome_modelo": "SUN 570-72M-H8",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "SUNKET",
+      "nome_modelo": "SKT585M10-144S1",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-360-72M",
+      "potencia_w": 360
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-380-72M",
+      "potencia_w": 380
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-385-72M",
+      "potencia_w": 385
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-390-72M",
+      "potencia_w": 390
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-390-72MD",
+      "potencia_w": 390
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-395-72M",
+      "potencia_w": 395
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-395-72MD",
+      "potencia_w": 395
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-400-72M",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-400-72MD",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-405-72MD",
+      "potencia_w": 405
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-410-72MD",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-420-72PD",
+      "potencia_w": 420
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-450-72MD",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-450-72MTF",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-460-60MDH",
+      "potencia_w": 460
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-505-66MTF",
+      "potencia_w": 505
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-550-72MDH",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-555-72MDH",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-560-72MDH",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-570-72MDH(T)",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-580-72MDH(T)",
+      "potencia_w": 580
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-585-72MDH(T)",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-600-72MDH(T)",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-605-60MDH-G12",
+      "potencia_w": 605
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-610-66MDH-G11(T)",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-610-72MDH(T)",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-660-66MDH-G12",
+      "potencia_w": 660
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-670-66MDH-G12",
+      "potencia_w": 670
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-BG570-72MDH(T)",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-BG575-72MDH",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-BG610-60MDH-G12",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-BG620-66MDH-G11(T)",
+      "potencia_w": 620
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-BG700-66MDH-G12(H)",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "SUNOVA",
+      "nome_modelo": "SS-BT545-72MDH",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "SUNPRO POWER",
+      "nome_modelo": "SP560-N144M10",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "SUNPRO POWER",
+      "nome_modelo": "SPDG625-N132R12",
+      "potencia_w": 625
+    },
+    {
+      "fabricante": "SUNTECH",
+      "nome_modelo": "STP400S-A72/VNH",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "SUNTECH",
+      "nome_modelo": "STP445S-B72/VNH",
+      "potencia_w": 445
+    },
+    {
+      "fabricante": "SUNX",
+      "nome_modelo": "HS-210-B132 DS700",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "TALESUN",
+      "nome_modelo": "BIPRO TD7G72M-540",
+      "potencia_w": 540
+    },
+    {
+      "fabricante": "TALESUN",
+      "nome_modelo": "BIPRO TD7G72M-545",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "TALESUN",
+      "nome_modelo": "BISTAR TP6H72M(H)-400",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "TALESUN",
+      "nome_modelo": "BISTAR TP6H72M-400",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "TALESUN",
+      "nome_modelo": "BISTAR TP7F72M-535",
+      "potencia_w": 535
+    },
+    {
+      "fabricante": "TALESUN",
+      "nome_modelo": "BISTAR TP7F72M-550",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "TALESUN",
+      "nome_modelo": "PIPRO TP672P-325",
+      "potencia_w": 325
+    },
+    {
+      "fabricante": "TALESUN",
+      "nome_modelo": "PIPRO TP672P-330",
+      "potencia_w": 330
+    },
+    {
+      "fabricante": "TALESUN",
+      "nome_modelo": "PIPRO TP672P-335",
+      "potencia_w": 335
+    },
+    {
+      "fabricante": "TALESUN",
+      "nome_modelo": "PIPRO TP672P-340",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "TAOISTIC SOLAR",
+      "nome_modelo": "TS-M10/144H 545",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "TAOISTIC SOLAR",
+      "nome_modelo": "TS-M10/144H 550",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "TONGWEI SOLAR",
+      "nome_modelo": "TW-555-MPD 72-HS",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "TONGWEI SOLAR",
+      "nome_modelo": "TW-600-MNH 66-HD",
+      "potencia_w": 600
+    },
+    {
+      "fabricante": "TONGWEI SOLAR",
+      "nome_modelo": "TW-610-MNH-66-HD",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "TONGWEI SOLAR",
+      "nome_modelo": "TW-635-MBCP 132-D",
+      "potencia_w": 635
+    },
+    {
+      "fabricante": "TONGWEI SOLAR",
+      "nome_modelo": "TW-640-MBCP 132-D",
+      "potencia_w": 640
+    },
+    {
+      "fabricante": "TONGWEI SOLAR",
+      "nome_modelo": "TW-645-MBCP 132-D",
+      "potencia_w": 645
+    },
+    {
+      "fabricante": "TONGWEI SOLAR",
+      "nome_modelo": "TW-650-MBCP 132-D",
+      "potencia_w": 650
+    },
+    {
+      "fabricante": "TONGWEI SOLAR",
+      "nome_modelo": "TW-655-MBCP 132-D",
+      "potencia_w": 655
+    },
+    {
+      "fabricante": "TONGWEI SOLAR",
+      "nome_modelo": "TW-660-MBCP 132-D",
+      "potencia_w": 660
+    },
+    {
+      "fabricante": "TOPSOLA",
+      "nome_modelo": "TPS 550M-144H1",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "TOPSOLA",
+      "nome_modelo": "TPS 590M-156H1-DG",
+      "potencia_w": 590
+    },
+    {
+      "fabricante": "TOPSOLA",
+      "nome_modelo": "TY 560M-144HM",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "TOPTEC",
+      "nome_modelo": "TPG12-132HJT-700",
+      "potencia_w": 700
+    },
+    {
+      "fabricante": "TOPTEC",
+      "nome_modelo": "TPM10/144DG-585",
+      "potencia_w": 585
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "DUOMAX TSM-DEG15MC.20 II 405",
+      "potencia_w": 405
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "DUOMAX TSM-DEG15MC.20 II 410",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "HONEY TSM-DE08M II 370",
+      "potencia_w": 370
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "HONEY TSM-DE08M II 375",
+      "potencia_w": 375
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "SPLITMAX TSM-PE15H 340",
+      "potencia_w": 340
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "SPLITMAX TSM-PE15H 345",
+      "potencia_w": 345
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "SPLITMAX TSM-PE15H 350",
+      "potencia_w": 350
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "SPLITMAX TSM-PE15H 355",
+      "potencia_w": 355
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "TALLMAX TSM-DE15M II 144CEL 410",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "TALLMAX TSM-DE15M II 390",
+      "potencia_w": 390
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "TALLMAX TSM-DE15M II 395",
+      "potencia_w": 395
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "TALLMAX TSM-DE15M II 400",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "TALLMAX TSM-DE15M II 405",
+      "potencia_w": 405
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "TALLMAX TSM-DE15M II 72CEL 410",
+      "potencia_w": 410
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "TALLMAX TSM-DE17M II 450",
+      "potencia_w": 450
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "TALLMAX TSM-DE17M II 455",
+      "potencia_w": 455
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "TALLMAX TSM-DE18 550",
+      "potencia_w": 550
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "TALLMAX TSM-DE18 555",
+      "potencia_w": 555
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "VERTEX S TSM-DE09 395",
+      "potencia_w": 395
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "VERTEX S TSM-DE09 400",
+      "potencia_w": 400
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "VERTEX S TSM-DE09 405",
+      "potencia_w": 405
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "VERTEX TSM-DE18M 495",
+      "potencia_w": 495
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "VERTEX TSM-DE18M II 500",
+      "potencia_w": 500
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "VERTEX TSM-DE18M II 505",
+      "potencia_w": 505
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "VERTEX TSM-DE18M II 510",
+      "potencia_w": 510
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "VERTEX TSM-DE19 545",
+      "potencia_w": 545
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "VERTEX TSM-DE19R 560",
+      "potencia_w": 560
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "VERTEX TSM-DE19R 570",
+      "potencia_w": 570
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "VERTEX TSM-DE19R 575",
+      "potencia_w": 575
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "VERTEX TSM-DE20 610",
+      "potencia_w": 610
+    },
+    {
+      "fabricante": "TRINA SOLAR",
+      "nome_modelo": "VERTEX TSM-DE20 615",
+      "potencia_w": 615
+    }
+]
