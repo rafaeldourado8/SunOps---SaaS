@@ -64,6 +64,35 @@ async def get_cliente_detalhe(
     return cliente
 
 
+# --- NOVO ENDPOINT DE ATUALIZAÇÃO (UPDATE) ---
+@router.put(
+    '/{cliente_id}', 
+    response_model=schema.ShowCliente
+)
+async def update_cliente_endpoint(
+    cliente_id: int,
+    cliente_update: schema.ClienteUpdate,
+    db: AsyncSession = Depends(get_db),
+    # Permissão: Apenas Gestores podem alterar
+    gestor: User = Depends(get_current_gestor)
+):
+    '''Atualiza um cliente específico pelo ID (Apenas Gestores)'''
+    cliente = await services.get_cliente_by_id(db, cliente_id)
+    if not cliente:
+        raise HTTPException(status_code=404, detail="Cliente não encontrado")
+    
+    # Verifica se o novo documento (se fornecido) já existe em OUTRO cliente
+    if cliente_update.documento and cliente_update.documento != cliente.documento:
+        db_cliente_doc = await services.get_cliente_by_documento(db, cliente_update.documento)
+        if db_cliente_doc:
+            raise HTTPException(
+                status_code=400, 
+                detail="Um cliente com este documento (CPF/CNPJ) já existe."
+            )
+            
+    return await services.update_cliente(db, cliente, cliente_update)
+
+
 @router.delete(
     '/{cliente_id}', 
     status_code=status.HTTP_204_NO_CONTENT
@@ -85,3 +114,38 @@ async def delete_cliente(
 
     await services.delete_cliente(db, cliente)
     return Response(status_code=status.HTTP_204_NO_CONTENT)
+
+
+# --- NOVO ENDPOINT DE DELEÇÃO EM MASSA (BULK DELETE) ---
+@router.post(
+    '/delete-bulk', 
+    status_code=status.HTTP_200_OK
+)
+async def delete_clientes_bulk_endpoint(
+    # Recebe um payload: {"cliente_ids": [1, 2, 3]}
+    payload: dict[str, List[int]],
+    db: AsyncSession = Depends(get_db),
+    # Permissão: Apenas Gestores podem deletar
+    gestor: User = Depends(get_current_gestor)
+):
+    '''Deleta múltiplos clientes (Apenas Gestores)'''
+    
+    cliente_ids = payload.get("cliente_ids", [])
+    
+    if not cliente_ids:
+         raise HTTPException(
+            status_code=400, 
+            detail="Nenhum ID de cliente fornecido."
+        )
+
+    # (Você pode adicionar lógicas aqui, ex: não deletar clientes com projetos)
+
+    deleted_count = await services.delete_clientes_bulk(db, cliente_ids)
+    
+    if deleted_count == 0:
+         raise HTTPException(
+            status_code=404, 
+            detail="Nenhum cliente encontrado com os IDs fornecidos."
+        )
+        
+    return {"detail": f"{deleted_count} cliente(s) deletado(s) com sucesso."}

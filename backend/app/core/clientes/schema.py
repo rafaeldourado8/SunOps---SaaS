@@ -1,5 +1,6 @@
 from pydantic import BaseModel, Field, EmailStr, ConfigDict
 from typing import Optional, Annotated
+from datetime import datetime # Importar datetime
 from .models import TipoCliente
 
 # Schema base com todos os campos que podem ser criados ou atualizados
@@ -18,6 +19,7 @@ class ClienteCreate(ClienteBase):
 # Schema para exibir um cliente (o que a API retorna)
 class ShowCliente(ClienteBase):
     id: int
+    data_criacao: datetime # <-- Adicionado para exibição
 
     model_config = ConfigDict(from_attributes=True)
 
@@ -28,3 +30,13 @@ class ShowClienteDetalhado(ShowCliente):
     # propostas: List[ShowProposta] = []
     # projetos: List[ShowProjeto] = []
     pass
+
+# Schema para atualizar um cliente (usado no PUT)
+# Todos os campos são opcionais
+class ClienteUpdate(BaseModel):
+    nome_razao_social: Optional[Annotated[str, Field(min_length=3, max_length=255)]] = None
+    tipo: Optional[TipoCliente] = None
+    documento: Optional[Annotated[str, Field(min_length=11, max_length=18)]] = None
+    email: Optional[EmailStr] = None
+    telefone: Optional[str] = None
+    endereco: Optional[str] = None

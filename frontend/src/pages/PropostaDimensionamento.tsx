@@ -1,15 +1,12 @@
+import React from 'react';
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import api from '@/services/api';
 import toast from 'react-hot-toast';
 import { ArrowLeft, Save, Loader2, Zap, LayoutGrid, Calendar } from 'lucide-react';
-
-// Importa os dados estáticos
-import catalogoModulos from '@/data/catalogo_modulos.json';
-import catalogoInversores from '@/data/catalogo_inversores.json';
+import axios from 'axios'; // <--- 1. IMPORTAR AXIOS
 
 // --- Interfaces ---
-
 interface ShowCliente {
   id: number;
   nome_razao_social: string;
@@ -36,6 +33,26 @@ interface ShowProposta {
   itens: PropostaItem[];
 }
 
+interface CatalogoItem {
+  id: number;
+  equipamento: {
+    id: number;
+    nome_modelo: string;
+    potencia_w: number | null;
+    categoria: {
+      id: number;
+      nome: string;
+    };
+  };
+}
+
+// 2. Interfaces para os dados da sua API Flask
+interface CatalogoApiResponse {
+  fabricante: string;
+  nome_modelo: string;
+  potencia_w: number | null;
+}
+
 interface DimensionamentoData {
   premissas: Record<string, any>;
   potencia_kwp: number;
@@ -44,10 +61,10 @@ interface DimensionamentoData {
   custo_kit: number;
   sistema: string;
   topologia: string;
-  modulo_id: string | null;
+  modulo_id: number | null;
   modulo_potencia: number;
   modulo_qtd: number;
-  inversor_id: string | null;
+  inversor_id: number | null;
   inversor_qtd: number;
 }
 
@@ -59,6 +76,11 @@ export default function PropostaDimensionamento() {
   const [loading, setLoading] = useState(true);
   const [savingEtapa1, setSavingEtapa1] = useState(false);
   const [savingEtapa2, setSavingEtapa2] = useState(false);
+
+  // Estados para dropdowns
+  const [modulos, setModulos] = useState<CatalogoItem[]>([]);
+  const [inversores, setInversores] = useState<CatalogoItem[]>([]);
+  const [loadingCatalogo, setLoadingCatalogo] = useState(false);
 
   const [formData, setFormData] = useState<DimensionamentoData>({
     premissas: { sistema: 'On grid', topologia: 'Tradicional' },
@@ -76,6 +98,65 @@ export default function PropostaDimensionamento() {
   });
 
   const [itensEditaveis, setItensEditaveis] = useState<PropostaItem[]>([]);
+
+  // Carrega catálogo do backend
+  useEffect(() => {
+    // 3. FUNÇÃO MODIFICADA PARA BUSCAR DA API FLASK
+    const fetchCatalogo = async () => {
+      setLoadingCatalogo(true);
+      // Sua API Flask roda na porta 5001
+      const catalogoApiUrl = 'http://localhost:5001';
+
+      try {
+        // Busca os endpoints /modulos e /inversores da sua API
+        const [modulosResponse, inversoresResponse] = await Promise.all([
+          axios.get<{ total: number, data: CatalogoApiResponse[] }>(`${catalogoApiUrl}/modulos`),
+          axios.get<{ total: number, data: CatalogoApiResponse[] }>(`${catalogoApiUrl}/inversores`)
+        ]);
+
+        // 4. Transforma os dados dos MÓDULOS para o formato CatalogoItem
+        // Os dados da API são: { fabricante, nome_modelo, potencia_w }
+        // O componente React espera: { id, equipamento: { id, nome_modelo, potencia_w, ... } }
+        const modulosList: CatalogoItem[] = modulosResponse.data.data.map((item, index) => ({
+          id: index + 1, // Usa o índice como ID único
+          equipamento: {
+            id: index + 1,
+            nome_modelo: `${item.fabricante} ${item.nome_modelo}`, // Combina fabricante e modelo
+            potencia_w: item.potencia_w,
+            categoria: {
+              id: 1,
+              nome: 'Módulos'
+            }
+          }
+        }));
+        
+        // 5. Transforma os dados dos INVERSORES para o formato CatalogoItem
+        const inversoresList: CatalogoItem[] = inversoresResponse.data.data.map((item, index) => ({
+          id: index + 10000, // Usa um índice alto para evitar colisão de ID com módulos
+          equipamento: {
+            id: index + 10000,
+            nome_modelo: `${item.fabricante} ${item.nome_modelo}`,
+            potencia_w: item.potencia_w,
+            categoria: {
+              id: 2,
+              nome: 'Inversores'
+            }
+          }
+        }));
+
+        setModulos(modulosList);
+        setInversores(inversoresList);
+        
+      } catch (error) {
+        toast.error("Erro ao carregar catálogo da API Python.");
+        console.error('Erro:', error);
+      } finally {
+        setLoadingCatalogo(false);
+      }
+    };
+
+    fetchCatalogo();
+  }, []); // Dependência vazia, roda 1x
 
   // Carrega proposta
   useEffect(() => {
@@ -97,9 +178,10 @@ export default function PropostaDimensionamento() {
           nome_distribuidor: premissas.nome_distribuidor || '',
         }));
         
-        setItensEditaveis(response.data.itens);
+        setItensEditaveis(response.data.itens || []);
         
       } catch (error) {
+        console.error('Erro ao carregar proposta:', error);
         toast.error('Erro ao carregar proposta.');
         navigate('/app/propostas');
       } finally {
@@ -117,13 +199,15 @@ export default function PropostaDimensionamento() {
   }, [formData.modulo_potencia, formData.modulo_qtd]);
   
   // Handlers
-  const handleModuloChange = (moduloId: string) => {
-    const modulo = catalogoModulos.find((m: any) => m.id === moduloId);
-    if (modulo) {
+  const handleModuloChange = (itemId: string) => {
+    const id = parseInt(itemId);
+    // 6. A lógica de seleção agora funciona, pois os dados estão no formato correto
+    const item = modulos.find(m => m.id === id); 
+    if (item) {
       setFormData({
         ...formData,
-        modulo_id: moduloId,
-        modulo_potencia: modulo.potencia,
+        modulo_id: id,
+        modulo_potencia: item.equipamento.potencia_w || 0,
       });
     }
   };
@@ -144,9 +228,10 @@ export default function PropostaDimensionamento() {
         formData
       );
       setProposta(response.data); 
-      setItensEditaveis(response.data.itens);
+      setItensEditaveis(response.data.itens || []);
       toast.success('Etapa 1 salva! Custos gerados.');
     } catch (error: any) {
+      console.error('Erro ao salvar dimensionamento:', error);
       toast.error(error.response?.data?.detail || 'Erro ao salvar dimensionamento.');
     } finally {
       setSavingEtapa1(false);
@@ -187,6 +272,7 @@ export default function PropostaDimensionamento() {
       navigate(`/app/propostas/${propostaId}/preview`);
 
     } catch (error: any) {
+      console.error('Erro ao salvar custos:', error);
       toast.error(error.response?.data?.detail || 'Erro ao salvar custos.');
     } finally {
       setSavingEtapa2(false);
@@ -202,7 +288,7 @@ export default function PropostaDimensionamento() {
   }
 
   if (!proposta) {
-    return <div>Proposta não encontrada.</div>;
+    return <div className="p-8 text-center">Proposta não encontrada.</div>;
   }
   
   const areaUtil = (formData.modulo_qtd * 2.5).toFixed(1);
@@ -251,7 +337,7 @@ export default function PropostaDimensionamento() {
               name="nome_distribuidor"
               value={formData.nome_distribuidor}
               onChange={handleFormChange}
-              placeholder="Ex: BELENUS"
+              placeholder="Nome do distribuidor..."
               className="w-full px-3 py-2 border border-gray-300 rounded-lg"
             />
           </div>
@@ -275,11 +361,15 @@ export default function PropostaDimensionamento() {
                 value={formData.modulo_id || ''}
                 onChange={(e) => handleModuloChange(e.target.value)}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+                disabled={loadingCatalogo}
               >
-                <option value="">Selecione o módulo</option>
-                {catalogoModulos.map((modulo: any) => (
-                  <option key={modulo.id} value={modulo.id}>
-                    {modulo.modelo} - {modulo.potencia}W
+                <option value="">
+                  {loadingCatalogo ? 'Carregando...' : 'Selecione o módulo'}
+                </option>
+                {/* 7. O Dropdown agora é populado com os dados da API Flask */}
+                {modulos.map(m => (
+                  <option key={m.id} value={m.id}>
+                    {m.equipamento.nome_modelo} - {m.equipamento.potencia_w}W
                   </option>
                 ))}
               </select>
@@ -302,13 +392,17 @@ export default function PropostaDimensionamento() {
               <label className="block text-sm font-medium text-gray-700 mb-1">Inversor</label>
               <select
                 value={formData.inversor_id || ''}
-                onChange={(e) => setFormData({...formData, inversor_id: e.target.value})}
+                onChange={(e) => setFormData({...formData, inversor_id: parseInt(e.target.value)})}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+                disabled={loadingCatalogo}
               >
-                <option value="">Selecione o inversor</option>
-                {catalogoInversores.map((inversor: any) => (
-                  <option key={inversor.id} value={inversor.id}>
-                    {inversor.modelo} - {inversor.potencia/1000}kW
+                <option value="">
+                  {loadingCatalogo ? 'Carregando...' : 'Selecione o inversor'}
+                </option>
+                {/* 7. O Dropdown agora é populado com os dados da API Flask */}
+                {inversores.map(i => (
+                  <option key={i.id} value={i.id}>
+                    {i.equipamento.nome_modelo} - {((i.equipamento.potencia_w || 0)/1000).toFixed(1)}kW
                   </option>
                 ))}
               </select>

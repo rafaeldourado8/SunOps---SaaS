@@ -22,10 +22,10 @@ services:
       retries: 5
       start_period: 5s
     networks:
-      - sunops_network # Adicionado à rede
+      - sunops_network
 
   # =====================================================
-  # CACHE: Serviço do Redis
+  # 🔄 CACHE: Serviço do Redis
   # =====================================================
   sunops-redis:
     image: redis:7-alpine
@@ -36,6 +36,35 @@ services:
       - redis_data:/data
     networks:
       - sunops_network
+
+  # =====================================================
+  # 📦 API de Catálogo (Flask) - NOVO SERVIÇO
+  # =====================================================
+  catalogo-api:
+    container_name: sunops_catalogo_api
+    build:
+      context: ./catalogo-api
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./catalogo-api/data:/app/data
+    environment:
+      - FLASK_ENV=production
+      - FLASK_APP=app.py
+      # --- CORREÇÃO: Apontar a API Flask para o serviço Redis correto ---
+      - REDIS_HOST=sunops-redis
+      - REDIS_PORT=6379
+      # ----------------------------------------------------------------
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5001/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    networks:
+      - sunops_network
+    restart: unless-stopped
 
   # =====================================================
   # ⚙️ Serviço da API Backend (FastAPI)
@@ -53,7 +82,7 @@ services:
       DATABASE_USERNAME: ${DATABASE_USERNAME}
       DATABASE_PASSWORD: ${DATABASE_PASSWORD}
       DATABASE_NAME: ${DATABASE_NAME}
-      DATABASE_HOST: postgres-db # Host do DB
+      DATABASE_HOST: postgres-db
 
       # Variáveis de autenticação
       SECRET_KEY: ${SECRET_KEY}
@@ -65,18 +94,23 @@ services:
       FIRST_ADMIN_PASSWORD: ${FIRST_ADMIN_PASSWORD}
       FIRST_ADMIN_NAME: ${FIRST_ADMIN_NAME}
 
-      # --- Variáveis do Redis (Adicionadas) ---
-      REDIS_HOST: sunops-redis # Nome do serviço Redis
+      # Variáveis do Redis
+      REDIS_HOST: sunops-redis
       REDIS_PORT: 6379
       REDIS_DB: 0
+
+      # URL da API de Catálogo (opcional, caso o backend precise consumir)
+      CATALOGO_API_URL: http://catalogo-api:5001
 
     depends_on:
       postgres-db:
         condition: service_healthy
-      sunops-redis: # Adicionada dependência do Redis
+      sunops-redis:
         condition: service_started
+      catalogo-api:
+        condition: service_healthy
     networks:
-      - sunops_network # Adicionado à rede
+      - sunops_network
 
   # =====================================================
   # 💻 Serviço do Frontend React/Vite (SunOps)
@@ -92,11 +126,13 @@ services:
     ports:
       - "5173:5173"
     environment:
-      - VITE_API_BASE_URL=http://localhost:8000 # Esta linha está CORRETA.
+      - VITE_API_BASE_URL=http://localhost:8000
+      - VITE_CATALOGO_API_URL=http://localhost:5001
     depends_on:
       - sunops-api
+      - catalogo-api
     networks:
-      - sunops_network # Adicionado à rede
+      - sunops_network
 
 # =====================================================
 # 📦 Redes e Volumes Persistentes
@@ -108,5 +144,5 @@ networks:
 volumes:
   postgres_data:
     name: sunops-postgres-data
-  redis_data: # Adicionado volume do Redis
+  redis_data:
     name: sunops-redis-data

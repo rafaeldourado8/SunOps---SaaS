@@ -1,5 +1,6 @@
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
+from sqlalchemy import delete # <-- Importar delete
 from sqlalchemy.orm import joinedload
 from typing import List, Optional
 
@@ -49,3 +50,38 @@ async def delete_cliente(db: AsyncSession, cliente: models.Cliente) -> None:
     '''Deleta um cliente'''
     await db.delete(cliente)
     await db.commit()
+
+# --- NOVAS FUNÇÕES ADICIONADAS ---
+
+async def update_cliente(
+    db: AsyncSession, 
+    cliente: models.Cliente, 
+    update_data: schema.ClienteUpdate
+) -> models.Cliente:
+    '''Atualiza um cliente no banco'''
+    
+    # Pega os dados do schema que foram enviados (excluindo os não definidos)
+    data = update_data.model_dump(exclude_unset=True)
+    
+    # Atualiza os campos do objeto 'cliente'
+    for key, value in data.items():
+        setattr(cliente, key, value)
+        
+    db.add(cliente)
+    await db.commit()
+    await db.refresh(cliente)
+    return cliente
+
+
+async def delete_clientes_bulk(db: AsyncSession, cliente_ids: List[int]) -> int:
+    '''Deleta múltiplos clientes pelo ID'''
+    
+    query = (
+        delete(models.Cliente)
+        .where(models.Cliente.id.in_(cliente_ids))
+    )
+    result = await db.execute(query)
+    await db.commit()
+    
+    # Retorna o número de linhas afetadas (quantos foram deletados)
+    return result.rowcount
