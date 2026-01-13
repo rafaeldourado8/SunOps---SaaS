@@ -9,7 +9,7 @@ class RegisterDTO(BaseModel):
     full_name: str = Field(..., min_length=3)
 
 class LoginDTO(BaseModel):
-    email: EmailStr
+    username: str  # Aceita email ou username
     password: str
 
 class TokenDTO(BaseModel):

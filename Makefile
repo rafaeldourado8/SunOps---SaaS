@@ -9,6 +9,12 @@ down:
 logs:
 	docker-compose logs -f
 
+admin:
+	docker-compose --profile admin up -d django-admin
+
+admin-shell:
+	docker-compose exec django-admin python manage.py createsuperuser
+
 test-vendas:
 	docker-compose --profile test run --rm test-vendas
 

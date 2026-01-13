@@ -9,7 +9,8 @@ class LoginUserUseCase:
         self._token_gen = token_generator
     
     async def execute(self, dto: LoginDTO) -> TokenDTO:
-        user = await self._repository.find_by_email(dto.email)
+        # Tenta buscar por email (username pode ser email)
+        user = await self._repository.find_by_email(dto.username)
         if not user:
             raise ValueError("Credenciais inválidas")
         

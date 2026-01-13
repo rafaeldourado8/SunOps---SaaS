@@ -118,19 +118,19 @@ services:
     build: ./django_admin
     container_name: sunwops-django-admin
     ports:
-      - "8000:8000"
+      - "8002:8000"
     environment:
-      POSTGRES_DB: sunwops
-      POSTGRES_USER: admin
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      DATABASE_URL: postgresql://admin:${POSTGRES_PASSWORD}@postgres-master:5432/sunwops
       SECRET_KEY: ${SECRET_KEY}
     depends_on:
       postgres-master:
         condition: service_healthy
     volumes:
       - ./django_admin:/app
-    command: python manage.py runserver 0.0.0.0:8000
+    command: sh -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
     restart: unless-stopped
+    profiles:
+      - admin
 
   frontend:
     build: ./frontend
@@ -138,7 +138,7 @@ services:
     ports:
       - "80:80"
     depends_on:
-      - django-admin
+      - api
       - whatsapp-gateway
     restart: unless-stopped
 
