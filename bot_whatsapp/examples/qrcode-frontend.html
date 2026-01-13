@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SunOps WhatsApp Gateway - QR Code</title>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 10px;
+      font-size: 28px;
+    }
+    .subtitle {
+      color: #666;
+      margin-bottom: 30px;
+      font-size: 14px;
+    }
+    #qrcode {
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      display: inline-block;
+    }
+    .status {
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 20px;
+      font-weight: 500;
+    }
+    .status.connecting {
+      background: #fff3cd;
+      color: #856404;
+    }
+    .status.ready {
+      background: #d4edda;
+      color: #155724;
+    }
+    .status.error {
+      background: #f8d7da;
+      color: #721c24;
+    }
+    .loader {
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid #667eea;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+      margin: 20px auto;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 SunOps WhatsApp</h1>
+    <p class="subtitle">Escaneie o QR Code para conectar</p>
+    
+    <div id="loader" class="loader"></div>
+    <div id="qrcode"></div>
+    
+    <div id="status" class="status connecting">
+      Conectando ao gateway...
+    </div>
+  </div>
+
+  <script>
+    const ws = new WebSocket('ws://localhost:3001');
+    const qrcodeDiv = document.getElementById('qrcode');
+    const statusDiv = document.getElementById('status');
+    const loaderDiv = document.getElementById('loader');
+
+    ws.onopen = () => {
+      console.log('WebSocket conectado');
+      statusDiv.textContent = 'Aguardando QR Code...';
+      statusDiv.className = 'status connecting';
+    };
+
+    ws.onmessage = (event) => {
+      const { event: eventName, data } = JSON.parse(event.data);
+      console.log('Evento recebido:', eventName, data);
+
+      switch(eventName) {
+        case 'qr':
+          loaderDiv.classList.add('hidden');
+          qrcodeDiv.innerHTML = '';
+          QRCode.toCanvas(data, { width: 300 }, (error, canvas) => {
+            if (error) {
+              console.error('Erro ao gerar QR Code:', error);
+              return;
+            }
+            qrcodeDiv.appendChild(canvas);
+          });
+          statusDiv.textContent = '📱 Escaneie o QR Code com seu WhatsApp';
+          statusDiv.className = 'status connecting';
+          break;
+
+        case 'authenticated':
+          statusDiv.textContent = '🔐 Autenticado! Aguarde...';
+          statusDiv.className = 'status connecting';
+          break;
+
+        case 'ready':
+          qrcodeDiv.innerHTML = '<div style="font-size: 80px;">✅</div>';
+          statusDiv.textContent = '✅ WhatsApp conectado e pronto!';
+          statusDiv.className = 'status ready';
+          loaderDiv.classList.add('hidden');
+          break;
+
+        case 'auth_failure':
+          qrcodeDiv.innerHTML = '<div style="font-size: 80px;">❌</div>';
+          statusDiv.textContent = '❌ Falha na autenticação. Recarregue a página.';
+          statusDiv.className = 'status error';
+          loaderDiv.classList.add('hidden');
+          break;
+
+        case 'disconnected':
+          statusDiv.textContent = '🔌 WhatsApp desconectado: ' + data.reason;
+          statusDiv.className = 'status error';
+          break;
+      }
+    };
+
+    ws.onerror = (error) => {
+      console.error('Erro WebSocket:', error);
+      statusDiv.textContent = '❌ Erro ao conectar. Verifique se o gateway está rodando.';
+      statusDiv.className = 'status error';
+      loaderDiv.classList.add('hidden');
+    };
+
+    ws.onclose = () => {
+      console.log('WebSocket desconectado');
+      statusDiv.textContent = '🔌 Conexão perdida. Recarregue a página.';
+      statusDiv.className = 'status error';
+      loaderDiv.classList.add('hidden');
+    };
+  </script>
+</body>
+</html>

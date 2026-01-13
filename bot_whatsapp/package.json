@@ -1,0 +1,24 @@
+{
+  "name": "sunops-whatsapp-gateway",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test:rabbitmq": "node test-rabbitmq.js"
+  },
+  "keywords": ["whatsapp", "gateway", "rabbitmq", "ai"],
+  "author": "SunOps",
+  "license": "MIT",
+  "description": "WhatsApp Gateway with AI Agents for SunOps MAB",
+  "dependencies": {
+    "whatsapp-web.js": "^1.28.0",
+    "qrcode-terminal": "^0.12.0",
+    "amqplib": "^0.10.3",
+    "ws": "^8.14.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
