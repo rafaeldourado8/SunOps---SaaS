@@ -1,0 +1,211 @@
+services:
+  postgres-master:
+    image: postgres:15-alpine
+    container_name: sunwops-db-master
+    environment:
+      POSTGRES_DB: sunwops
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-master-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d sunwops"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: sunwops-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: redis-server --appendonly yes
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: sunwops-rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    volumes:
+      - rabbitmq-data:/var/lib/rabbitmq
+    healthcheck:
+      test: rabbitmq-diagnostics -q ping
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build: ./backend
+    container_name: sunwops-api
+    ports:
+      - "8001:8000"
+    environment:
+      DATABASE_URL: postgresql+asyncpg://admin:${POSTGRES_PASSWORD}@postgres-master:5432/sunwops
+      REDIS_URL: redis://redis:6379/0
+      RABBITMQ_URL: amqp://guest:guest@rabbitmq:5672/
+      SECRET_KEY: ${SECRET_KEY}
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+    depends_on:
+      postgres-master:
+        condition: service_healthy
+      redis:
+        condition: service_started
+      rabbitmq:
+        condition: service_started
+    volumes:
+      - ./backend:/app
+    command: uvicorn src.adapters.fastapi_app.main:app --host 0.0.0.0 --port 8000 --reload
+    restart: unless-stopped
+
+  whatsapp-gateway:
+    build: ./bot_whatsapp
+    container_name: sunwops-whatsapp-gateway
+    environment:
+      RABBITMQ_URL: amqp://guest:guest@rabbitmq:5672
+      RABBITMQ_QUEUE: whatsapp_messages
+      WS_PORT: 3001
+      WHATSAPP_SESSION_NAME: sunops-session
+    volumes:
+      - whatsapp-session:/app/.wwebjs_auth
+      - whatsapp-cache:/app/.wwebjs_cache
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    restart: unless-stopped
+
+  whatsapp-agent:
+    build: ./backend
+    container_name: sunwops-whatsapp-agent
+    environment:
+      RABBITMQ_URL: amqp://guest:guest@rabbitmq:5672
+      REDIS_URL: redis://redis:6379/0
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    volumes:
+      - ./backend:/app
+    command: python -m src.adapters.whatsapp_agent
+    restart: unless-stopped
+
+  event-consumer:
+    build: ./backend
+    container_name: sunwops-event-consumer
+    environment:
+      RABBITMQ_URL: amqp://guest:guest@rabbitmq:5672
+      REDIS_URL: redis://redis:6379/0
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    volumes:
+      - ./backend:/app
+    command: python src/adapters/event_consumer.py
+    restart: unless-stopped
+
+  django-admin:
+    build: ./django_admin
+    container_name: sunwops-django-admin
+    ports:
+      - "8000:8000"
+    environment:
+      POSTGRES_DB: sunwops
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      SECRET_KEY: ${SECRET_KEY}
+    depends_on:
+      postgres-master:
+        condition: service_healthy
+    volumes:
+      - ./django_admin:/app
+    command: python manage.py runserver 0.0.0.0:8000
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: sunwops-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - django-admin
+      - whatsapp-gateway
+    restart: unless-stopped
+
+  test-vendas:
+    image: python:3.11-slim
+    container_name: sunwops-test-vendas
+    environment:
+      PYTHONUNBUFFERED: 1
+    depends_on:
+      - api
+    volumes:
+      - ./frontend/tests:/tests
+    command: sh -c "pip install requests && python /tests/test_vendas_frontend.py"
+    networks:
+      - default
+    profiles:
+      - test
+
+  test-suporte:
+    image: python:3.11-slim
+    container_name: sunwops-test-suporte
+    environment:
+      PYTHONUNBUFFERED: 1
+    depends_on:
+      - api
+    volumes:
+      - ./frontend/tests:/tests
+    command: sh -c "pip install requests && python /tests/test_suporte_backend.py"
+    networks:
+      - default
+    profiles:
+      - test
+
+  test-whatsapp:
+    image: python:3.11-slim
+    container_name: sunwops-test-whatsapp
+    environment:
+      PYTHONUNBUFFERED: 1
+    depends_on:
+      - rabbitmq
+      - whatsapp-gateway
+    volumes:
+      - ./frontend/tests:/tests
+    command: sh -c "pip install requests && python /tests/test_whatsapp_integration.py"
+    networks:
+      - default
+    profiles:
+      - test
+
+  test-whatsapp-frontend:
+    image: python:3.11-slim
+    container_name: sunwops-test-whatsapp-frontend
+    environment:
+      PYTHONUNBUFFERED: 1
+    depends_on:
+      - whatsapp-gateway
+    volumes:
+      - ./frontend/tests:/tests
+    command: sh -c "pip install requests && python /tests/test_whatsapp_frontend.py"
+    networks:
+      - default
+    profiles:
+      - test
+
+volumes:
+  postgres-master-data:
+  redis-data:
+  rabbitmq-data:
+  whatsapp-session:
+  whatsapp-cache:
