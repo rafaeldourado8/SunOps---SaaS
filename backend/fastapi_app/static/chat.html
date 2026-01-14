@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Admin-Vendedor</title>
+    <style>
+        body { font-family: Arial; max-width: 800px; margin: 50px auto; }
+        #messages { border: 1px solid #ccc; height: 400px; overflow-y: scroll; padding: 10px; margin: 20px 0; }
+        .message { margin: 10px 0; padding: 8px; border-radius: 5px; }
+        .vendedor { background: #e3f2fd; text-align: left; }
+        .admin { background: #f3e5f5; text-align: right; }
+        .ia { background: #fff3e0; text-align: center; font-style: italic; }
+        input, button { padding: 10px; margin: 5px; }
+        #messageInput { width: 70%; }
+    </style>
+</head>
+<body>
+    <h1>Chat WebSocket - Admin ↔ Vendedor</h1>
+    
+    <div>
+        <label>User ID:</label>
+        <input type="text" id="userId" value="user-1" />
+        <label>Tipo:</label>
+        <select id="tipoRemetente">
+            <option value="VENDEDOR">Vendedor</option>
+            <option value="ADMIN">Admin</option>
+        </select>
+        <button onclick="connect()">Conectar</button>
+    </div>
+    
+    <div>
+        <label>Conversa ID:</label>
+        <input type="text" id="conversaId" value="conv-1" />
+        <button onclick="createConversa()">Criar Conversa</button>
+        <button onclick="joinRoom()">Entrar na Sala</button>
+    </div>
+    
+    <div id="messages"></div>
+    
+    <div>
+        <input type="text" id="messageInput" placeholder="Digite sua mensagem..." />
+        <button onclick="sendMessage()">Enviar</button>
+    </div>
+
+    <script>
+        let ws = null;
+        
+        function connect() {
+            const userId = document.getElementById('userId').value;
+            ws = new WebSocket(`ws://localhost:8001/ws/chat/${userId}`);
+            
+            ws.onopen = () => addMessage('Sistema', 'Conectado', 'system');
+            
+            ws.onmessage = (event) => {
+                const data = JSON.parse(event.data);
+                
+                if (data.type === 'message') {
+                    addMessage(data.tipo_remetente, data.conteudo, data.tipo_remetente.toLowerCase());
+                } else if (data.type === 'conversa_created') {
+                    document.getElementById('conversaId').value = data.conversa_id;
+                    addMessage('Sistema', `Conversa criada: ${data.conversa_id}`, 'system');
+                }
+            };
+        }
+        
+        function createConversa() {
+            if (!ws) return alert('Conecte primeiro!');
+            ws.send(JSON.stringify({ action: 'create_conversa', assunto: 'Nova solicitação' }));
+        }
+        
+        function joinRoom() {
+            if (!ws) return alert('Conecte primeiro!');
+            const conversaId = document.getElementById('conversaId').value;
+            ws.send(JSON.stringify({ action: 'join_room', conversa_id: conversaId }));
+        }
+        
+        function sendMessage() {
+            if (!ws) return alert('Conecte primeiro!');
+            
+            const conversaId = document.getElementById('conversaId').value;
+            const conteudo = document.getElementById('messageInput').value;
+            const tipoRemetente = document.getElementById('tipoRemetente').value;
+            
+            if (!conteudo) return;
+            
+            ws.send(JSON.stringify({
+                action: 'send_message',
+                conversa_id: conversaId,
+                conteudo: conteudo,
+                tipo_remetente: tipoRemetente
+            }));
+            
+            document.getElementById('messageInput').value = '';
+        }
+        
+        function addMessage(sender, content, type) {
+            const messagesDiv = document.getElementById('messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${type}`;
+            messageDiv.innerHTML = `<strong>${sender}:</strong> ${content}`;
+            messagesDiv.appendChild(messageDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+        
+        document.getElementById('messageInput').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') sendMessage();
+        });
+    </script>
+</body>
+</html>

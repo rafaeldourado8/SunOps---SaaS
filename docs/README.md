@@ -1,0 +1,105 @@
+# SunwOps - MAB
+## Modelagem de Domínio (DDD)
+
+Sistema de Gestão para Empresas de Energia Solar
+
+---
+
+## 📁 Estrutura da Documentação
+
+```
+sunwops-ddd/
+├── README.md                     # Este arquivo
+├── 01-BOUNDED-CONTEXTS.md        # Visão geral dos contextos
+├── 02-ROADMAP-FASES.md           # Plano de entrega em fases
+│
+├── entidades/
+│   ├── 03-CADASTROS.md           # Cliente, Vendedor, Integrador, Fornecedor
+│   ├── 04-CATALOGO.md            # Produtos: Painel, Inversor, Estrutura, Cabo
+│   ├── 05-ORCAMENTOS.md          # Kit, Orçamento, Cálculos
+│   ├── 06-VENDAS.md              # Venda, Pipeline, Funil
+│   ├── 07-CONTRATOS.md           # Contrato, Parcelas
+│   ├── 08-SUPORTE.md             # Ticket, Garantia
+│   ├── 09-MONITORAMENTO.md       # Planta, Alertas, Integrações
+│   ├── 10-AGENTES-IA.md          # Agente, Conversa, Mensagem
+│   └── 11-MARKETING.md           # Campanha
+│
+├── regras/
+│   ├── 12-REGRAS-NEGOCIO.md      # Todas as regras consolidadas
+│   └── 13-EVENTOS-DOMINIO.md     # Eventos entre contextos
+│
+└── fases/
+    ├── FASE-1-MVP.md             # Detalhamento Fase 1
+    ├── FASE-2-VENDAS.md          # Detalhamento Fase 2
+    ├── FASE-3-DASHBOARD.md       # Detalhamento Fase 3
+    └── FASE-4-INTEGRACOES.md     # Detalhamento Fase 4
+```
+
+---
+
+## 🎯 Prioridade de Entrega
+
+| Fase | Nome | Duração | Status |
+|------|------|---------|--------|
+| **1** | MVP Core - Orçamentos | 6-8 semanas | 🔴 Prioridade Máxima |
+| **2** | Vendas e Contratos | 4-6 semanas | 🟡 Alta |
+| **3** | Dashboard Completo | 4 semanas | 🟡 Alta |
+| **4** | Integrações e IA | 6-8 semanas | 🟢 Média |
+
+---
+
+## 🗂️ Bounded Contexts
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                         SUNWOPS                                  │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐           │
+│  │  CADASTROS   │  │   CATÁLOGO   │  │  ORÇAMENTOS  │  FASE 1   │
+│  │  (Identity)  │→ │  (Produtos)  │→ │    (Core)    │           │
+│  └──────────────┘  └──────────────┘  └──────────────┘           │
+│         │                                   │                    │
+│         ▼                                   ▼                    │
+│  ┌──────────────┐  ┌──────────────┐                             │
+│  │    VENDAS    │← │  CONTRATOS   │                    FASE 2   │
+│  │  (Pipeline)  │  │  (Jurídico)  │                             │
+│  └──────────────┘  └──────────────┘                             │
+│         │                                                        │
+│         ▼                                                        │
+│  ┌──────────────┐  ┌──────────────┐                             │
+│  │   SUPORTE    │  │  DASHBOARD   │                    FASE 3   │
+│  │  (Tickets)   │  │ (Relatórios) │                             │
+│  └──────────────┘  └──────────────┘                             │
+│         │                                                        │
+│         ▼                                                        │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐           │
+│  │MONITORAMENTO │  │  AGENTES IA  │  │  MARKETING   │  FASE 4   │
+│  │ (Inversores) │  │  (Chatbots)  │  │ (Campanhas)  │           │
+│  └──────────────┘  └──────────────┘  └──────────────┘           │
+│                                                                  │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🚀 Quick Start
+
+1. Leia `01-BOUNDED-CONTEXTS.md` para visão geral
+2. Veja `02-ROADMAP-FASES.md` para planejamento
+3. Comece pela `FASE-1-MVP.md` para desenvolvimento
+
+---
+
+## 📋 Legenda de Tipos
+
+| Tipo | Descrição |
+|------|-----------|
+| **Entity** | Tem identidade única (ID) |
+| **Value Object (VO)** | Definido por seus atributos, imutável |
+| **Aggregate Root** | Entidade principal que controla outras |
+| **Enum** | Lista fixa de valores possíveis |
+
+---
+
+*Versão 1.0 | Janeiro 2026*

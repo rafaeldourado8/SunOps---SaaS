@@ -1,0 +1,14 @@
+services:
+  frontend-dev:
+    image: node:20-alpine
+    container_name: ops-crm-frontend-dev
+    working_dir: /app
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0"
+    volumes:
+      - ./frontend:/app
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_API_URL=http://localhost:8001/api
+      - VITE_WS_URL=ws://localhost:8001/ws
+      - VITE_DJANGO_ADMIN_URL=http://localhost:8000/admin
