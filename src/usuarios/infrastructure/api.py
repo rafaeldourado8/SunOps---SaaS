@@ -5,11 +5,15 @@ from passlib.context import CryptContext
 from jose import JWTError, jwt
 from datetime import datetime, timedelta
 from pydantic import BaseModel
+from typing import Dict, Any
 
 from shared.infrastructure.database import get_db
 from usuarios.infrastructure.models import UsuarioModel
+from usuarios.infrastructure.estado_repository import UsuarioEstadoRepository
+from usuarios.application.estado_use_cases import GerenciarEstadoUsuario
 
 router = APIRouter(prefix="/auth", tags=["auth"])
+router_estado = APIRouter(prefix="/usuarios/estado", tags=["usuario-estado"])
 
 SECRET_KEY = "sunops-secret-key-change-in-production"
 ALGORITHM = "HS256"
@@ -23,6 +27,11 @@ class Token(BaseModel):
     access_token: str
     token_type: str
     user: dict
+
+
+class EstadoRequest(BaseModel):
+    chave: str
+    valor: Any
 
 
 def create_access_token(data: dict):
@@ -80,3 +89,98 @@ async def get_me(current_user: UsuarioModel = Depends(get_current_user)):
         "email": current_user.email,
         "tipo": current_user.tipo
     }
+
+
+# Endpoints de Estado do Usuário
+@router_estado.post("/preferencia")
+async def salvar_preferencia(
+    request: EstadoRequest,
+    current_user: UsuarioModel = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    repo = UsuarioEstadoRepository(db)
+    use_case = GerenciarEstadoUsuario(repo)
+    use_case.salvar_preferencia(str(current_user.id), request.chave, request.valor)
+    return {"message": "Preferência salva"}
+
+
+@router_estado.get("/preferencia/{chave}")
+async def obter_preferencia(
+    chave: str,
+    current_user: UsuarioModel = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    repo = UsuarioEstadoRepository(db)
+    use_case = GerenciarEstadoUsuario(repo)
+    valor = use_case.obter_preferencia(str(current_user.id), chave)
+    return {"chave": chave, "valor": valor}
+
+
+@router_estado.post("/filtro/{tela}")
+async def salvar_filtro(
+    tela: str,
+    filtros: Dict[str, Any],
+    current_user: UsuarioModel = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    repo = UsuarioEstadoRepository(db)
+    use_case = GerenciarEstadoUsuario(repo)
+    use_case.salvar_filtro(str(current_user.id), tela, filtros)
+    return {"message": "Filtros salvos"}
+
+
+@router_estado.get("/filtro/{tela}")
+async def obter_filtro(
+    tela: str,
+    current_user: UsuarioModel = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    repo = UsuarioEstadoRepository(db)
+    use_case = GerenciarEstadoUsuario(repo)
+    filtros = use_case.obter_filtro(str(current_user.id), tela)
+    return {"tela": tela, "filtros": filtros}
+
+
+@router_estado.post("/dashboard")
+async def salvar_dashboard(
+    config: Dict[str, Any],
+    current_user: UsuarioModel = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    repo = UsuarioEstadoRepository(db)
+    use_case = GerenciarEstadoUsuario(repo)
+    use_case.salvar_dashboard(str(current_user.id), config)
+    return {"message": "Dashboard salvo"}
+
+
+@router_estado.get("/dashboard")
+async def obter_dashboard(
+    current_user: UsuarioModel = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    repo = UsuarioEstadoRepository(db)
+    use_case = GerenciarEstadoUsuario(repo)
+    config = use_case.obter_dashboard(str(current_user.id))
+    return {"config": config}
+
+
+@router_estado.get("/todos")
+async def obter_todos_estados(
+    current_user: UsuarioModel = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    repo = UsuarioEstadoRepository(db)
+    use_case = GerenciarEstadoUsuario(repo)
+    estados = use_case.obter_todos_estados(str(current_user.id))
+    return estados
+
+
+@router_estado.delete("/limpar")
+async def limpar_estados(
+    current_user: UsuarioModel = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    repo = UsuarioEstadoRepository(db)
+    use_case = GerenciarEstadoUsuario(repo)
+    count = use_case.limpar_estados(str(current_user.id))
+    return {"message": f"{count} estados removidos"}

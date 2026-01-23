@@ -5,7 +5,7 @@ from clientes.infrastructure.api import router as clientes_router
 from propostas.infrastructure.api import router as propostas_router
 from premissas.infrastructure.api import router as premissas_router
 from contratos.infrastructure.api import router as templates_router
-from usuarios.infrastructure.api import router as auth_router
+from usuarios.infrastructure.api import router as auth_router, router_estado
 from shared.infrastructure.database import engine, Base
 
 app = FastAPI(title="SunOPS API", version="1.0.0")
@@ -21,6 +21,7 @@ app.add_middleware(
 Base.metadata.create_all(bind=engine)
 
 app.include_router(auth_router)
+app.include_router(router_estado)
 app.include_router(clientes_router)
 app.include_router(propostas_router)
 app.include_router(premissas_router)
