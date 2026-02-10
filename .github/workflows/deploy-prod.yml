@@ -80,27 +80,21 @@ jobs:
         run: |
           ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }} << 'EOF'
             cd /opt/crm-solar
-            
-            # Update code
             git fetch origin
             git reset --hard origin/${GITHUB_REF##*/}
           EOF
           
-          # Create .env files (outside SSH to allow variable expansion)
           ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }} "cat > /opt/crm-solar/.env << 'ENVEOF'
 SECRET_KEY=${{ secrets.DJANGO_SECRET_KEY }}
 DEBUG=False
 ALLOWED_HOSTS=${{ secrets.SERVER_IP }},localhost
-
 DB_NAME=crm_solar
 DB_USER=postgres
 DB_PASSWORD=${{ secrets.DB_PASSWORD }}
 DB_HOST=db
 DB_PORT=5432
-
 REDIS_HOST=redis
 REDIS_PORT=6379
-
 CORS_ORIGINS=http://${{ secrets.SERVER_IP }}
 ENVEOF
 "
@@ -109,19 +103,11 @@ ENVEOF
           
           ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }} << 'EOF'
             cd /opt/crm-solar
-            
-            # Deploy with zero downtime
             docker-compose down
             docker-compose up -d --build
-            
-            # Wait for services
             echo "Waiting for services to start..."
             sleep 120
-            
-            # Run migrations
             docker-compose exec -T backend python manage.py migrate --no-input
-            
-            # Collect static files
             docker-compose exec -T backend python manage.py collectstatic --no-input
           EOF
       
