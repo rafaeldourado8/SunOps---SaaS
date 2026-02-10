@@ -40,14 +40,11 @@ services:
       - crm_network
 
   frontend:
-    build: ./frontend
-    volumes:
-      - ./frontend:/app
-      - /app/node_modules
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
     expose:
-      - "5173"
-    depends_on:
-      - backend
+      - "80"
     networks:
       - crm_network
 
@@ -55,8 +52,10 @@ services:
     image: nginx:alpine
     ports:
       - "80:80"
+      - "443:443"
     volumes:
-      - ./nginx/nginx.dev.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx/nginx.ssl.conf:/etc/nginx/conf.d/default.conf:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro
     depends_on:
       - backend
       - frontend
