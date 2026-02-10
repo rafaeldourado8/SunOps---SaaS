@@ -1,0 +1,59 @@
+stages:
+  - test
+  - build
+  - deploy
+
+variables:
+  DOCKER_DRIVER: overlay2
+
+backend-tests:
+  stage: test
+  image: python:3.11
+  script:
+    - cd backend
+    - pip install -r requirements.txt
+    - python manage.py test
+    - bandit -r apps/
+    - safety check
+  only:
+    - development
+    - prod
+
+frontend-tests:
+  stage: test
+  image: node:18
+  script:
+    - cd frontend
+    - npm install
+    - npm test
+    - npm audit
+  only:
+    - development
+    - prod
+
+docker-build:
+  stage: build
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker-compose build
+  only:
+    - development
+    - prod
+
+deploy-dev:
+  stage: deploy
+  script:
+    - echo "Deploy to DEV"
+  only:
+    - development
+  when: manual
+
+deploy-prod:
+  stage: deploy
+  script:
+    - echo "Deploy to PROD"
+  only:
+    - prod
+  when: manual
