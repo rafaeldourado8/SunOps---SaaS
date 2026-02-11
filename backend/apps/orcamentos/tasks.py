@@ -58,6 +58,7 @@ def calcular_dashboard_metrics():
     from apps.clientes.models import Cliente
     from apps.orcamentos.models import Orcamento
     from django.utils import timezone
+    from django.db import models
     from datetime import timedelta
     
     data_limite = timezone.now() - timedelta(days=30)
