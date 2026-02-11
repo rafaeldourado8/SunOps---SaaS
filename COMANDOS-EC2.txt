@@ -1,0 +1,34 @@
+# COMANDOS PARA EXECUTAR NA EC2
+
+# 1. Conectar na EC2
+ssh ec2-user@3.226.196.27
+
+# 2. Ir para o diretório do projeto
+cd /var/www/SunOps---SaaS
+
+# 3. Fazer backup do arquivo atual
+sudo cp backend/apps/orcamentos/views.py backend/apps/orcamentos/views.py.backup
+
+# 4. Editar o arquivo diretamente
+sudo nano backend/apps/orcamentos/views.py
+
+# 5. Procurar pela linha 289 (Ctrl+W para buscar):
+#    def detalhamento(self, request, pk=None):
+
+# 6. ADICIONAR ANTES DESSA LINHA:
+#    @action(detail=True, methods=['get'])
+
+# 7. Deve ficar assim:
+#    @action(detail=True, methods=['get'])
+#    def detalhamento(self, request, pk=None):
+
+# 8. Salvar (Ctrl+O, Enter, Ctrl+X)
+
+# 9. Reiniciar o Gunicorn
+sudo systemctl restart gunicorn
+
+# 10. Verificar status
+sudo systemctl status gunicorn
+
+# 11. Testar
+curl https://sunops.com.br/api/orcamentos/1/detalhamento/
