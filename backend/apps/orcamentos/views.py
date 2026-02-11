@@ -207,24 +207,56 @@ class OrcamentoViewSet(viewsets.ModelViewSet):
     @action(detail=True, methods=['get'], url_path='gerar-pdf-dimensionamento')
     def gerar_pdf_dimensionamento(self, request, pk=None):
         from django.http import HttpResponse
+        from apps.templates.models import Template
+        from apps.orcamentos.services.template_processor import TemplateProcessorService
+        import tempfile
+        import os
+        import subprocess
         
         orcamento = self.get_object()
+        premissa = Premissa.get_ativa()
+        cliente = orcamento.cliente
+        template = Template.objects.filter(tipo='orcamento', ativo=True).first()
         
-        # Verificar cache
-        cached_pdf = cache.get(f'pdf_orcamento_{pk}')
-        if cached_pdf:
-            response = HttpResponse(cached_pdf, content_type='application/pdf')
-            response['Content-Disposition'] = f'attachment; filename="Orcamento_{orcamento.numero}.pdf"'
-            return response
+        if not template:
+            return Response({'error': 'Template não encontrado'}, status=status.HTTP_404_NOT_FOUND)
         
-        # Disparar task assíncrona
-        task = gerar_pdf_orcamento_async.delay(pk)
-        
-        return Response({
-            'task_id': task.id,
-            'status': 'processing',
-            'message': 'PDF sendo gerado. Consulte novamente em alguns segundos.'
-        }, status=status.HTTP_202_ACCEPTED)
+        try:
+            buffer_docx = TemplateProcessorService.processar_template(
+                template.arquivo.path, orcamento, premissa, cliente
+            )
+            
+            with tempfile.NamedTemporaryFile(delete=False, suffix='.docx') as tmp_docx:
+                tmp_docx.write(buffer_docx.getvalue())
+                tmp_docx_path = tmp_docx.name
+            
+            tmp_dir = os.path.dirname(tmp_docx_path)
+            try:
+                subprocess.run([
+                    'libreoffice', '--headless', '--convert-to', 'pdf',
+                    '--outdir', tmp_dir, tmp_docx_path
+                ], check=True, capture_output=True, timeout=30)
+                
+                pdf_path = tmp_docx_path.replace('.docx', '.pdf')
+                
+                with open(pdf_path, 'rb') as pdf_file:
+                    pdf_content = pdf_file.read()
+                
+                os.unlink(tmp_docx_path)
+                os.unlink(pdf_path)
+                
+                response = HttpResponse(pdf_content, content_type='application/pdf')
+                response['Content-Disposition'] = f'attachment; filename="Orcamento_{orcamento.numero}.pdf"'
+                return response
+                
+            except:
+                os.unlink(tmp_docx_path)
+                response = HttpResponse(buffer_docx.getvalue(), content_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document')
+                response['Content-Disposition'] = f'attachment; filename="Orcamento_{orcamento.numero}.docx"'
+                return response
+                
+        except Exception as e:
+            return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
     
     @action(detail=True, methods=['post'])
     def converter_proposta(self, request, pk=None):
