@@ -321,6 +321,8 @@ class OrcamentoViewSet(viewsets.ModelViewSet):
             
         except Exception as e:
             return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+    
+    @action(detail=True, methods=['get'])
     def detalhamento(self, request, pk=None):
         orcamento = self.get_object()
         premissa = Premissa.get_ativa()
