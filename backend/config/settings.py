@@ -18,6 +18,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'corsheaders',
     'django_filters',
+    'django_celery_beat',
     'csp',
     'defender',
     'apps.clientes',
