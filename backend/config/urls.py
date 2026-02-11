@@ -6,6 +6,7 @@ from rest_framework.authtoken.views import obtain_auth_token
 from django.views.decorators.csrf import csrf_exempt
 from apps.auth_views import me
 from apps.health import health_check
+from apps.health_views import TaskStatusView, CacheStatsView, CeleryStatsView
 import os
 
 # Admin URL aleatória para segurança
@@ -13,6 +14,9 @@ ADMIN_URL = os.getenv('ADMIN_URL', 'admin/')
 
 urlpatterns = [
     path('health/', health_check, name='health-check'),
+    path('api/tasks/<str:task_id>/', TaskStatusView.as_view(), name='task-status'),
+    path('api/stats/cache/', CacheStatsView.as_view(), name='cache-stats'),
+    path('api/stats/celery/', CeleryStatsView.as_view(), name='celery-stats'),
     path(ADMIN_URL, admin.site.urls),
     path('api/auth/login/', csrf_exempt(obtain_auth_token), name='api-login'),
     path('api/auth/me/', me, name='api-me'),

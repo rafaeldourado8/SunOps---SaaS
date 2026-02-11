@@ -1,17 +1,39 @@
 services:
   db:
-    image: postgres:15
+    image: postgres:15-alpine
     environment:
       POSTGRES_DB: ${DB_NAME:-crm_solar}
       POSTGRES_USER: ${DB_USER:-postgres}
       POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+      POSTGRES_INITDB_ARGS: "-E UTF8 --locale=C"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     networks:
       - crm_network
+    shm_size: 256mb
+    command: >
+      postgres
+      -c shared_buffers=256MB
+      -c effective_cache_size=1GB
+      -c maintenance_work_mem=64MB
+      -c checkpoint_completion_target=0.9
+      -c wal_buffers=16MB
+      -c default_statistics_target=100
+      -c random_page_cost=1.1
+      -c effective_io_concurrency=200
+      -c work_mem=4MB
+      -c min_wal_size=1GB
+      -c max_wal_size=4GB
+      -c max_connections=200
 
   redis:
     image: redis:7-alpine
+    command: >
+      redis-server
+      --maxmemory 512mb
+      --maxmemory-policy allkeys-lru
+      --save 60 1000
+      --appendonly yes
     volumes:
       - redis_data:/data
     networks:
@@ -22,6 +44,7 @@ services:
     environment:
       RABBITMQ_DEFAULT_USER: ${RABBITMQ_USER:-guest}
       RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASS:-guest}
+      RABBITMQ_VM_MEMORY_HIGH_WATERMARK: 512MB
     ports:
       - "5672:5672"
       - "15672:15672"
@@ -36,11 +59,28 @@ services:
       retries: 5
 
   backend:
-    build: ./backend
-    command: gunicorn config.wsgi:application --bind 0.0.0.0:8000 --workers 4 --threads 2 --worker-class gthread --worker-tmp-dir /dev/shm --timeout 120 --max-requests 1000 --max-requests-jitter 50 --keep-alive 5
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.prod
+    command: >
+      gunicorn config.wsgi:application
+      --bind 0.0.0.0:8000
+      --workers 4
+      --threads 4
+      --worker-class gthread
+      --worker-tmp-dir /dev/shm
+      --timeout 120
+      --graceful-timeout 30
+      --max-requests 1000
+      --max-requests-jitter 100
+      --keep-alive 5
+      --access-logfile -
+      --error-logfile -
+      --log-level info
     volumes:
       - ./backend:/app
       - media_data:/app/media
+      - /dev/shm:/dev/shm
     ports:
       - "8000:8000"
     depends_on:
@@ -54,10 +94,27 @@ services:
       - crm_network
     environment:
       CELERY_BROKER_URL: amqp://guest:guest@rabbitmq:5672//
+      DJANGO_SETTINGS_MODULE: config.settings
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '1'
+          memory: 1G
 
   celery_worker:
-    build: ./backend
-    command: celery -A config worker -l info --concurrency=4 --max-tasks-per-child=1000
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.prod
+    command: >
+      celery -A config worker
+      -l info
+      --concurrency=4
+      --max-tasks-per-child=1000
+      --prefetch-multiplier=1
+      -O fair
     volumes:
       - ./backend:/app
       - media_data:/app/media
@@ -72,10 +129,21 @@ services:
       - crm_network
     environment:
       CELERY_BROKER_URL: amqp://guest:guest@rabbitmq:5672//
+      DJANGO_SETTINGS_MODULE: config.settings
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
 
   celery_beat:
-    build: ./backend
-    command: celery -A config beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.prod
+    command: celery -A config beat -l info
     volumes:
       - ./backend:/app
     depends_on:
@@ -89,15 +157,21 @@ services:
       - crm_network
     environment:
       CELERY_BROKER_URL: amqp://guest:guest@rabbitmq:5672//
+      DJANGO_SETTINGS_MODULE: config.settings
 
   frontend:
     build:
       context: ./frontend
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.prod
     ports:
       - "5173:80"
     networks:
       - crm_network
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
 
 volumes:
   postgres_data:

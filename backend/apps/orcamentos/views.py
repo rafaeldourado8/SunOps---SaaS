@@ -4,8 +4,10 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.pagination import PageNumberPagination
 from django_filters.rest_framework import DjangoFilterBackend
+from django.core.cache import cache
 from .models import Orcamento
 from .serializers import OrcamentoSerializer, OrcamentoCreateSerializer
+from .tasks import gerar_pdf_orcamento_async, processar_orcamento_async
 from apps.premissas.models import Premissa
 from apps.equipamentos.models import Inversor
 from apps.clientes.models import Cliente
@@ -205,75 +207,24 @@ class OrcamentoViewSet(viewsets.ModelViewSet):
     @action(detail=True, methods=['get'], url_path='gerar-pdf-dimensionamento')
     def gerar_pdf_dimensionamento(self, request, pk=None):
         from django.http import HttpResponse
-        from .services.template_processor import TemplateProcessorService
-        from apps.templates.models import Template
-        import tempfile
-        import os
-        import subprocess
         
         orcamento = self.get_object()
-        premissa = Premissa.get_ativa()
-        cliente = orcamento.cliente
         
-        try:
-            template = Template.objects.filter(tipo='orcamento', ativo=True).first()
-            
-            if not template:
-                return Response({'error': 'Nenhum template de orçamento ativo encontrado'}, status=404)
-            
-            # Processar template DOCX
-            buffer_docx = TemplateProcessorService.processar_template(
-                template.arquivo.path,
-                orcamento,
-                premissa,
-                cliente
-            )
-            
-            # Criar arquivo temporário DOCX
-            with tempfile.NamedTemporaryFile(delete=False, suffix='.docx') as tmp_docx:
-                tmp_docx.write(buffer_docx.getvalue())
-                tmp_docx_path = tmp_docx.name
-            
-            # Converter para PDF usando LibreOffice
-            tmp_dir = os.path.dirname(tmp_docx_path)
-            try:
-                subprocess.run([
-                    'libreoffice',
-                    '--headless',
-                    '--convert-to', 'pdf',
-                    '--outdir', tmp_dir,
-                    tmp_docx_path
-                ], check=True, capture_output=True, timeout=30)
-                
-                # Caminho do PDF gerado
-                pdf_path = tmp_docx_path.replace('.docx', '.pdf')
-                
-                # Ler PDF
-                with open(pdf_path, 'rb') as pdf_file:
-                    pdf_content = pdf_file.read()
-                
-                # Limpar arquivos temporários
-                os.unlink(tmp_docx_path)
-                os.unlink(pdf_path)
-                
-                # Retornar PDF
-                response = HttpResponse(pdf_content, content_type='application/pdf')
-                response['Content-Disposition'] = f'attachment; filename="Orcamento_{orcamento.numero}.pdf"'
-                return response
-                
-            except Exception as e:
-                # Se falhar, retornar DOCX
-                os.unlink(tmp_docx_path)
-                response = HttpResponse(
-                    buffer_docx.getvalue(),
-                    content_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document'
-                )
-                response['Content-Disposition'] = f'attachment; filename="Orcamento_{orcamento.numero}.docx"'
-                return response
-            
-        except Exception as e:
-            import traceback
-            return Response({'error': str(e), 'traceback': traceback.format_exc()}, status=500)
+        # Verificar cache
+        cached_pdf = cache.get(f'pdf_orcamento_{pk}')
+        if cached_pdf:
+            response = HttpResponse(cached_pdf, content_type='application/pdf')
+            response['Content-Disposition'] = f'attachment; filename="Orcamento_{orcamento.numero}.pdf"'
+            return response
+        
+        # Disparar task assíncrona
+        task = gerar_pdf_orcamento_async.delay(pk)
+        
+        return Response({
+            'task_id': task.id,
+            'status': 'processing',
+            'message': 'PDF sendo gerado. Consulte novamente em alguns segundos.'
+        }, status=status.HTTP_202_ACCEPTED)
     
     @action(detail=True, methods=['post'])
     def converter_proposta(self, request, pk=None):
