@@ -12,7 +12,6 @@ import Vendedores from './pages/Vendedores';
 import Equipamentos from './pages/Equipamentos';
 import Premissas from './pages/PremissasConfig';
 import Templates from './pages/Templates';
-import Suporte from './pages/Suporte';
 
 const App = () => {
   const routes = [
@@ -24,7 +23,6 @@ const App = () => {
     { path: '/equipamentos', component: Equipamentos, title: 'Equipamentos', allowVendedor: false },
     { path: '/templates', component: Templates, title: 'Templates', allowVendedor: false },
     { path: '/premissas', component: Premissas, title: 'Premissas', allowVendedor: false },
-    { path: '/suporte', component: Suporte, title: 'Suporte IA', allowVendedor: true },
   ];
 
   return (
