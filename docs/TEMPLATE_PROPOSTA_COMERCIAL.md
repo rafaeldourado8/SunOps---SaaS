@@ -1,117 +1,187 @@
-# TEMPLATE: PROPOSTA COMERCIAL
-# Baseado em: PROPOSTA COMERCIAL - MAB.pdf
-# Substitua os campos abaixo pelas chaves correspondentes no seu documento Word
+# Template de Proposta Comercial - Chaves Disponíveis
 
----
+## 📄 Arquivo
+`docs/templates/PROPOSTA_COMERCIAL_TEMPLATE.docx`
 
-## CABEÇALHO
-**PROPOSTA COMERCIAL Nº:** {{NUMERO_ORCAMENTO}}
-**DATA:** {{DATA_CRIACAO}}
-**VALIDADE:** {{VALIDADE_PROPOSTA_DIAS}} dias
+## 🔑 Chaves de Template
 
----
+### Dados do Cliente
+| Chave | Descrição | Exemplo |
+|-------|-----------|---------|
+| `{{cliente_nome}}` | Nome completo do cliente | João Silva |
+| `{{cliente_endereco}}` | Endereço completo | Rua das Flores, 123 |
+| `{{cliente_bairro}}` | Bairro | Centro |
+| `{{cliente_cidade}}` | Cidade | São Paulo |
+| `{{cliente_estado}}` | Estado (UF) | SP |
+| `{{cliente_cep}}` | CEP | 01234-567 |
+| `{{cliente_telefone}}` | Telefone | (11) 98765-4321 |
+| `{{cliente_email}}` | E-mail | joao@email.com |
 
-## DADOS DO CLIENTE
-**Cliente:** {{CLIENTE_NOME}}
-**CPF/CNPJ:** {{CLIENTE_CPF_CNPJ}}
-**Endereço:** {{CLIENTE_ENDERECO}}, {{CLIENTE_BAIRRO}}
-**Cidade/UF:** {{CLIENTE_CIDADE}}/{{CLIENTE_ESTADO}}
-**CEP:** {{CLIENTE_CEP}}
-**Telefone:** {{CLIENTE_TELEFONE}}
-**E-mail:** {{CLIENTE_EMAIL}}
+### Dados do Sistema Fotovoltaico
+| Chave | Descrição | Exemplo |
+|-------|-----------|---------|
+| `{{consumo_mensal}}` | Consumo mensal em kWh | 850 |
+| `{{potencia_sistema}}` | Potência total do sistema | 10,50 |
+| `{{quantidade_paineis}}` | Número de painéis | 20 |
+| `{{potencia_painel}}` | Potência unitária do painel | 550 |
+| `{{potencia_inversor}}` | Potência do inversor | 10 |
+| `{{geracao_mensal}}` | Geração mensal estimada | 1.200 |
+| `{{geracao_anual}}` | Geração anual estimada | 14.400 |
 
----
+### Dados Financeiros
+| Chave | Descrição | Exemplo |
+|-------|-----------|---------|
+| `{{valor_total}}` | Valor total do investimento | R$ 52.500,00 |
+| `{{valor_parcela}}` | Valor da parcela | R$ 4.375,00 |
+| `{{quantidade_parcelas}}` | Número de parcelas | 12 |
+| `{{vida_util_sistema}}` | Vida útil do sistema | 25 |
+| `{{economia_mensal}}` | Economia mensal estimada | R$ 1.200,00 |
+| `{{economia_anual}}` | Economia anual estimada | R$ 14.400,00 |
+| `{{payback}}` | Tempo de retorno do investimento | 3,6 |
 
-## DESCRIÇÃO DO SISTEMA FOTOVOLTAICO
+### Dados Técnicos
+| Chave | Descrição | Exemplo |
+|-------|-----------|---------|
+| `{{hsp}}` | Horas de Sol Pleno | 5,5 |
+| `{{perdas_sistema}}` | Perdas do sistema (%) | 20 |
+| `{{degradacao_anual}}` | Degradação anual (%) | 0,8 |
 
-### Painéis Solares
-- **Quantidade:** {{PAINEIS_QTD}} unidades
-- **Marca/Modelo:** {{PAINEIS_MARCA}}
-- **Potência Unitária:** {{PAINEIS_POTENCIA}}W
-- **Potência Total:** {{PAINEIS_POTENCIA_TOTAL}}W ({{POTENCIA_TOTAL_KWP}} kWp)
+### Dados da Empresa
+| Chave | Descrição | Exemplo |
+|-------|-----------|---------|
+| `{{empresa_nome}}` | Nome da empresa | SunOps Energia Solar |
+| `{{empresa_cnpj}}` | CNPJ | 12.345.678/0001-90 |
+| `{{empresa_endereco}}` | Endereço da empresa | Av. Paulista, 1000 |
+| `{{empresa_telefone}}` | Telefone da empresa | (11) 3000-0000 |
+| `{{empresa_email}}` | E-mail da empresa | contato@sunops.com.br |
+| `{{empresa_site}}` | Site da empresa | www.sunops.com.br |
 
-### Inversor
-- **Quantidade:** {{INVERSOR_QTD}} unidade(s)
-- **Marca/Modelo:** {{INVERSOR_MARCA}}
-- **Potência Nominal:** {{INVERSOR_POTENCIA}}W
+### Datas e Validade
+| Chave | Descrição | Exemplo |
+|-------|-----------|---------|
+| `{{data_proposta}}` | Data de emissão da proposta | 15/02/2024 |
+| `{{validade_proposta}}` | Validade da proposta em dias | 30 |
 
-### Estrutura de Fixação
-- **Tipo:** {{TIPO_ESTRUTURA}}
+## 💡 Como Usar
 
----
+### No Backend Django
 
-## DADOS TÉCNICOS
+```python
+from docx import Document
+from docx2pdf import convert
+import os
 
-**Potência Total do Sistema:** {{POTENCIA_TOTAL_KWP}} kWp
-**Geração Estimada Mensal:** {{GERACAO_ESTIMADA_KWH}} kWh/mês
-**Geração Estimada Anual:** {{GERACAO_ANUAL_KWH}} kWh/ano
-**Horas de Sol Pleno (HSP):** {{HSP}} h/dia
-**Perda do Sistema:** {{PERDA_SISTEMA}}%
+def gerar_proposta_comercial(orcamento_id):
+    # Buscar dados do orçamento
+    orcamento = Orcamento.objects.get(id=orcamento_id)
+    cliente = orcamento.cliente
+    
+    # Abrir template
+    template_path = 'docs/templates/PROPOSTA_COMERCIAL_TEMPLATE.docx'
+    doc = Document(template_path)
+    
+    # Dados para substituição
+    dados = {
+        # Cliente
+        '{{cliente_nome}}': cliente.nome,
+        '{{cliente_endereco}}': cliente.endereco,
+        '{{cliente_bairro}}': cliente.bairro,
+        '{{cliente_cidade}}': cliente.cidade,
+        '{{cliente_estado}}': cliente.estado,
+        '{{cliente_cep}}': cliente.cep,
+        '{{cliente_telefone}}': cliente.telefone,
+        '{{cliente_email}}': cliente.email,
+        
+        # Sistema
+        '{{consumo_mensal}}': f"{orcamento.consumo_mensal:.0f}",
+        '{{potencia_sistema}}': f"{orcamento.potencia_sistema:.2f}",
+        '{{quantidade_paineis}}': str(orcamento.quantidade_paineis),
+        '{{potencia_painel}}': f"{orcamento.painel.potencia:.0f}",
+        '{{potencia_inversor}}': f"{orcamento.inversor.potencia:.0f}",
+        '{{geracao_mensal}}': f"{orcamento.geracao_mensal:.0f}",
+        '{{geracao_anual}}': f"{orcamento.geracao_anual:.0f}",
+        
+        # Financeiro
+        '{{valor_total}}': f"R$ {orcamento.valor_total:,.2f}",
+        '{{valor_parcela}}': f"R$ {orcamento.valor_parcela:,.2f}",
+        '{{quantidade_parcelas}}': str(orcamento.parcelas),
+        '{{vida_util_sistema}}': "25",
+        '{{economia_mensal}}': f"R$ {orcamento.economia_mensal:,.2f}",
+        '{{economia_anual}}': f"R$ {orcamento.economia_anual:,.2f}",
+        '{{payback}}': f"{orcamento.payback:.1f}",
+        
+        # Técnico
+        '{{hsp}}': f"{orcamento.hsp:.1f}",
+        '{{perdas_sistema}}': f"{orcamento.perdas * 100:.0f}",
+        '{{degradacao_anual}}': "0,8",
+        
+        # Empresa
+        '{{empresa_nome}}': "SunOps Energia Solar",
+        '{{empresa_cnpj}}': "12.345.678/0001-90",
+        '{{empresa_endereco}}': "Av. Paulista, 1000",
+        '{{empresa_telefone}}': "(11) 3000-0000",
+        '{{empresa_email}}': "contato@sunops.com.br",
+        '{{empresa_site}}': "www.sunops.com.br",
+        
+        # Datas
+        '{{data_proposta}}': datetime.now().strftime('%d/%m/%Y'),
+        '{{validade_proposta}}': "30",
+    }
+    
+    # Substituir em parágrafos
+    for paragraph in doc.paragraphs:
+        for key, value in dados.items():
+            if key in paragraph.text:
+                for run in paragraph.runs:
+                    if key in run.text:
+                        run.text = run.text.replace(key, value)
+    
+    # Substituir em tabelas
+    for table in doc.tables:
+        for row in table.rows:
+            for cell in row.cells:
+                for paragraph in cell.paragraphs:
+                    for key, value in dados.items():
+                        if key in paragraph.text:
+                            for run in paragraph.runs:
+                                if key in run.text:
+                                    run.text = run.text.replace(key, value)
+    
+    # Salvar DOCX
+    output_docx = f'media/propostas/proposta_{orcamento_id}.docx'
+    os.makedirs(os.path.dirname(output_docx), exist_ok=True)
+    doc.save(output_docx)
+    
+    # Converter para PDF (opcional)
+    output_pdf = output_docx.replace('.docx', '.pdf')
+    convert(output_docx, output_pdf)
+    
+    return output_pdf
+```
 
----
+## 📋 Checklist de Implementação
 
-## VALORES
+- [x] Converter PDF para DOCX
+- [x] Adicionar chaves de template
+- [x] Preservar formatação original
+- [x] Documentar todas as chaves
+- [ ] Integrar com backend Django
+- [ ] Criar endpoint de geração
+- [ ] Adicionar testes
+- [ ] Implementar preview no frontend
 
-### Composição do Investimento
-| Item | Valor |
-|------|-------|
-| Kit Fotovoltaico | R$ {{VALOR_KIT}} |
-| Projeto Elétrico | R$ {{VALOR_PROJETO}} |
-| Montagem e Instalação | R$ {{VALOR_MONTAGEM}} |
-| Estrutura de Fixação | R$ {{VALOR_ESTRUTURA}} |
-| Material Elétrico | R$ {{VALOR_MATERIAL_ELETRICO}} |
-| Deslocamento | R$ {{VALOR_DESLOCAMENTO}} |
-| **CUSTO TOTAL** | **R$ {{CUSTO_TOTAL}}** |
+## 🎨 Formatação Preservada
 
-### Valor Final
-**INVESTIMENTO TOTAL:** R$ {{VALOR_FINAL}}
+O template mantém toda a formatação original do PDF:
+- ✅ Cores e fontes
+- ✅ Logotipos e imagens
+- ✅ Tabelas e layouts
+- ✅ Espaçamentos e margens
+- ✅ Cabeçalhos e rodapés
 
-### Formas de Pagamento
-- **À Vista:** R$ {{VALOR_FINAL}} (com desconto)
-- **Parcelado:** {{NUMERO_PARCELAS}}x de R$ {{VALOR_PARCELA}}
+## 🔄 Próximos Passos
 
----
-
-## PRAZOS
-
-**Prazo de Entrega:** {{PRAZO_ENTREGA}} dias úteis após aprovação
-**Prazo para Vistoria:** {{PRAZO_VISTORIA}} dias
-**Prazo para Monitoramento:** {{PRAZO_MONITORAMENTO}} dias
-
----
-
-## GARANTIAS
-
-- **Painéis Solares:** 25 anos de garantia do fabricante
-- **Inversor:** Garantia do fabricante conforme especificação
-- **Instalação:** {{GARANTIA_INSTALACAO}} meses
-
----
-
-## OBSERVAÇÕES
-
-1. Proposta válida por {{VALIDADE_PROPOSTA_DIAS}} dias
-2. Valores sujeitos a alteração após o prazo de validade
-3. Instalação conforme normas ABNT e concessionária local
-4. Projeto aprovado junto à concessionária de energia
-
----
-
-## DADOS DA EMPRESA
-
-**{{EMPRESA_NOME}}**
-CNPJ: {{EMPRESA_CNPJ}}
-Endereço: {{EMPRESA_ENDERECO}}
-Telefone: {{EMPRESA_TELEFONE}}
-E-mail: {{EMPRESA_EMAIL}}
-Site: {{EMPRESA_SITE}}
-
----
-
-**Vendedor:** {{VENDEDOR_NOME}}
-**Telefone:** {{VENDEDOR_TELEFONE}}
-**E-mail:** {{VENDEDOR_EMAIL}}
-
----
-
-_Documento gerado automaticamente pelo sistema CRM Solar_
+1. **Backend**: Criar view para gerar proposta
+2. **Frontend**: Adicionar botão "Gerar Proposta Comercial"
+3. **Testes**: Validar geração com dados reais
+4. **Deploy**: Adicionar template ao repositório

@@ -72,71 +72,131 @@ class TemplateProcessorService:
             parcelas = int(orcamento.forma_pagamento)
             forma_pagamento_texto = f'{parcelas}x de R$ {orcamento.valor_parcela:,.2f}'.replace(',', 'X').replace('.', ',').replace('X', '.')
         
+
+
+        # Calcular valores individuais
+        valor_montagem_total = premissa.montagem_por_painel * orcamento.quantidade_paineis
+        
         dados = {
             # Orçamento
             'NUMERO_ORCAMENTO': orcamento.numero,
             'DATA_ORCAMENTO': orcamento.data_criacao.strftime('%d/%m/%Y'),
-            'DATA_CRIACAO': orcamento.data_criacao.strftime('%d/%m/%Y'),  # Alias
+            'DATA_CRIACAO': orcamento.data_criacao.strftime('%d/%m/%Y'),
             'DATA_VALIDADE': data_validade.strftime('%d/%m/%Y'),
+            'VALIDADE_DIAS': str(orcamento.validade_dias),
+            'NOME_KIT': orcamento.nome_kit,
             
             # Cliente
             'NOME_CLIENTE': cliente.nome,
-            'CLIENTE_NOME': cliente.nome,  # Alias
+            'CLIENTE_NOME': cliente.nome,
             'CPF_CNPJ': cliente.cpf_cnpj or '',
+            'CLIENTE_CPF_CNPJ': cliente.cpf_cnpj or '',
             'TELEFONE': cliente.telefone or '',
+            'CLIENTE_TELEFONE': cliente.telefone or '',
             'EMAIL': cliente.email or '',
+            'CLIENTE_EMAIL': cliente.email or '',
             'ENDERECO': cliente.endereco or '',
-            'CLIENTE_ENDERECO': cliente.endereco or '',  # Alias
+            'CLIENTE_ENDERECO': cliente.endereco or '',
+            'BAIRRO': cliente.bairro or '',
+            'CLIENTE_BAIRRO': cliente.bairro or '',
             'CIDADE': cliente.cidade or '',
-            'CLIENTE_CIDADE': cliente.cidade or '',  # Alias
+            'CLIENTE_CIDADE': cliente.cidade or '',
             'ESTADO': cliente.estado or '',
-            'CLIENTE_ESTADO': cliente.estado or '',  # Alias,
+            'CLIENTE_ESTADO': cliente.estado or '',
+            'CEP': cliente.cep or '',
+            'CLIENTE_CEP': cliente.cep or '',
             
             # Sistema
             'POTENCIA_KWP': f'{potencia_kwp:.2f}',
-            'POTENCIA_TOTAL_KWP': f'{potencia_kwp:.2f}',  # Alias
+            'POTENCIA_TOTAL_KWP': f'{potencia_kwp:.2f}',
+            'POTENCIA_SISTEMA': f'{potencia_kwp:.2f}',
             'GERACAO_MENSAL': f'{geracao_mensal:.0f}',
+            'GERACAO_MENSAL_KWH': f'{geracao_mensal:.0f}',
             'GERACAO_ANUAL': f'{geracao_mensal * 12:.0f}',
+            'GERACAO_ANUAL_KWH': f'{geracao_mensal * 12:.0f}',
+            'ECONOMIA_MENSAL': f'{geracao_mensal:.0f}',
+            'ECONOMIA_ANUAL': f'{geracao_mensal * 12:.0f}',
             
-            # Equipamentos
+            # Painéis
             'MARCA_PAINEL': orcamento.marca_painel,
-            'PAINEIS_MARCA': orcamento.marca_painel,  # Alias
-            'POTENCIA_PAINEL': orcamento.potencia_painel,
-            'PAINEIS_POTENCIA': orcamento.potencia_painel,  # Alias
-            'QUANTIDADE_PAINEIS': orcamento.quantidade_paineis,
-            'PAINEIS_QTD': orcamento.quantidade_paineis,  # Alias
+            'PAINEIS_MARCA': orcamento.marca_painel,
+            'PAINEL_MARCA': orcamento.marca_painel,
+            'POTENCIA_PAINEL': str(orcamento.potencia_painel),
+            'PAINEIS_POTENCIA': str(orcamento.potencia_painel),
+            'PAINEL_POTENCIA': str(orcamento.potencia_painel),
+            'POTENCIA_PAINEL_W': str(orcamento.potencia_painel),
+            'QUANTIDADE_PAINEIS': str(orcamento.quantidade_paineis),
+            'PAINEIS_QTD': str(orcamento.quantidade_paineis),
+            'QTD_PAINEIS': str(orcamento.quantidade_paineis),
+            'PAINEIS_QUANTIDADE': str(orcamento.quantidade_paineis),
+            
+            # Inversores
             'MARCA_INVERSOR': orcamento.marca_inversor,
-            'INVERSOR_MARCA': orcamento.marca_inversor,  # Alias
-            'POTENCIA_INVERSOR': orcamento.potencia_inversor,
-            'INVERSOR_POTENCIA': orcamento.potencia_inversor,  # Alias
+            'INVERSOR_MARCA': orcamento.marca_inversor,
+            'POTENCIA_INVERSOR': str(orcamento.potencia_inversor),
+            'INVERSOR_POTENCIA': str(orcamento.potencia_inversor),
+            'POTENCIA_INVERSOR_W': str(orcamento.potencia_inversor),
             'POTENCIA_INVERSOR_KW': f'{orcamento.potencia_inversor / 1000:.1f}',
-            'QUANTIDADE_INVERSORES': orcamento.quantidade_inversores,
-            'INVERSOR_QTD': orcamento.quantidade_inversores,  # Alias,
+            'INVERSOR_POTENCIA_KW': f'{orcamento.potencia_inversor / 1000:.1f}',
+            'QUANTIDADE_INVERSORES': str(orcamento.quantidade_inversores),
+            'INVERSOR_QTD': str(orcamento.quantidade_inversores),
+            'QTD_INVERSORES': str(orcamento.quantidade_inversores),
+            'INVERSORES_QUANTIDADE': str(orcamento.quantidade_inversores),
             
             # Estrutura
             'TIPO_ESTRUTURA': orcamento.get_tipo_estrutura_display(),
+            'ESTRUTURA_TIPO': orcamento.get_tipo_estrutura_display(),
             
-            # Valores
+            # Valores - Formatados
             'VALOR_KIT': f'R$ {orcamento.valor_kit:,.2f}'.replace(',', 'X').replace('.', ',').replace('X', '.'),
             'VALOR_ESTRUTURA': f'R$ {orcamento.valor_estrutura:,.2f}'.replace(',', 'X').replace('.', ',').replace('X', '.'),
             'VALOR_MATERIAL_ELETRICO': f'R$ {orcamento.valor_material_eletrico:,.2f}'.replace(',', 'X').replace('.', ',').replace('X', '.'),
             'VALOR_PROJETO': f'R$ {premissa.valor_projeto:,.2f}'.replace(',', 'X').replace('.', ',').replace('X', '.'),
-            'VALOR_MONTAGEM': f'R$ {premissa.montagem_por_painel * orcamento.quantidade_paineis:,.2f}'.replace(',', 'X').replace('.', ',').replace('X', '.'),
+            'VALOR_MONTAGEM': f'R$ {valor_montagem_total:,.2f}'.replace(',', 'X').replace('.', ',').replace('X', '.'),
             'VALOR_TOTAL': f'R$ {orcamento.valor_total:,.2f}'.replace(',', 'X').replace('.', ',').replace('X', '.'),
             'VALOR_FINAL': f'R$ {orcamento.valor_final:,.2f}'.replace(',', 'X').replace('.', ',').replace('X', '.'),
+            'VALOR_INVESTIMENTO': f'R$ {orcamento.valor_final:,.2f}'.replace(',', 'X').replace('.', ',').replace('X', '.'),
+            
+            # Valores - Sem formatação (números puros)
+            'VALOR_KIT_NUM': f'{orcamento.valor_kit:.2f}',
+            'VALOR_ESTRUTURA_NUM': f'{orcamento.valor_estrutura:.2f}',
+            'VALOR_MATERIAL_ELETRICO_NUM': f'{orcamento.valor_material_eletrico:.2f}',
+            'VALOR_PROJETO_NUM': f'{premissa.valor_projeto:.2f}',
+            'VALOR_MONTAGEM_NUM': f'{valor_montagem_total:.2f}',
+            'VALOR_TOTAL_NUM': f'{orcamento.valor_total:.2f}',
+            'VALOR_FINAL_NUM': f'{orcamento.valor_final:.2f}',
             
             # Pagamento
             'FORMA_PAGAMENTO': forma_pagamento_texto,
+            'PAGAMENTO_FORMA': forma_pagamento_texto,
+            'CONDICAO_PAGAMENTO': forma_pagamento_texto,
             'TAXA_JUROS': f'{orcamento.taxa_juros:.2f}%' if orcamento.taxa_juros > 0 else '0%',
+            'JUROS_TAXA': f'{orcamento.taxa_juros:.2f}%' if orcamento.taxa_juros > 0 else '0%',
+            'VALOR_PARCELA': f'R$ {orcamento.valor_parcela:,.2f}'.replace(',', 'X').replace('.', ',').replace('X', '.') if orcamento.valor_parcela else 'N/A',
+            'NUMERO_PARCELAS': orcamento.forma_pagamento if orcamento.forma_pagamento != 'avista' else '1',
             
             # Vendedor
             'NOME_VENDEDOR': orcamento.vendedor.nome if orcamento.vendedor else '',
+            'VENDEDOR_NOME': orcamento.vendedor.nome if orcamento.vendedor else '',
             'TELEFONE_VENDEDOR': orcamento.vendedor.telefone if orcamento.vendedor else '',
+            'VENDEDOR_TELEFONE': orcamento.vendedor.telefone if orcamento.vendedor else '',
             'EMAIL_VENDEDOR': orcamento.vendedor.email if orcamento.vendedor else '',
+            'VENDEDOR_EMAIL': orcamento.vendedor.email if orcamento.vendedor else '',
             
-            # Premissas
+            # Premissas Técnicas
             'HSP': f'{hsp:.2f}',
+            'HSP_HORAS': f'{hsp:.2f}',
+            'HORAS_SOL_PICO': f'{hsp:.2f}',
             'PERDA_SISTEMA': f'{perda:.1f}%',
+            'PERDA_PERCENTUAL': f'{perda:.1f}%',
+            'PERDAS_SISTEMA': f'{perda:.1f}%',
+            
+            # Empresa (adicionar se necessário)
+            'EMPRESA_NOME': 'SunOps Solar',
+            'EMPRESA_TELEFONE': '',
+            'EMPRESA_EMAIL': '',
+            'EMPRESA_ENDERECO': '',
+            'EMPRESA_CNPJ': '',
         }
         
         return dados
