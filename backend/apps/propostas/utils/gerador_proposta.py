@@ -11,6 +11,12 @@ class GeradorPropostaComercial:
     
     TEMPLATE_PATH = 'docs/templates/PROPOSTA_COMERCIAL_TEMPLATE.docx'
     
+    # Chaves que foram substituidas por valores fixos no template
+    MARCAS_FIXAS = {
+        'painel': 'CANADIAN SOLAR',
+        'inversor': 'GROWATT'
+    }
+    
     def __init__(self, orcamento):
         self.orcamento = orcamento
         self.cliente = orcamento.cliente
@@ -19,6 +25,9 @@ class GeradorPropostaComercial:
         """Prepara dicionário com todos os dados para substituição"""
         o = self.orcamento
         c = self.cliente
+        
+        # Calcular potencia do sistema
+        potencia_sistema = (o.potencia_painel * o.quantidade_paineis) / 1000
         
         return {
             # Dados do Cliente
@@ -32,26 +41,32 @@ class GeradorPropostaComercial:
             '{{cliente_email}}': c.email or '',
             
             # Dados do Sistema
-            '{{consumo_mensal}}': f"{o.consumo_mensal:.0f}",
-            '{{potencia_sistema}}': f"{o.potencia_sistema:.2f}",
+            '{{consumo_mensal}}': '0',
+            '{{potencia_sistema}}': f"{potencia_sistema:.2f}",
+            '{{POTENCIA_TOTAL_KWP}}': f"{potencia_sistema:.2f}",
             '{{quantidade_paineis}}': str(o.quantidade_paineis),
-            '{{potencia_painel}}': f"{o.painel.potencia:.0f}" if o.painel else '0',
-            '{{potencia_inversor}}': f"{o.inversor.potencia:.0f}" if o.inversor else '0',
-            '{{geracao_mensal}}': f"{o.geracao_estimada:.0f}",
-            '{{geracao_anual}}': f"{o.geracao_estimada * 12:.0f}",
+            '{{potencia_painel}}': str(o.potencia_painel),
+            '{{PAINEIS_POTENCIA}}': str(o.potencia_painel),
+            '{{marca_painel}}': o.marca_painel,
+            '{{potencia_inversor}}': str(o.potencia_inversor),
+            '{{INVERSOR_POTENCIA}}': str(o.potencia_inversor),
+            '{{marca_inversor}}': o.marca_inversor,
+            '{{quantidade_inversores}}': str(o.quantidade_inversores),
+            '{{geracao_mensal}}': '0',
+            '{{geracao_anual}}': '0',
             
             # Dados Financeiros
             '{{valor_total}}': f"R$ {o.valor_final:,.2f}".replace(',', 'X').replace('.', ',').replace('X', '.'),
             '{{valor_parcela}}': f"R$ {o.valor_parcela:,.2f}".replace(',', 'X').replace('.', ',').replace('X', '.') if o.valor_parcela else 'R$ 0,00',
-            '{{quantidade_parcelas}}': str(o.parcelas) if o.parcelas else '1',
+            '{{quantidade_parcelas}}': '1',
             '{{vida_util_sistema}}': '25',
-            '{{economia_mensal}}': f"R$ {o.economia_mensal:,.2f}".replace(',', 'X').replace('.', ',').replace('X', '.') if hasattr(o, 'economia_mensal') else 'R$ 0,00',
-            '{{economia_anual}}': f"R$ {o.economia_anual:,.2f}".replace(',', 'X').replace('.', ',').replace('X', '.') if hasattr(o, 'economia_anual') else 'R$ 0,00',
-            '{{payback}}': f"{o.payback:.1f}" if hasattr(o, 'payback') else '0',
+            '{{economia_mensal}}': 'R$ 0,00',
+            '{{economia_anual}}': 'R$ 0,00',
+            '{{payback}}': '0',
             
             # Dados Técnicos
-            '{{hsp}}': f"{o.hsp:.1f}" if hasattr(o, 'hsp') else '5,5',
-            '{{perdas_sistema}}': f"{o.perdas * 100:.0f}" if hasattr(o, 'perdas') else '20',
+            '{{hsp}}': '5,5',
+            '{{perdas_sistema}}': '20',
             '{{degradacao_anual}}': '0,8',
             
             # Dados da Empresa
@@ -64,7 +79,7 @@ class GeradorPropostaComercial:
             
             # Datas
             '{{data_proposta}}': datetime.now().strftime('%d/%m/%Y'),
-            '{{validade_proposta}}': '30',
+            '{{validade_proposta}}': str(o.validade_dias),
         }
     
     def _substituir_texto(self, doc, dados):
